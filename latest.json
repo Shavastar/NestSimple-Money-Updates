@@ -1,10 +1,11 @@
 {
-  "version": "1.0.114",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.114.nsmupdate",
-  "sha256": "bef0113d2906596739f2acdb7c02cfad90a5f24c1e7ef63cc85b6ce5e3601f43",
-  "size": 1179894,
+  "version": "1.0.115",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.115.nsmupdate",
+  "sha256": "aff41183002afeaf74448f6f5aaf12e78a422f7cca98fcf9ca9ada701776e16b",
+  "size": 1181287,
   "changes": [
-    "Placed Testing and Update side by side above Contacts, with equal widths aligned to the main menu.",
-    "Renamed the Install Update menu button to Update; its update functionality is unchanged."
+    "Fixed the Budget Savings card to show planned savings instead of hiding its two budget plans behind a zero recorded amount.",
+    "Added recorded savings, left to save and each category amount to the Savings card.",
+    "Added six months of savings plan history, and improved Main and Savings print reports with planned-versus-recorded values and the savings history. Existing financial records are unchanged."
   ]
 }
