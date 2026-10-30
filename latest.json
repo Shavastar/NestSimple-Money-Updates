@@ -1,11 +1,11 @@
 {
-  "version": "1.0.115",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.115.nsmupdate",
-  "sha256": "aff41183002afeaf74448f6f5aaf12e78a422f7cca98fcf9ca9ada701776e16b",
-  "size": 1181287,
+  "version": "1.0.116",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.116.nsmupdate",
+  "sha256": "639596346be07373da9d996a9b04f291cf0f2e9adf8bee98bca531f506c411fc",
+  "size": 1182010,
   "changes": [
-    "Fixed the Budget Savings card to show planned savings instead of hiding its two budget plans behind a zero recorded amount.",
-    "Added recorded savings, left to save and each category amount to the Savings card.",
-    "Added six months of savings plan history, and improved Main and Savings print reports with planned-versus-recorded values and the savings history. Existing financial records are unchanged."
+    "Budget header and Savings section header now show planned savings, matching the Savings card.",
+    "Added source and deposit counts plus leading income sources to Income; available budget, amount left, over-budget count and category count to Expenses; income, planned savings, balance and category count to Charts.",
+    "Made the Budget Income source list taller, showing twelve rows instead of five."
   ]
 }
