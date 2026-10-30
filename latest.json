@@ -1,0 +1,11 @@
+{
+  "version": "1.0.113",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.113.nsmupdate",
+  "sha256": "bdff56dc3cf3f18a71d11a6f62d39c1efd686e5603d07af08cf1d5a91047a6b5",
+  "size": 1179583,
+  "changes": [
+    "Connected Install Update to the NestSimple Money GitHub update repository.",
+    "Show the latest version and numbered changes; download and check packages before the existing installation review.",
+    "Keep Choose Update File for downloaded packages. Household data, settings and program backups are preserved."
+  ]
+}
