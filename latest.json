@@ -1,10 +1,10 @@
 {
-  "version": "1.0.138",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.138.nsmupdate",
-  "size": 32805,
-  "sha256": "15063276320b3f5b761b52b18ec0c4dd9547caab80e1a10bcff8c2b0dbfe5226",
+  "version": "1.0.139",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.139.nsmupdate",
+  "size": 40882,
+  "sha256": "8f63ce4de08bf1a7ff5535d295bb0f9c693c995447f4a32e0bfbd2e5cbfcf834",
   "changes": [
-    "Bills graph initially sorts Unpaid, Upcoming, Paid.",
-    "Remembers subsequent heading sort choices across redraws, navigation and app restarts."
+    "Standardized shared summary-card styling and removed the fixed Income card height; cards fit their content and remain equal within each row.",
+    "Preserved compact Accounts cards, Overview colours, card information and actions, both calendar styles and the Bills graph table."
   ]
 }
