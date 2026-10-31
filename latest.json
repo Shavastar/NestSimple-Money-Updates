@@ -1,11 +1,10 @@
 {
-  "version": "1.0.136",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.136.nsmupdate",
-  "size": 1197518,
-  "sha256": "ffa88a1e57dda8d50a12b0a073b3df725c0a1779b2decef0cd3cd381d99b3f81",
+  "version": "1.0.137",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.137.nsmupdate",
+  "size": 1197862,
+  "sha256": "2b7126faae0d77a145cbbbe96cc21219459f2fc2ae3b35f3a46ccb8d71e419e8",
   "changes": [
-    "Unified installed version in personal and sample window titles.",
-    "Made shared list period filters explicitly show All Dates, Month or Year.",
-    "Aligned workspace action rows with table content, preserving Bills graph table."
+    "Placed Bills trend legend in one row of white cards ordered Paid, Upcoming, Unpaid.",
+    "Added matching coloured squares and spacing before legend titles; preserved totals, graph and bill list behaviour."
   ]
 }
