@@ -1,11 +1,1 @@
-{
-  "version": "1.0.124",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.124.nsmupdate",
-  "sha256": "889037bf02f5cab84972c81a45bb5a11cb85ddc448911f4d31c82b0ed511750d",
-  "size": 1190970,
-  "changes": [
-    "Repaired sample-household startup by including the missing sample_contacts.py module.",
-    "Sample startup now uses the visible error handler and startup log.",
-    "Preserved household databases, attachments, profiles and testing edits; previous program files are backed up."
-  ]
-}
+{"version": "1.0.125", "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.125.nsmupdate", "sha256": "3fc63932205880927e5404df077cea07a4a0b39ad336542ee92461d96d648f4c", "size": 1191164, "changes": ["Fixed repair compatibility with the older sample_contacts.py that lacks complete_sample_fields.", "Back up and replace supported mixed program versions left after an interrupted repair.", "Show the failing filename during installer validation; preserve databases, attachments, profiles and testing edits."]}
