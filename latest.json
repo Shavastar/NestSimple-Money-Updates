@@ -1,12 +1,9 @@
 {
-  "version": "1.0.120",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.120.nsmupdate",
-  "sha256": "c82b978b10768527a6ab525ab658ad9285b716b002153a9e4d8c9bb042370cd3",
-  "size": 1186539,
+  "version": "1.0.121",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.121.nsmupdate",
+  "sha256": "36c7faacc365ed2b58d3150b181263e8276fa5ca265ffcc799e6f66c5b8f7950",
+  "size": 1187162,
   "changes": [
-    "Standardized main-page information cards on the Income design: white bordered cards, padded content, bold section-coloured titles, blue totals and wrapping supporting text.",
-    "Updated Overview, Accounts and Budget cards while preserving their information, navigation and financial calculations.",
-    "Aligned main-page action rows and summary cards with their associated table content and recorded the common card style.",
-    "Removed slice outlines from all on-screen pie charts and PDF/HTML print reports, preserving colours and labels."
+    "Made all notebook tabs the same height as the selected tab across the application, preserving section colours and navigation."
   ]
 }
