@@ -1,11 +1,11 @@
 {
-  "version": "1.0.128",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.128.nsmupdate",
-  "size": 1192468,
-  "sha256": "219325152f30695b19deb6ca8e9a44d8aeb599eef15e3814aa80124dbbac5cf5",
+  "version": "1.0.129",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.129.nsmupdate",
+  "size": 1192948,
+  "sha256": "118946fb356aa2748f4f3eb500f94220ef8731c709c9d1a31a189c54edbbe609",
   "changes": [
-    "Restored Total, Paid, Unpaid and Upcoming cards above the Bills main-page table.",
-    "Moved Bills graphs into the Pie Chart and Bar Chart tabs.",
+    "Added a 12-month Bills Trend Graph tab beside Pie Chart and Bar Chart.",
+    "Applied contrasting green, red and gold Bills pie slices and matching legends.",
     "Cards and graphs follow displayed records and list filters."
   ]
 }
