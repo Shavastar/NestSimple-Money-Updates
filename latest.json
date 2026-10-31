@@ -1,12 +1,10 @@
 {
-  "version": "1.0.133",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.133.nsmupdate",
-  "size": 1195929,
-  "sha256": "f7c55f14aa64cc52eac8b81ae5d9d73ff76603d589f34aca65616aa031a5067e",
+  "version": "1.0.134",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.134.nsmupdate",
+  "size": 1196268,
+  "sha256": "e3c76e75592e30b3b7544eef3a8e16dbfd2c38b4477391c70aa1e08ed68cc37b",
   "changes": [
-    "Matched list-filter control heights and search clear-X space; added Previous/Next arrows beside date fields.",
-    "Removed question-mark help controls throughout the app; retained Help navigation and guides.",
-    "Reduced Accounts card height and let its table fill the remaining page without an outer page scrollbar.",
-    "Aligned Income actions with table content across main, Pay Day, Calendar and Budget Income lists; updated the style guide."
+    "Kept Overview card titles coloured and changed all remaining page text and totals to black.",
+    "Made My Accounts buttons fill the card width with equal space on both sides."
   ]
 }
