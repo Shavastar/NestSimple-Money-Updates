@@ -1,11 +1,11 @@
 {
-  "version": "1.0.123",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.123.nsmupdate",
-  "sha256": "3bacb9bcaf46a27636dae49b4cef9bb3459999e6bbddeac56e6a516c9b2db440",
-  "size": 1189498,
+  "version": "1.0.124",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.124.nsmupdate",
+  "sha256": "889037bf02f5cab84972c81a45bb5a11cb85ddc448911f4d31c82b0ed511750d",
+  "size": 1190970,
   "changes": [
-    "Added 12-month Income/Expenses and planned/recorded Savings Trend Graph tabs beside Pie Chart and Bar Chart.",
-    "Extended trend reports and savings history to 12 months, retaining readable history tables.",
-    "Filled blank fictional sample contact details, including account contacts, once only; preserved existing values and personal households."
+    "Repaired sample-household startup by including the missing sample_contacts.py module.",
+    "Sample startup now uses the visible error handler and startup log.",
+    "Preserved household databases, attachments, profiles and testing edits; previous program files are backed up."
   ]
 }
