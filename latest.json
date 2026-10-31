@@ -1,11 +1,12 @@
 {
-  "version": "1.0.117",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.117.nsmupdate",
-  "sha256": "49797a4e15ce672ae00fc5f15dee2395ea80ebedc9afbd246649ae323cdb6e23",
-  "size": 1184014,
+  "version": "1.0.118",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.118.nsmupdate",
+  "sha256": "03e4ec47ee6bfcc68fcd5cc0febca286dc1631461047f5454e4c210846b5550c",
+  "size": 1185006,
   "changes": [
-    "Removed the Transactions help button and kept its action commands on one row.",
-    "Combined Income Calendar, Pay Day, Add Income, Edit, Delete and Export actions into one row.",
-    "Added Overview-style white Income cards for received income, deposits, source count and largest deposit. Cards follow the displayed month/year, account and search filters."
+    "Aligned Income and Transactions action buttons with the left edge of their record tables.",
+    "Removed horizontal scrollbars from Income and Transactions tables; columns continue to resize within the table.",
+    "Single-row action buttons switch to icons with hover labels on narrower pages, avoiding horizontal growth. Income cards wrap within their available width.",
+    "Added the style-guide rule: fit tables, fields and cards to the available width without horizontal scrollbars, and align action rows with their tables."
   ]
 }
