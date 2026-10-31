@@ -1,1 +1,10 @@
-{"version": "1.0.125", "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.125.nsmupdate", "sha256": "3fc63932205880927e5404df077cea07a4a0b39ad336542ee92461d96d648f4c", "size": 1191164, "changes": ["Fixed repair compatibility with the older sample_contacts.py that lacks complete_sample_fields.", "Back up and replace supported mixed program versions left after an interrupted repair.", "Show the failing filename during installer validation; preserve databases, attachments, profiles and testing edits."]}
+{
+  "version": "1.0.126",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.126.nsmupdate",
+  "size": 1191298,
+  "sha256": "56a0df51cbba9fa88f6cdc2ef71db1f9c56b08d944ce17180ab7340f6aae6413",
+  "changes": [
+    "Removed question-mark help buttons throughout Settings, including nested tabs.",
+    "Kept Settings actions, the Help tab and help outside Settings unchanged."
+  ]
+}
