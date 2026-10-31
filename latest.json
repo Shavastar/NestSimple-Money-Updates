@@ -1,11 +1,11 @@
 {
-  "version": "1.0.130",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.130.nsmupdate",
-  "size": 1193939,
-  "sha256": "52bdb77a3f7f678efb6bb94ff2db332fee86bc5e4bff118d1c84027f24ee8b15",
+  "version": "1.0.131",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.131.nsmupdate",
+  "size": 1194421,
+  "sha256": "aebbdb7fedf2fbd392612045c122923b8d29bab98dfc741fe7eb03ed425f08d7",
   "changes": [
-    "Bills Trend Graph now separates Paid (green), Unpaid (red) and Upcoming (gold).",
-    "Replaced the monthly totals list under the Bills graph with bill names, due dates, amounts and matching status colour boxes.",
-    "Single-click selects a bill; double-click opens that bill detail. Existing filters and main-page cards are preserved."
+    "Bills trend includes future bill due dates in its 12-month window and shows Paid, Unpaid and Upcoming dollar totals in the legend.",
+    "Restored compact one-line bill rows ordered Name, Date, Amount, Status, with status colour boxes on the right.",
+    "Kept single-click selection and double-click bill details; preserved existing records and filters."
   ]
 }
