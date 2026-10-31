@@ -1,10 +1,11 @@
 {
-  "version": "1.0.122",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.122.nsmupdate",
-  "sha256": "df27ae360a0a474025427b9eebff9c4aa51b1675733060da42b5510e8524c448",
-  "size": 1188363,
+  "version": "1.0.123",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.123.nsmupdate",
+  "sha256": "3bacb9bcaf46a27636dae49b4cef9bb3459999e6bbddeac56e6a516c9b2db440",
+  "size": 1189498,
   "changes": [
-    "Replaced nested Pie & Bar Charts tabs with separate Pie Chart and Bar Chart tabs alongside Manage, including Goals.",
-    "Added labelled six-month Income/Expenses and planned/recorded Savings trend graphs to the corresponding print reports, preserving their detail tables."
+    "Added 12-month Income/Expenses and planned/recorded Savings Trend Graph tabs beside Pie Chart and Bar Chart.",
+    "Extended trend reports and savings history to 12 months, retaining readable history tables.",
+    "Filled blank fictional sample contact details, including account contacts, once only; preserved existing values and personal households."
   ]
 }
