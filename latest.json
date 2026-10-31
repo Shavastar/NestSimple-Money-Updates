@@ -1,10 +1,11 @@
 {
-  "version": "1.0.134",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.134.nsmupdate",
-  "size": 1196268,
-  "sha256": "e3c76e75592e30b3b7544eef3a8e16dbfd2c38b4477391c70aa1e08ed68cc37b",
+  "version": "1.0.135",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.135.nsmupdate",
+  "size": 1196974,
+  "sha256": "3bb6bfe9e8ebcfa515c1eeed71077b16cdd9b8e981cf358c4389a470585e2e58",
   "changes": [
-    "Kept Overview card titles coloured and changed all remaining page text and totals to black.",
-    "Made My Accounts buttons fill the card width with equal space on both sides."
+    "Added download percentage and byte progress on the Download Update page.",
+    "Kept the download page open until download and package validation succeed; failures remain on the page for retry.",
+    "Disabled competing update controls during download and retained checksum, compatibility, backup and rollback checks."
   ]
 }
