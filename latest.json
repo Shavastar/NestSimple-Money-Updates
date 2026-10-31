@@ -1,11 +1,11 @@
 {
-  "version": "1.0.129",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.129.nsmupdate",
-  "size": 1192948,
-  "sha256": "118946fb356aa2748f4f3eb500f94220ef8731c709c9d1a31a189c54edbbe609",
+  "version": "1.0.130",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.130.nsmupdate",
+  "size": 1193939,
+  "sha256": "52bdb77a3f7f678efb6bb94ff2db332fee86bc5e4bff118d1c84027f24ee8b15",
   "changes": [
-    "Added a 12-month Bills Trend Graph tab beside Pie Chart and Bar Chart.",
-    "Applied contrasting green, red and gold Bills pie slices and matching legends.",
-    "Cards and graphs follow displayed records and list filters."
+    "Bills Trend Graph now separates Paid (green), Unpaid (red) and Upcoming (gold).",
+    "Replaced the monthly totals list under the Bills graph with bill names, due dates, amounts and matching status colour boxes.",
+    "Single-click selects a bill; double-click opens that bill detail. Existing filters and main-page cards are preserved."
   ]
 }
