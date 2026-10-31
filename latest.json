@@ -1,12 +1,12 @@
 {
-  "version": "1.0.118",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.118.nsmupdate",
-  "sha256": "03e4ec47ee6bfcc68fcd5cc0febca286dc1631461047f5454e4c210846b5550c",
-  "size": 1185006,
+  "version": "1.0.120",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.120.nsmupdate",
+  "sha256": "c82b978b10768527a6ab525ab658ad9285b716b002153a9e4d8c9bb042370cd3",
+  "size": 1186539,
   "changes": [
-    "Aligned Income and Transactions action buttons with the left edge of their record tables.",
-    "Removed horizontal scrollbars from Income and Transactions tables; columns continue to resize within the table.",
-    "Single-row action buttons switch to icons with hover labels on narrower pages, avoiding horizontal growth. Income cards wrap within their available width.",
-    "Added the style-guide rule: fit tables, fields and cards to the available width without horizontal scrollbars, and align action rows with their tables."
+    "Standardized main-page information cards on the Income design: white bordered cards, padded content, bold section-coloured titles, blue totals and wrapping supporting text.",
+    "Updated Overview, Accounts and Budget cards while preserving their information, navigation and financial calculations.",
+    "Aligned main-page action rows and summary cards with their associated table content and recorded the common card style.",
+    "Removed slice outlines from all on-screen pie charts and PDF/HTML print reports, preserving colours and labels."
   ]
 }
