@@ -1,10 +1,10 @@
 {
-  "version": "1.0.126",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.126.nsmupdate",
-  "size": 1191298,
-  "sha256": "56a0df51cbba9fa88f6cdc2ef71db1f9c56b08d944ce17180ab7340f6aae6413",
+  "version": "1.0.127",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.127.nsmupdate",
+  "size": 1192745,
+  "sha256": "5b1b9147fd7fdaa9e33dcba8caa479532e2f2b0ba61c0e7fc3da2a157db053b2",
   "changes": [
-    "Removed question-mark help buttons throughout Settings, including nested tabs.",
-    "Kept Settings actions, the Help tab and help outside Settings unchanged."
+    "Added Payment Status pie and Bills by Supplier bar graphs to the Bills main page.",
+    "Graphs follow displayed bill records and filters, use borderless pie slices, and stack on narrow pages."
   ]
 }
