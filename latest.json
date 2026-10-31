@@ -1,11 +1,11 @@
 {
-  "version": "1.0.135",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.135.nsmupdate",
-  "size": 1196974,
-  "sha256": "3bb6bfe9e8ebcfa515c1eeed71077b16cdd9b8e981cf358c4389a470585e2e58",
+  "version": "1.0.136",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.136.nsmupdate",
+  "size": 1197518,
+  "sha256": "ffa88a1e57dda8d50a12b0a073b3df725c0a1779b2decef0cd3cd381d99b3f81",
   "changes": [
-    "Added download percentage and byte progress on the Download Update page.",
-    "Kept the download page open until download and package validation succeed; failures remain on the page for retry.",
-    "Disabled competing update controls during download and retained checksum, compatibility, backup and rollback checks."
+    "Unified installed version in personal and sample window titles.",
+    "Made shared list period filters explicitly show All Dates, Month or Year.",
+    "Aligned workspace action rows with table content, preserving Bills graph table."
   ]
 }
