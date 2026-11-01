@@ -1,11 +1,12 @@
 {
-  "version": "1.0.153",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.153.nsmupdate",
-  "size": 64577,
-  "sha256": "482ba5268d90e80ed2cf37dc756f187a9830f4bf668be20e19fff352c26d697f",
+  "version": "1.0.155",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.155.nsmupdate",
+  "size": 106561,
+  "sha256": "98cc5154a54550051100fe37f492b746670962a39554a6bcde8fd5e592f953d1",
   "changes": [
-    "Fixed overlapping names, balances and transaction counts in Overview My Accounts by allocating card space from its contents and reserving separate text lines.",
-    "Kept Savings Goals clear of the expanded Accounts card, retaining one landscape Overview page and the existing report sections.",
-    "Includes v1.0.152 Budget and Savings Goals report improvements and preserves the working Windows replacement helper and household files."
+    "Removed redundant Accounts and Reports tabs from Settings Household Tools.",
+    "Moved Import into Tools as a command opening the existing statement-import subpage.",
+    "Restyled the Tools backup list to match Bills graph rows, with sortable headings, blue selection, search and vertical page scrolling.",
+    "Retained v1.0.154 updater dependency staging, Windows replacement, report improvements and household-file preservation."
   ]
 }
