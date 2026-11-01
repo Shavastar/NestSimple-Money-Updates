@@ -1,10 +1,11 @@
 {
-  "version": "1.0.177",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.177.nsmupdate",
-  "size": 410220,
-  "sha256": "c00c12277fbf6abb115238467e9863ba93b7459fd7713b7948e2c168b312ce9d",
+  "version": "1.0.178",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.178.nsmupdate",
+  "size": 415924,
+  "sha256": "3efbb72a097450074744a73c5383b2e5b7e28be3f4738209f27ff605e1b5d2f4",
   "changes": [
-    "Auto Populate review now offers Approve And Save, immediately saving the approved category plan and Expected Monthly Income.",
-    "Cancel preserves the current draft and saved plan; failed saves retain the previous amounts. Includes compact controls and the all-category Up/Down/Unchanged preview."
+    "Double-click Budget bar categories, labels or values to edit the budget item without changing the chart artwork.",
+    "Budget Pie, Bar and Trend views share Date From and Date To controls; trend records show Source, Actual and Suggested with double-click category editing.",
+    "Calendar launch commands use only the approved calendar icon, without a rectangular button face. Budget category and actual-record lists include Source."
   ]
 }
