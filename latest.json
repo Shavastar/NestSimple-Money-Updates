@@ -1,12 +1,11 @@
 {
-  "version": "1.0.155",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.155.nsmupdate",
-  "size": 106561,
-  "sha256": "98cc5154a54550051100fe37f492b746670962a39554a6bcde8fd5e592f953d1",
+  "version": "1.0.156",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.156.nsmupdate",
+  "size": 107063,
+  "sha256": "ef9ebdba161ffc6a14b1f61d15ad863c3129dd534e02e75fc776824d57ef5543",
   "changes": [
-    "Removed redundant Accounts and Reports tabs from Settings Household Tools.",
-    "Moved Import into Tools as a command opening the existing statement-import subpage.",
-    "Restyled the Tools backup list to match Bills graph rows, with sortable headings, blue selection, search and vertical page scrolling.",
-    "Retained v1.0.154 updater dependency staging, Windows replacement, report improvements and household-file preservation."
+    "Removed the redundant Tools tab; Household Tools opens its contents directly.",
+    "Added a sortable Date column showing each automatic backup file date and time.",
+    "Grouped backup and recovery commands together, followed by import, display and installation commands, with responsive wrapping."
   ]
 }
