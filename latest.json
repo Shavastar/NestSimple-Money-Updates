@@ -1,8 +1,8 @@
 {
   "version": "1.0.174",
   "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.174.nsmupdate",
-  "size": 389383,
-  "sha256": "061c3d89dd3bfcea3d66c0183eec530fe1bbc5793a135f21521a789f23876362",
+  "size": 389422,
+  "sha256": "0c1d8a0abffd59ff634dbe44df3d38b93db0ca63aff058f5363652347d9f98e2",
   "changes": [
     "Use a standalone circular-arrow Refresh icon without a button face and borderless Your Plan fields.",
     "Replace native application messages with white illustrated popups, larger text and keyboard-accessible confirmations.",
