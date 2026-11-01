@@ -1,10 +1,11 @@
 {
-  "version": "1.0.173",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.173.nsmupdate",
-  "size": 386192,
-  "sha256": "b8d53582e468f17f3bf6c453f789bfc8c9a9e4b1b3e26d5b547d22fe7c7e2b92",
+  "version": "1.0.174",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.174.nsmupdate",
+  "size": 389383,
+  "sha256": "061c3d89dd3bfcea3d66c0183eec530fe1bbc5793a135f21521a789f23876362",
   "changes": [
-    "Add Average Actual Spent before Your Plan, showing unrounded split-aware monthly expenses from the previous 12 completed months using available recorded months.",
-    "Include the compact planner toolbar and Total Remaining card from v1.0.171\u2013172."
+    "Use a standalone circular-arrow Refresh icon without a button face and borderless Your Plan fields.",
+    "Replace native application messages with white illustrated popups, larger text and keyboard-accessible confirmations.",
+    "Auto Budget rounds expense estimates up to the nearest $20; exact multiples and savings goals remain unchanged."
   ]
 }
