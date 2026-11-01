@@ -1,14 +1,12 @@
 {
-  "version": "1.0.159",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.159.nsmupdate",
-  "size": 240170,
-  "sha256": "dfe3c7f133388168b111dd34a26d97993168020f0bf7f729b9a36a9872ac8082",
+  "version": "1.0.160",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.160.nsmupdate",
+  "size": 240631,
+  "sha256": "eb53df5e05ce65a2cb789bfa3aa4c0c0f9d3e3c4dbdec812d5c0d99f35f5624e",
   "changes": [
-    "Restored Add Bill by including the corrected bill-entry module compatible with the shared form factory.",
-    "After saving new records, Income, Transactions, bill and transfer lists refresh by date, most recent first, while retaining filters.",
-    "Charts display Date From and Date To beneath titles, using monthly, twelve-month or account coverage as appropriate.",
-    "Expense and bill payment forms provide guided category-and-amount split rows with totals and validation; splits feed existing budgets and reports.",
-    "Added optional expense Due Date, retained bill Due Date, and added editable payee/supplier dropdowns plus a bill-payment payee selector.",
-    "Recurring bills offer Number of Payments or Continuously, retaining existing recurrence and remaining-payment behaviour."
+    "Moved live transfer guidance to the right of the left-aligned title.",
+    "Aligned Save, Cancel and Transfer History with the account cards; renamed the primary command Save.",
+    "Made transfer cards and details resize with the window, reduced spacing and removed unnecessary page scrolling at tested window sizes.",
+    "Corrected the transfer save refresh reference and retained account previews, memo and validation."
   ]
 }
