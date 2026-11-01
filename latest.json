@@ -1,10 +1,9 @@
 {
-  "version": "1.0.143",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.143.nsmupdate",
-  "size": 87488,
-  "sha256": "dc5cc9d873bfdae69ba12ffac382b419d1c79f915d21b73bb9dab875bf469459",
+  "version": "1.0.144",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.144.nsmupdate",
+  "size": 87795,
+  "sha256": "3dbec422da4378fde9483c4817cb2ca8a9cf199cd3283b0f0c6f691b9a9b24a1",
   "changes": [
-    "Transfer Money opens an Accounts entry subpage with Save, Cancel, Back and Close.",
-    "Transfer History opens an Accounts subpage; edit, delete and double-click transfer details remain available."
+    "Enlarged every Memo entry field from two to five lines and increased its width, with word wrapping and a vertical scrollbar."
   ]
 }
