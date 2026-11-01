@@ -1,9 +1,9 @@
 {
-  "version": "1.0.144",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.144.nsmupdate",
-  "size": 87795,
-  "sha256": "3dbec422da4378fde9483c4817cb2ca8a9cf199cd3283b0f0c6f691b9a9b24a1",
+  "version": "1.0.145",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.145.nsmupdate",
+  "size": 90300,
+  "sha256": "97b6376e1a426389b68088d4219de73d9639304a771252b871e50cf8a840b3d2",
   "changes": [
-    "Enlarged every Memo entry field from two to five lines and increased its width, with word wrapping and a vertical scrollbar."
+    "Back and Close navigation icons and their containers blend into their surrounding subtitle or page background."
   ]
 }
