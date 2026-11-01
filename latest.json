@@ -1,13 +1,14 @@
 {
-  "version": "1.0.149",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.149.nsmupdate",
-  "size": 139771,
-  "sha256": "3d6205374a8dad8911fcfc9a0f2d64daf8e731186016da1cc2580c8650b99c4e",
+  "version": "1.0.150",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.150.nsmupdate",
+  "size": 54915,
+  "sha256": "108a0c45614e7586a9b67097ac94ab002535d9dc23978fd3af1c1b19ac5fd2de",
   "changes": [
-    "Accounts, Income and Transactions main reports use the displayed records, active filters and current list order for their details and totals.",
-    "Standardized white cards, section-coloured headings, black report text and labelled pie/bar charts.",
-    "Wrapped long record text at readable sizes and continued complete lists with repeated column headings and page numbers.",
-    "Retained a separate 12-month recorded Income history with account/search filters and exact monthly values.",
-    "Preserved household data, the Bills graph table and both calendar styles."
+    "Retained the v1.0.149 Accounts, Income and Transactions report improvements.",
+    "Omitted unchanged v1.0.148 files from this package; the corrected updater also skips files already matching the package.",
+    "Added bounded retries for temporary access-denied errors during program replacement and settings saves; permanent denials still stop safely.",
+    "Verified program backups and replacements; rollback attempts every replaced file and identifies any restoration failures and backup location.",
+    "Removed the unconditional restoration-success message and automatic app restart after failed installation.",
+    "Included a standalone repair installer to install the corrected updater without opening the app. Household databases, profiles, attachments and testing edits are excluded."
   ]
 }
