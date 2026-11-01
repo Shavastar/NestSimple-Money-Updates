@@ -1,12 +1,12 @@
 {
-  "version": "1.0.160",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.160.nsmupdate",
-  "size": 240631,
-  "sha256": "eb53df5e05ce65a2cb789bfa3aa4c0c0f9d3e3c4dbdec812d5c0d99f35f5624e",
+  "version": "1.0.161",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.161.nsmupdate",
+  "size": 252642,
+  "sha256": "1670bc48cc9dbccd8d4e3ceec5370bc4b06fe05d1d1f62eefa2ad56879f55011",
   "changes": [
-    "Moved live transfer guidance to the right of the left-aligned title.",
-    "Aligned Save, Cancel and Transfer History with the account cards; renamed the primary command Save.",
-    "Made transfer cards and details resize with the window, reduced spacing and removed unnecessary page scrolling at tested window sizes.",
-    "Corrected the transfer save refresh reference and retained account previews, memo and validation."
+    "Editable payee and supplier fields use white backgrounds; supplier filters accept typed names.",
+    "Text dropdown lists sort alphabetically while retaining selected values and chronological month/numeric choices.",
+    "Charts Date From and Date To have calendar icons; inclusive ranges update chart values and print dates with validation.",
+    "New expenses open Transactions after saving and the saved row is selected and revealed when retained filters would hide it; existing household records remain intact."
   ]
 }
