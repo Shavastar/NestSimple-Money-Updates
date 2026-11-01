@@ -1,10 +1,13 @@
 {
-  "version": "1.0.148",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.148.nsmupdate",
-  "size": 135245,
-  "sha256": "d950e4c83b39143e66edaa87fd188a494eeeb684af2620c3da857048e82bd04f",
+  "version": "1.0.149",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.149.nsmupdate",
+  "size": 139771,
+  "sha256": "3d6205374a8dad8911fcfc9a0f2d64daf8e731186016da1cc2580c8650b99c4e",
   "changes": [
-    "Changed closed dropdown backgrounds to the active section colour, using its light tint and black text.",
-    "Preserved opened dropdown lists, selection colours and disabled appearance."
+    "Accounts, Income and Transactions main reports use the displayed records, active filters and current list order for their details and totals.",
+    "Standardized white cards, section-coloured headings, black report text and labelled pie/bar charts.",
+    "Wrapped long record text at readable sizes and continued complete lists with repeated column headings and page numbers.",
+    "Retained a separate 12-month recorded Income history with account/search filters and exact monthly values.",
+    "Preserved household data, the Bills graph table and both calendar styles."
   ]
 }
