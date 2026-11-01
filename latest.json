@@ -1,11 +1,10 @@
 {
-  "version": "1.0.167",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.167.nsmupdate",
-  "size": 322199,
-  "sha256": "8c328824c8b5b2c5d89b2504f21f231b52b5721a07d59d68a73fda8d679e0f4b",
+  "version": "1.0.168",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.168.nsmupdate",
+  "size": 322628,
+  "sha256": "3dc099ef51d2216d58c322413ff193bb439a9ce8f040cf46afd5a1fd4874aa9d",
   "changes": [
-    "Budget Planner can auto-populate expense drafts from 12 completed months, using available-month averages with a friendly best-guess warning when history is incomplete; fixed costs use the highest month and savings goals are preserved.",
-    "Expected income uses recorded Income for the planner month excluding investment accounts and investment income, with a refresh icon.",
-    "Planner totals use black-text white cards; the income-to-budget ratio shows excess in red, and the category list uses the Bills graph style with sortable headings and editable amounts."
+    "Update download progress follows received bytes without rounding up to completion; 100% appears only after the download closes, verification passes and update files are ready.",
+    "Show separate downloading, checksum verification and preparation messages; incomplete or damaged packages never report completion."
   ]
 }
