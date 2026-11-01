@@ -1,9 +1,12 @@
 {
-  "version": "1.0.140",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.140.nsmupdate",
-  "size": 41235,
-  "sha256": "c188231e1a9dd0231cacdb09f9d50900d55d947c39f4bc6eaf29ef4193614778",
+  "version": "1.0.141",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.141.nsmupdate",
+  "size": 78626,
+  "sha256": "b5493431cffd28c5faede0dbbfe18519b50eb543e5af92d7a2cb016c2e399a92",
   "changes": [
-    "Changed the update download progress bar to medium blue."
+    "Moved Account, Loan, Mortgage, Contact and Transaction entry/edit forms into section subpages with shared Save, Cancel, Back and Close controls.",
+    "Preserved shared list period/account/supplier/search filters, sorting, selected records and scroll position when returning from details.",
+    "Distinguished No Records Entered from No Records Match These Filters and added Clear Filters for filtered empty lists.",
+    "Preserved the Bills graph table, both calendar styles, financial records and attachments."
   ]
 }
