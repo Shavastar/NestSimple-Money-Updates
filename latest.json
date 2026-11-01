@@ -1,10 +1,11 @@
 {
-  "version": "1.0.162",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.162.nsmupdate",
-  "size": 254495,
-  "sha256": "23a9787718316958f924c8ae431c0168c1de415d018fabf79d233c66f7955206",
+  "version": "1.0.163",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.163.nsmupdate",
+  "size": 255698,
+  "sha256": "6d938ce2eb0b424790be69e24346384e75801c667ececc8de55f239b9ef30f50",
   "changes": [
-    "Add Expense uses responsive white cards, account artwork and aligned commands matching Transfer Money.",
-    "Selecting a second split category fills its empty amount with the remaining CAD balance; typed amounts are preserved."
+    "Add Expense keeps entry information on the left and Original Image / Split Payment tabs on the right.",
+    "Save and Cancel have consistent heights and sit directly below the entry content; transfer commands use the same sizing.",
+    "Transfer guidance uses larger right-aligned text beside Transfer Details, with live stage updates preserved."
   ]
 }
