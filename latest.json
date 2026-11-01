@@ -1,11 +1,10 @@
 {
-  "version": "1.0.174",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.174.nsmupdate",
-  "size": 389422,
-  "sha256": "0c1d8a0abffd59ff634dbe44df3d38b93db0ca63aff058f5363652347d9f98e2",
+  "version": "1.0.175",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.175.nsmupdate",
+  "size": 408155,
+  "sha256": "9d38f5cb31cc0285af6f988f6bc3e3665a6a8753ddd23ed7c1cff48686b3a6a0",
   "changes": [
-    "Use a standalone circular-arrow Refresh icon without a button face and borderless Your Plan fields.",
-    "Replace native application messages with white illustrated popups, larger text and keyboard-accessible confirmations.",
-    "Auto Budget rounds expense estimates up to the nearest $20; exact multiples and savings goals remain unchanged."
+    "Refresh and Print use glossy round icon-only controls matching Back and Home, without rectangular button faces.",
+    "Single-line entry fields, dropdowns and action buttons share a 48-pixel height; retain borderless planner amounts."
   ]
 }
