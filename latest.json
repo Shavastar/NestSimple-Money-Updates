@@ -1,12 +1,10 @@
 {
-  "version": "1.0.161",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.161.nsmupdate",
-  "size": 252642,
-  "sha256": "1670bc48cc9dbccd8d4e3ceec5370bc4b06fe05d1d1f62eefa2ad56879f55011",
+  "version": "1.0.162",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.162.nsmupdate",
+  "size": 254495,
+  "sha256": "23a9787718316958f924c8ae431c0168c1de415d018fabf79d233c66f7955206",
   "changes": [
-    "Editable payee and supplier fields use white backgrounds; supplier filters accept typed names.",
-    "Text dropdown lists sort alphabetically while retaining selected values and chronological month/numeric choices.",
-    "Charts Date From and Date To have calendar icons; inclusive ranges update chart values and print dates with validation.",
-    "New expenses open Transactions after saving and the saved row is selected and revealed when retained filters would hide it; existing household records remain intact."
+    "Add Expense uses responsive white cards, account artwork and aligned commands matching Transfer Money.",
+    "Selecting a second split category fills its empty amount with the remaining CAD balance; typed amounts are preserved."
   ]
 }
