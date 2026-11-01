@@ -1,14 +1,10 @@
 {
-  "version": "1.0.146",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.146.nsmupdate",
-  "size": 134749,
-  "sha256": "479420576885e6baad9e793cdba939388f32004b646500426c2d56244a8fcb0f",
+  "version": "1.0.147",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.147.nsmupdate",
+  "size": 134952,
+  "sha256": "f00166fe5dbc33fa73003060e0cae48bd6d2baec5e9d523771a0a51f1070c47d",
   "changes": [
-    "Fixed a Bill Entry import left incompatible with the shared form factory.",
-    "Shared record lists show their active period, account or supplier, search and displayed record count.",
-    "Capture shared list filters, sorting, selection and scroll position before destroying the list when navigating.",
-    "Unpaid sorts with Overdue before Upcoming and Paid; bills due today show red Unpaid consistently with the charts.",
-    "Shared main lists resize without horizontal scrollbars; translated empty-result messages and Clear Filters retain existing behaviour.",
-    "Preserved the Bills graph table and both calendar styles."
+    "Changed all closed dropdown fields to light blue with black text, including Bills supplier selectors.",
+    "Preserved opened dropdown list backgrounds and selection colours."
   ]
 }
