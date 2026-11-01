@@ -1,10 +1,10 @@
 {
-  "version": "1.0.175",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.175.nsmupdate",
-  "size": 408155,
-  "sha256": "9d38f5cb31cc0285af6f988f6bc3e3665a6a8753ddd23ed7c1cff48686b3a6a0",
+  "version": "1.0.177",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.177.nsmupdate",
+  "size": 410220,
+  "sha256": "c00c12277fbf6abb115238467e9863ba93b7459fd7713b7948e2c168b312ce9d",
   "changes": [
-    "Refresh and Print use glossy round icon-only controls matching Back and Home, without rectangular button faces.",
-    "Single-line entry fields, dropdowns and action buttons share a 48-pixel height; retain borderless planner amounts."
+    "Auto Populate review now offers Approve And Save, immediately saving the approved category plan and Expected Monthly Income.",
+    "Cancel preserves the current draft and saved plan; failed saves retain the previous amounts. Includes compact controls and the all-category Up/Down/Unchanged preview."
   ]
 }
