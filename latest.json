@@ -1,12 +1,11 @@
 {
-  "version": "1.0.141",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.141.nsmupdate",
-  "size": 78626,
-  "sha256": "b5493431cffd28c5faede0dbbfe18519b50eb543e5af92d7a2cb016c2e399a92",
+  "version": "1.0.142",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.142.nsmupdate",
+  "size": 87235,
+  "sha256": "b319c3ba54135d70e0f24156e7b346816fe8c0fd1b58de06b571ade995c6ec87",
   "changes": [
-    "Moved Account, Loan, Mortgage, Contact and Transaction entry/edit forms into section subpages with shared Save, Cancel, Back and Close controls.",
-    "Preserved shared list period/account/supplier/search filters, sorting, selected records and scroll position when returning from details.",
-    "Distinguished No Records Entered from No Records Match These Filters and added Clear Filters for filtered empty lists.",
-    "Preserved the Bills graph table, both calendar styles, financial records and attachments."
+    "Shortened the contact-detail Linked Records list to four visible rows, retaining scrolling and record navigation.",
+    "Check Statement opens a section subpage with the first Chequing account automatically selected.",
+    "Accounts first action row: Add Account, Edit Account, Transfer Money, Transfer History and Add Loan; remaining commands are on the second row."
   ]
 }
