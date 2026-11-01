@@ -1,11 +1,10 @@
 {
-  "version": "1.0.142",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.142.nsmupdate",
-  "size": 87235,
-  "sha256": "b319c3ba54135d70e0f24156e7b346816fe8c0fd1b58de06b571ade995c6ec87",
+  "version": "1.0.143",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.143.nsmupdate",
+  "size": 87488,
+  "sha256": "dc5cc9d873bfdae69ba12ffac382b419d1c79f915d21b73bb9dab875bf469459",
   "changes": [
-    "Shortened the contact-detail Linked Records list to four visible rows, retaining scrolling and record navigation.",
-    "Check Statement opens a section subpage with the first Chequing account automatically selected.",
-    "Accounts first action row: Add Account, Edit Account, Transfer Money, Transfer History and Add Loan; remaining commands are on the second row."
+    "Transfer Money opens an Accounts entry subpage with Save, Cancel, Back and Close.",
+    "Transfer History opens an Accounts subpage; edit, delete and double-click transfer details remain available."
   ]
 }
