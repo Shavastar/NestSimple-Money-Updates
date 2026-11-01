@@ -1,11 +1,11 @@
 {
-  "version": "1.0.156",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.156.nsmupdate",
-  "size": 107063,
-  "sha256": "ef9ebdba161ffc6a14b1f61d15ad863c3129dd534e02e75fc776824d57ef5543",
+  "version": "1.0.157",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.157.nsmupdate",
+  "size": 119126,
+  "sha256": "b5926606653d4273036ff92f87bd5ef39a54a682b883c1ed46c7c19f1e48c474",
   "changes": [
-    "Removed the redundant Tools tab; Household Tools opens its contents directly.",
-    "Added a sortable Date column showing each automatic backup file date and time.",
-    "Grouped backup and recovery commands together, followed by import, display and installation commands, with responsive wrapping."
+    "Restored Settings Categories: Budget and Income category lists and existing editing commands load correctly again.",
+    "Renamed Household Tools to Tools.",
+    "Restored Help as the last Settings tab after Categories and Currencies finish loading."
   ]
 }
