@@ -1,10 +1,11 @@
 {
-  "version": "1.0.168",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.168.nsmupdate",
-  "size": 322628,
-  "sha256": "3dc099ef51d2216d58c322413ff193bb439a9ce8f040cf46afd5a1fd4874aa9d",
+  "version": "1.0.169",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.169.nsmupdate",
+  "size": 323287,
+  "sha256": "6b2b821a5cbfc488064f1eca3c147795ae0bd69ba6699176b0c0a9e0a324ec41",
   "changes": [
-    "Update download progress follows received bytes without rounding up to completion; 100% appears only after the download closes, verification passes and update files are ready.",
-    "Show separate downloading, checksum verification and preparation messages; incomplete or damaged packages never report completion."
+    "Expected Income uses an icon-only refresh command and recorded Income excluding investments.",
+    "Budget Planner shows Total Budget, Total Income and Percentage in black-text white cards, without explanatory text below.",
+    "Category rows include icons and Type indicators: green covers the highest prior monthly expense, red falls short, grey has no comparison; indicators update with draft amounts."
   ]
 }
