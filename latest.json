@@ -1,10 +1,10 @@
 {
-  "version": "1.0.147",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.147.nsmupdate",
-  "size": 134952,
-  "sha256": "f00166fe5dbc33fa73003060e0cae48bd6d2baec5e9d523771a0a51f1070c47d",
+  "version": "1.0.148",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.148.nsmupdate",
+  "size": 135245,
+  "sha256": "d950e4c83b39143e66edaa87fd188a494eeeb684af2620c3da857048e82bd04f",
   "changes": [
-    "Changed all closed dropdown fields to light blue with black text, including Bills supplier selectors.",
-    "Preserved opened dropdown list backgrounds and selection colours."
+    "Changed closed dropdown backgrounds to the active section colour, using its light tint and black text.",
+    "Preserved opened dropdown lists, selection colours and disabled appearance."
   ]
 }
