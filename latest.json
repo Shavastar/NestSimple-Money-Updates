@@ -1,11 +1,11 @@
 {
-  "version": "1.0.157",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.157.nsmupdate",
-  "size": 119126,
-  "sha256": "b5926606653d4273036ff92f87bd5ef39a54a682b883c1ed46c7c19f1e48c474",
+  "version": "1.0.158",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.158.nsmupdate",
+  "size": 211227,
+  "sha256": "81fb0eac2f0e9f656723d700734421bdbe8a30f12f5862d2a8b7955f0a531300",
   "changes": [
-    "Restored Settings Categories: Budget and Income category lists and existing editing commands load correctly again.",
-    "Renamed Household Tools to Tools.",
-    "Restored Help as the last Settings tab after Categories and Currencies finish loading."
+    "Redesigned Transfer Money with From and To account cards, existing account icons and a directional arrow.",
+    "Added live balances on the transfer date and a before-save balance preview, including correct handling of edited transfers.",
+    "Retained validation, five-line memos, shared navigation and Transfer History; the layout stacks at narrow widths."
   ]
 }
