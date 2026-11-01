@@ -1,11 +1,11 @@
 {
-  "version": "1.0.165",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.165.nsmupdate",
-  "size": 300222,
-  "sha256": "3c570e1741bc1c6e19edc31a3c32c3b95f77ee964eaac462300efd195d59cb7e",
+  "version": "1.0.166",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.166.nsmupdate",
+  "size": 318881,
+  "sha256": "cc8fa7ebec6f3ddd998a16a8092d664fd2511eee5e213f3afe5d1d82cee09826",
   "changes": [
-    "Expense and Income entry share graphical white cards with larger approved icons and attachment previews.",
-    "Expense and Income details match their entry pages, retaining contacts, attachments and expense split allocations.",
-    "Back, Home and Close use round glossy green, blue and orange-red buttons; Home opens Overview while Back and Close retain their navigation."
+    "Print commands use larger icon-only controls matching the 48-pixel Back button, retaining hover labels and printing actions.",
+    "Added Budget Planner immediately after Manage, with expected monthly income, editable category plans, historical suggestions and a live Left To Plan balance.",
+    "Planner drafts save explicitly with validation and rollback, distinguish planned savings from recorded savings, and print the current draft."
   ]
 }
