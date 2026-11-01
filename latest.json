@@ -1,14 +1,11 @@
 {
-  "version": "1.0.151",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.151.nsmupdate",
-  "size": 56332,
-  "sha256": "ad418d031f60422243d540b9071ab10bab6a7f4f316fb8b84addf2769391e5f8",
+  "version": "1.0.153",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.153.nsmupdate",
+  "size": 64577,
+  "sha256": "482ba5268d90e80ed2cf37dc756f187a9830f4bf668be20e19fff352c26d697f",
   "changes": [
-    "Retained v1.0.149 reports and v1.0.150 backup, rollback and unchanged-file improvements.",
-    "Use Windows ReplaceFileW for existing program and settings files, preserving their Windows permissions and attributes; retain os.replace for new files and non-Windows systems.",
-    "Keep a native replacement backup during each Windows replacement and attempt restoration if the API reports a partial failure.",
-    "Check every attempted program replacement during rollback, including a failed replacement that may have changed its target.",
-    "Show the complete repair error report and include a standalone repair installer for supported v1.0.148 through v1.0.150 and mixed interrupted installations.",
-    "Preserve household data, profiles, attachments, testing edits, Bills graph table and calendar styles. Windows execution still requires confirmation on the affected computer."
+    "Fixed overlapping names, balances and transaction counts in Overview My Accounts by allocating card space from its contents and reserving separate text lines.",
+    "Kept Savings Goals clear of the expanded Accounts card, retaining one landscape Overview page and the existing report sections.",
+    "Includes v1.0.152 Budget and Savings Goals report improvements and preserves the working Windows replacement helper and household files."
   ]
 }
