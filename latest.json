@@ -1,11 +1,14 @@
 {
-  "version": "1.0.158",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.158.nsmupdate",
-  "size": 211227,
-  "sha256": "81fb0eac2f0e9f656723d700734421bdbe8a30f12f5862d2a8b7955f0a531300",
+  "version": "1.0.159",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.159.nsmupdate",
+  "size": 240170,
+  "sha256": "dfe3c7f133388168b111dd34a26d97993168020f0bf7f729b9a36a9872ac8082",
   "changes": [
-    "Redesigned Transfer Money with From and To account cards, existing account icons and a directional arrow.",
-    "Added live balances on the transfer date and a before-save balance preview, including correct handling of edited transfers.",
-    "Retained validation, five-line memos, shared navigation and Transfer History; the layout stacks at narrow widths."
+    "Restored Add Bill by including the corrected bill-entry module compatible with the shared form factory.",
+    "After saving new records, Income, Transactions, bill and transfer lists refresh by date, most recent first, while retaining filters.",
+    "Charts display Date From and Date To beneath titles, using monthly, twelve-month or account coverage as appropriate.",
+    "Expense and bill payment forms provide guided category-and-amount split rows with totals and validation; splits feed existing budgets and reports.",
+    "Added optional expense Due Date, retained bill Due Date, and added editable payee/supplier dropdowns plus a bill-payment payee selector.",
+    "Recurring bills offer Number of Payments or Continuously, retaining existing recurrence and remaining-payment behaviour."
   ]
 }
