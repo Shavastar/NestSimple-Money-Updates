@@ -1,11 +1,11 @@
 {
-  "version": "1.0.169",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.169.nsmupdate",
-  "size": 323287,
-  "sha256": "6b2b821a5cbfc488064f1eca3c147795ae0bd69ba6699176b0c0a9e0a324ec41",
+  "version": "1.0.170",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.170.nsmupdate",
+  "size": 384731,
+  "sha256": "ce2bb82179d89f1f5cbbb7d145d730f040dc250e038fa4a35f1a5f84d15ae881",
   "changes": [
-    "Expected Income uses an icon-only refresh command and recorded Income excluding investments.",
-    "Budget Planner shows Total Budget, Total Income and Percentage in black-text white cards, without explanatory text below.",
-    "Category rows include icons and Type indicators: green covers the highest prior monthly expense, red falls short, grey has no comparison; indicators update with draft amounts."
+    "Expected Monthly Income restores its saved amount when the planner reopens, including saved zero.",
+    "Icon-only graphical refresh reads the current Income statement records and filters, excluding investment accounts and investment income.",
+    "Keep (CAD) on the Expected Monthly Income line; category rows use distinct matching artwork and reuse approved existing icons."
   ]
 }
