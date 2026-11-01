@@ -1,10 +1,9 @@
 {
-  "version": "1.0.139",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.139.nsmupdate",
-  "size": 40882,
-  "sha256": "8f63ce4de08bf1a7ff5535d295bb0f9c693c995447f4a32e0bfbd2e5cbfcf834",
+  "version": "1.0.140",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.140.nsmupdate",
+  "size": 41235,
+  "sha256": "c188231e1a9dd0231cacdb09f9d50900d55d947c39f4bc6eaf29ef4193614778",
   "changes": [
-    "Standardized shared summary-card styling and removed the fixed Income card height; cards fit their content and remain equal within each row.",
-    "Preserved compact Accounts cards, Overview colours, card information and actions, both calendar styles and the Bills graph table."
+    "Changed the update download progress bar to medium blue."
   ]
 }
