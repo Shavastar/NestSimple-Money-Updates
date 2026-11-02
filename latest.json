@@ -1,12 +1,13 @@
 {
-  "version": "1.2.07",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.07.nsmupdate",
-  "size": 151305,
-  "sha256": "56ed7a3267e845a37539113e5b823bba3569e99612dc2279ddc573db91164e9f",
+  "version": "1.2.08",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.08.nsmupdate",
+  "size": 156388,
+  "sha256": "f6d498a39277da976b6d0004af3f60652ec0d23bd6aa1b9ed6f753159128c14a",
   "changes": [
-    "Replace the update-page explanation with Changes This Version, matching the Program Updates title.",
-    "Use simple sequential numbering and a blank line between requests in current updates and all archived testing records.",
-    "Slide Testing in from the left beside the main menu. Toggle the Testing button or use Close Testing to slide it back out."
+    "Keep main categories and indented subcategories when sorting by Category in Auto Populate and other category lists.",
+    "Sort every row together without category headings when selecting another header; restore category groups when Category is selected again.",
+    "Preserve all fields, selections and active filters while switching between grouped and flat sorting.",
+    "Slide-up messages match the visible list width, including its border and scrollbar, instead of filling the page."
   ]
 }
 
