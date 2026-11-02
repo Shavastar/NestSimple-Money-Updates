@@ -1,10 +1,9 @@
 {
-  "version": "1.0.195",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.195.nsmupdate",
-  "size": 1292512,
-  "sha256": "8c40b7f01b69fec5ab85fbe1814fbd8fdf141c4c1d044fc614971592c08d0e40",
+  "version": "1.0.196",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.196.nsmupdate",
+  "size": 1292699,
+  "sha256": "7817bbded412eb05af429d54e7ebe22d798c31d99fd4808fb5432108f391aad8",
   "changes": [
-    "Use white list backgrounds in Budget Planner and Auto Populate, including category group headings.",
-    "Keep Auto Populate column headings and Select All fixed above the scrolling records; retain sortable columns, selections and numeric amount sorting. Budget Planner retains its fixed sortable headings."
+    "Display installation review and Apply Update and Restart below Check Again, Download Update and download progress; keep existing controls in place when the review appears."
   ]
 }
