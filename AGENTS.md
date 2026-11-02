@@ -6,3 +6,5 @@
 - Exercise startup failure and retry, failed/corrupt/truncated downloads, feed freshness, review visibility, rollback and household preservation. Keep diagnostic details available when anything fails. Never claim an unperformed check passed.
 - Preserve personal and testing household data and edits. Repair program files only. Do not replace household databases or profile files.
 - Keep the shared STYLE_GUIDE.md and release history current.
+
+- Standalone repairs must be small native file-only installers: back up affected program files and replace them directly. No Python requirement, session checks, process shutdown or app reopening. This supersedes restart requirements above for standalone repairs only.
