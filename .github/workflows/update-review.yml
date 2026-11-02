@@ -1,0 +1,27 @@
+name: Update Download And Review
+on:
+  push:
+    paths: ['packages/**', 'latest.json', 'tests/**', '.github/workflows/update-review.yml']
+  pull_request:
+    paths: ['packages/**', 'latest.json', 'tests/**', '.github/workflows/update-review.yml']
+permissions:
+  contents: read
+jobs:
+  download-review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Tk runtime for headless callback tests
+        run: sudo apt-get update && sudo apt-get install -y python3-tk
+      - name: Check actual latest package download and review handoff
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import json, subprocess, sys
+          info=json.loads(Path('latest.json').read_text())
+          key=lambda p:tuple(map(int,p.stem.split('-v')[-1].split('.')))
+          package=Path('packages')/('NestSimple-Money-v'+info['version']+'.nsmupdate')
+          older=sorted((p for p in Path('packages').glob('NestSimple-Money-v*.nsmupdate') if key(p)<key(package)),key=key)
+          if not older:raise RuntimeError('Previous release package required for upgrade testing')
+          subprocess.run([sys.executable,'tests/release_gate192.py',str(package),str(older[-1])],check=True)
+          PY
