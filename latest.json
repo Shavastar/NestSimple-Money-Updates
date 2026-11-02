@@ -1,11 +1,11 @@
 {
-  "version": "1.0.198",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.198.nsmupdate",
-  "size": 1294531,
-  "sha256": "e7e511aea1e88e3809b0cbbe38773d03ae39fb6c4db77c063353774a1963a6d8",
+  "version": "1.0.199",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.199.nsmupdate",
+  "size": 1295087,
+  "sha256": "44975c94bb968b57d9ddb56cf12cc855aae152cc336960c0eed3e8553696a9d8",
   "changes": [
-    "Fix the blank Update page on older installations by avoiding an unsupported scrolling-helper constructor option.",
-    "Keep Check Again, Download Update and progress above installation review and Apply Update And Restart.",
-    "Add a real Tk regression against the original installed scrolling helper; preserve program backups, rollback and household files."
+    "Keep Date From and Date To controls and the selected inclusive range when expanding or collapsing Budget pie and bar categories; retain the shared range on Trend.",
+    "Indent expanded bar subcategories by 24 pixels and restore each bar series to its legend colour.",
+    "Remove borders around chart date fields while preserving typing, Enter, focus-out validation and calendar selection."
   ]
 }

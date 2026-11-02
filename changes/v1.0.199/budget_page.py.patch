@@ -1,0 +1,14 @@
+--- a/budget_page.py
++++ b/budget_page.py
+@@ -251,9 +251,8 @@
+         c.create_rectangle(15,9,28,18,fill='#a9c2ef',outline='');c.create_text(34,14,anchor='w',text=tr('Budget'),fill=DARK)
+         c.create_rectangle(125,9,138,18,fill=BLUE,outline='');c.create_text(145,14,anchor='w',text=tr('Actual'),fill=DARK)
+         for i,(name,b,s) in enumerate(rows):
+-            y=40+i*42;tag='budget-category-'+str(i);before=set(c.find_all());c.create_text(8,y+8,anchor='w',text=tr(name),width=145,fill=DARK,font=('Segoe UI',9))
+-            base=budget_colour(name,grouped[i][2],[(n,(b,a)) for n,b,a in self.data['rows']])
+-            for off,value,colour in [(0,b,lighten(base)),(12,s,base)]:
++            y=40+i*42;tag='budget-category-'+str(i);before=set(c.find_all());label_x=8+(24 if name.startswith('  ') else 0);c.create_text(label_x,y+8,anchor='w',text=tr(name.strip()),width=left-label_x-7,fill=DARK,font=('Segoe UI',9))
++            for off,value,colour in [(0,b,'#a9c2ef'),(12,s,BLUE)]:
+                 length=value/scale*max(100,w-left-95);c.create_rectangle(left,y+off,left+length,y+off+9,fill=colour,outline='');c.create_text(left+length+5,y+off+4,anchor='w',text=money(value),font=('Segoe UI',8),fill=DARK)
+             for item in set(c.find_all())-before:c.addtag_withtag(tag,item)
+             if not name.startswith('  '):bind_budget_slice(c,before,grouped[i][2],lambda:self.draw_comparison(c,w))
