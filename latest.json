@@ -1,11 +1,11 @@
 {
-  "version": "1.2.16",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.16.nsmupdate",
-  "size": 166216,
-  "sha256": "762d3ee172eb9b1605c6344b200a194e297aa19058d789af97e89a27e6ee3089",
+  "version": "1.2.17",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.17.nsmupdate",
+  "size": 166612,
+  "sha256": "154adb1fdbb410d02962e5045c49bc4503c0f1d7a52e251c6cbd25a23ffbbfc8",
   "changes": [
-    "Show Hard drive space, Program size and Database size as the storage categories in both charts.",
-    "Show Total records clearly on both charts, separate from byte measurements, with matching high-contrast colours."
+    "Keep the storage pie visible even when hard drive capacity makes the other slices extremely small.",
+    "Remove Total records from the pie chart and its legend; retain record information on the bar chart."
   ]
 }
 
