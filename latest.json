@@ -1,11 +1,12 @@
 {
-  "version": "1.2.05",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.05.nsmupdate",
-  "size": 110579,
-  "sha256": "d223255a39680565d2580d15ac43c07cb6787aa3280b2ecfdc1c5d34597b3409",
+  "version": "1.2.06",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.06.nsmupdate",
+  "size": 148406,
+  "sha256": "8134e885cc7583bbce54be5970751bb9414c24e88e07838f1b378656248dd1f2",
   "changes": [
-    "Replace in-app message windows with illustrated page panels that slide up from the bottom and slide down when answered or dismissed. Keep the same confirmation answers and keyboard actions.",
-    "Restore the Actuals column in Auto Populate Review using the same average actual spending as the Planner; keep amounts in CAD.",
-    "Fix sorting for Category, Current, Actuals, Proposed and signed Change values, retain group headings and selections, and keep fixed headers aligned."
+    "Keep all Budget Planner columns aligned and reserve space for the vertical scrollbar.",
+    "Match Accounts, Income, Transactions and Bills charts to Budget, with category totals, expandable indented subcategories, shared colours, two-tone blue bars and date ranges.",
+    "Match printed charts and complete details lists; offer a slide-up choice of category, newest date or alphabetical sorting for long lists.",
+    "Show Name (account, supplier or payee) in Transaction Details instead of a category column."
   ]
 }
