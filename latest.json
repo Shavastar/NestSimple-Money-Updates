@@ -1,12 +1,11 @@
 {
-  "version": "1.2.10",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.10.nsmupdate",
-  "size": 162916,
-  "sha256": "030d6e1686a858d83247b15aedae09f758e7add4bcc3ae2819cd67350e905c49",
+  "version": "1.2.11",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.11.nsmupdate",
+  "size": 163580,
+  "sha256": "d096fc0dacd8862f107adb15fdc57fda4b35f0ca917620c277984afaf93f400d",
   "changes": [
-    "Group Income into Income (Salary & wages, Freelance income, Rental income, Refunds), Benefits (Government benefits, Pension), and standalone Interest & dividends, Gifts received and Other income categories.",
-    "Move the currency dropdown directly below Backup & help.",
-    "Refine all currency banknote icons with engraved borders, security details, portrait silhouettes and denomination marks."
+    "Add country or region names to the currency box and all dropdown choices.",
+    "Use distinct country-inspired banknote motifs, security windows and fine details for all ten currencies."
   ]
 }
 
