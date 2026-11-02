@@ -1,11 +1,10 @@
 {
-  "version": "1.0.194",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.194.nsmupdate",
-  "size": 1292000,
-  "sha256": "15ef34210b28bface230e96a949d5023e2eefe59811d7d826af06b0c7ee1c0cd",
+  "version": "1.0.195",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.195.nsmupdate",
+  "size": 1292512,
+  "sha256": "8c40b7f01b69fec5ab85fbe1814fbd8fdf141c4c1d044fc614971592c08d0e40",
   "changes": [
-    "Apply the approved Banking red, Home yellow, Utilities green, Transport light blue, Family And Personal purple, Giving pink and Other peach Budget colours.",
-    "Use the same main groups and indented categories in Budget lists, Planner, Auto Populate review and reports; preserve category records and amounts.",
-    "Single-click main pie or bar categories to expand their full category list; retain headings in place and double-click editing on individual bar categories. Internet belongs to Home and Mobile phone to Family And Personal."
+    "Use white list backgrounds in Budget Planner and Auto Populate, including category group headings.",
+    "Keep Auto Populate column headings and Select All fixed above the scrolling records; retain sortable columns, selections and numeric amount sorting. Budget Planner retains its fixed sortable headings."
   ]
 }
