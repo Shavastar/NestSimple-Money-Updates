@@ -1,0 +1,113 @@
+--- a/budget_review.py
++++ b/budget_review.py
+@@ -6,10 +6,37 @@
+ from category_icons import load_category_icons
+ from friendly_messages import approval_sort_key
+ from summary_cards import card,value
+-INSTRUCTIONS='Compare the current budget value with the proposed and see the change. select each row(s) you want to change and press save.'
++INSTRUCTIONS='Compare your current plan, average actual spending and the proposed plan. Select the categories you want to change, then Save.'
++COLUMNS=('Category','Current (CAD)','Actuals (CAD)','Proposed (CAD)','Change (CAD)')
++
++def review_sort_key(row,column,actuals):
++    from decimal import Decimal
++    if column==0:return tr(row[0]).casefold()
++    if column==1:return approval_sort_key(row,1)
++    if column==2:return Decimal(actuals[row[0]])/100 if row[0] in actuals else None
++    if column==3:return approval_sort_key(row,2)
++    return approval_sort_key(row,2)-approval_sort_key(row,1)
++
++def sorted_review_rows(rows,column,reverse,actuals):
++    present=[r for r in rows if review_sort_key(r,column,actuals) is not None]
++    missing=[r for r in rows if review_sort_key(r,column,actuals) is None]
++    return sorted(present,key=lambda r:review_sort_key(r,column,actuals),reverse=reverse)+missing
++
++def draw_heading(canvas,title,active,reverse):
++    canvas.delete('all');width=max(1,canvas.winfo_width())
++    item=canvas.create_text(width/2,25,text=tr(title).replace(' (CAD)','\n(CAD)'),width=max(20,width-26),fill='black',font=('Segoe UI',9 if width<95 else 11,'bold'),justify='center')
++    if active:
++        bounds=canvas.bbox(item)
++        if bounds:
++            text_width=bounds[2]-bounds[0];x=(width-text_width-16)/2+text_width/2
++            canvas.coords(item,x,25);arrow=x+text_width/2+8
++            points=(arrow-4,22,arrow+4,22,arrow,28) if reverse else (arrow-4,28,arrow+4,28,arrow,22)
++            canvas.create_polygon(*points,fill='#008000',outline='white',width=1)
+ class BudgetReview(tk.Frame):
+     def __init__(self,planner,rows,save):
+         self.planner=planner;self.rows=rows;self.save_callback=save;self.selected=set();self.order=list(rows);self.sort_column=None;self.reverse=False
++        from finance import SAVINGS_CATEGORIES
++        self.actuals={c:v for c,v in planner.averages.items() if c not in SAVINGS_CATEGORIES}
+         self.hidden=[(w,w.pack_info()) for w in planner.winfo_children() if w.winfo_manager()=='pack']
+         for widget,_ in self.hidden:widget.pack_forget()
+         super().__init__(planner,bg='white',padx=12,pady=12);self.pack(fill='both',expand=True)
+@@ -20,7 +47,10 @@
+         cards=tk.Frame(self,bg='white');cards.pack(fill='x')
+         total=card(cards,'Total Change','black',compact=True);total.grid(row=0,column=0,sticky='nsew',padx=(0,8));self.total=value(total,'0.00')
+         instruction=card(cards,'Review Your Changes','black',compact=True);instruction.grid(row=0,column=1,sticky='nsew');cards.columnconfigure(0,weight=1);cards.columnconfigure(1,weight=3)
+-        tk.Label(instruction,text=tr(INSTRUCTIONS),bg='white',fg='black',font=('Segoe UI',13),wraplength=650,justify='left').pack(fill='x',pady=6)
++        description=tk.Label(instruction,text=tr(INSTRUCTIONS),bg='white',fg='black',font=('Segoe UI',13),wraplength=650,justify='left');description.pack(fill='x',pady=6)
++        description.bind('<Configure>',lambda e:description.configure(wraplength=max(120,e.width-12)))
++        actual_note=tk.Label(self,text=tr('Actuals use the same average recorded spending as the Planner, over the previous completed months. Savings show —.'),bg='white',fg='#526b85',wraplength=750,justify='left');actual_note.pack(fill='x',pady=(8,0))
++        actual_note.bind('<Configure>',lambda e:actual_note.configure(wraplength=max(120,e.width-12)))
+         footer=tk.Frame(self,bg='white');footer.pack(side='bottom',fill='x',pady=(10,0));self.error=tk.StringVar(self)
+         tk.Label(footer,textvariable=self.error,bg='white',fg='#b00020',wraplength=700).pack(fill='x')
+         ttk.Button(footer,text=tr('Save'),command=self.save).pack(side='left');ttk.Button(footer,text=tr('Cancel'),command=self.leave).pack(side='left',padx=8)
+@@ -30,7 +60,7 @@
+         ttk.Style(self).configure('BudgetList.TFrame',background='white')
+         self.content.configure(padding=0,style='BudgetList.TFrame');self.scroll.canvas.configure(bg='white')
+         # Use the body viewport width so fixed headings stay over their columns.
+-        self.header.pack_propagate(False);self.header.configure(height=38)
++        self.header.pack_propagate(False);self.header.configure(height=54)
+         self.heading_cells=tk.Frame(self.header,bg='white');self.heading_cells.place(x=0,y=0,relheight=1)
+         self.scroll.canvas.bind('<Configure>',lambda e:self.align_columns(e.width),add='+')
+         def refresh_viewport():
+@@ -49,31 +79,34 @@
+     def select_all(self):
+         self.selected={r[0] for r in self.rows} if self.all_selected.get() else set();self.render()
+     def sort(self,column):
++        self._focus_header=column
+         self.reverse=not self.reverse if self.sort_column==column else False;self.sort_column=column
+-        self.order=sorted(self.rows,key=lambda row:approval_sort_key(row,column),reverse=self.reverse);self.render()
++        self.order=sorted_review_rows(self.rows,column,self.reverse,self.actuals);self.render()
+     def render(self):
+         position=self.scroll.canvas.yview()[0]
+         for container in (self.content,self.heading_cells):
+             for widget in container.winfo_children():widget.destroy()
+         for container in (self.content,self.heading_cells):container.columnconfigure(0,weight=0,minsize=42)
+         tk.Checkbutton(self.heading_cells,variable=self.all_selected,command=self.select_all,bg='white').grid(row=0,column=0,padx=(4,10))
+-        for col,title in enumerate(('Category','Current','Proposed','Change')):
++        for col,title in enumerate(COLUMNS):
+             for container in (self.content,self.heading_cells):container.columnconfigure(col+1,weight=3 if col==0 else 2,uniform='review',minsize=0)
+-            text=tr(title)+('  '+('▼' if self.reverse else '▲') if col==self.sort_column else '')
+-            header=tk.Label(self.heading_cells,text=text,bg='white',width=1,font=('Segoe UI',11,'bold'),cursor='hand2',takefocus=True);header.grid(row=0,column=col+1,sticky='ew',padx=6,pady=6)
++            header=tk.Canvas(self.heading_cells,bg='white',width=1,height=50,highlightthickness=0,cursor='hand2',takefocus=True);header.grid(row=0,column=col+1,sticky='ew',padx=6)
++            header.bind('<Configure>',lambda e,w=header,t=title,c=col:draw_heading(w,t,c==self.sort_column,self.reverse))
+             for event in ('<Button-1>','<Return>','<space>'):header.bind(event,lambda e,c=col:self.sort(c))
++            if getattr(self,'_focus_header',None)==col:header.after_idle(header.focus_set);self._focus_header=None
+         self.variables=[]
+         from budget_hierarchy import ordered
+         display=[]
+         for group,children in ordered(self.order):display.append((group,None,None,None));display.extend(children)
+         for index,row in enumerate(display,1):
+             if row[1] is None:
+-                tk.Label(self.content,text=tr(row[0]),bg='white',anchor='w',font=('Segoe UI',11,'bold'),padx=8,pady=5).grid(row=index,column=0,columnspan=5,sticky='ew');continue
++                tk.Label(self.content,text=tr(row[0]),bg='white',anchor='w',font=('Segoe UI',11,'bold'),padx=8,pady=5).grid(row=index,column=0,columnspan=6,sticky='ew');continue
+             category,before,after,change=row;var=tk.BooleanVar(self,value=category in self.selected);self.variables.append(var)
+             tk.Checkbutton(self.content,variable=var,command=lambda c=category:self.toggle(c),bg='white').grid(row=index,column=0,padx=(4,10))
+             label=tk.Label(self.content,text=tr(category),image=self.images[category],compound='left',padx=5,bg='white',anchor='w',width=1,font=('Segoe UI',11),wraplength=230);label.grid(row=index,column=1,sticky='ew',padx=(28,4),pady=4);label.bind('<Button-1>',lambda e,c=category:self.toggle(c))
+-            for col,text in ((2,before),(3,after)):tk.Label(self.content,text=text,bg='white',anchor='e',width=1,font=('Segoe UI',11)).grid(row=index,column=col,sticky='ew',padx=6)
+-            cell=tk.Frame(self.content,bg='white',width=1,height=36);cell.grid_propagate(False);cell.pack_propagate(False);cell.grid(row=index,column=4,sticky='ew',padx=6)
++            actual=f'{self.actuals[category]/100:,.2f}' if category in self.actuals else '—'
++            for col,text in ((2,before),(3,actual),(4,after)):tk.Label(self.content,text=text,bg='white',anchor='e',width=1,font=('Segoe UI',11)).grid(row=index,column=col,sticky='ew',padx=6)
++            cell=tk.Frame(self.content,bg='white',width=1,height=36);cell.grid_propagate(False);cell.pack_propagate(False);cell.grid(row=index,column=5,sticky='ew',padx=6)
+             symbol=tk.Canvas(cell,width=16,height=16,bg='white',highlightthickness=0);symbol.pack(side='left',padx=(0,6))
+             if change.startswith('↑'):symbol.create_polygon(8,1,15,14,1,14,fill='#ff0000',outline='')
+             elif change.startswith('↓'):symbol.create_polygon(1,1,15,1,8,14,fill='#008000',outline='')
+@@ -87,7 +120,7 @@
+         self.heading_cells.configure(width=width)
+         checkbox=self.heading_cells.grid_slaves(row=0,column=0)
+         leading=max(42,checkbox[0].winfo_reqwidth()+14 if checkbox else 42)
+-        widths=column_widths(width,(3,2,2,2),leading=leading)
++        widths=column_widths(width,(3,2,2,2,2),leading=leading)
+         for container in (self.heading_cells,self.content):
+             fixed_columns(container,[leading]+widths)
+         for widget in self.content.winfo_children():

@@ -10,3 +10,5 @@
 - Standalone repairs must be small native file-only installers: back up affected program files and replace them directly. No Python requirement, session checks, process shutdown or app reopening. This supersedes restart requirements above for standalone repairs only.
 
 - Do not open test app windows, test dialogs or installers on the user desktop unless the user explicitly requests it. Prefer background and headless verification, and state when visual or full GUI checks were not performed.
+
+- All in-app message boxes are page-owned bottom sheets with slide-up/down transitions, large shared illustrations and status icons. Preserve answer values and Enter/Escape behavior; do not restore separate message Toplevel windows. Auto Populate Review shows Planner average Actuals in CAD, with numeric signed-change sorting and fixed category-group order.

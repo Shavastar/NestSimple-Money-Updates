@@ -1,11 +1,11 @@
 {
-  "version": "1.2.04",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.04.nsmupdate",
-  "size": 92228,
-  "sha256": "30f6d441192ce195ed4a2493f5dc4c0c23bacf703c48db4e6dc4ece736963b53",
+  "version": "1.2.05",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.05.nsmupdate",
+  "size": 110579,
+  "sha256": "d223255a39680565d2580d15ac43c07cb6787aa3280b2ecfdc1c5d34597b3409",
   "changes": [
-    "Keep modal dialogs above their owning window, including nested dialogs and reactivation of the main window.",
-    "Match the Python install button and package target to the running Python major/minor version instead of hard-coded 3.13.",
-    "Replace ZIP-archive Storage charts with drive capacity, used/free space, application folder, household folder and database-file sizes. Measure folders in the background."
+    "Replace in-app message windows with illustrated page panels that slide up from the bottom and slide down when answered or dismissed. Keep the same confirmation answers and keyboard actions.",
+    "Restore the Actuals column in Auto Populate Review using the same average actual spending as the Planner; keep amounts in CAD.",
+    "Fix sorting for Category, Current, Actuals, Proposed and signed Change values, retain group headings and selections, and keep fixed headers aligned."
   ]
 }

@@ -1,0 +1,69 @@
+--- a/friendly_messages.py
++++ b/friendly_messages.py
+@@ -30,7 +30,8 @@
+ def show(title=None,message=None,icon=None,type=None,**options):
+     kind=type or 'ok';choices=CHOICES[kind]
+     parent=options.get('parent') or tk._default_root
+-    win=tk.Toplevel(parent);win.withdraw();win.configure(bg='white');win._no_command_icons=True
++    from page_messages import PageMessage
++    win=PageMessage(parent);win.withdraw();win.configure(bg='white');win._no_command_icons=True
+     win.overrideredirect(True)
+     owner=parent.winfo_toplevel() if parent is not None else None
+     if owner is not None:win.transient(owner)
+@@ -39,30 +40,18 @@
+     previous_grab=owner.grab_current() if owner is not None else None
+     previous_status=previous_grab.grab_status() if previous_grab is not None else None
+     def finish(value):
++        if win._closing:return
+         result[0]=value
+         if value in ('ok','yes') and options.get('checkbox_callback'):
+             options['checkbox_callback'](hide_message.get())
+         if value in ('ok','yes') and options.get('selection_callback'):
+             options['selection_callback']([category for category,var in selections.items() if var.get()])
+         win.destroy()
+-    shell=tk.Frame(win,bg='white',highlightbackground='#b7ccde',highlightthickness=1,padx=22,pady=14);shell.pack(fill='both',expand=True)
++    shell=tk.Frame(win.content,bg='white',padx=22,pady=14);shell.pack(fill='both',expand=True)
+     tk.Button(shell,text='×',command=lambda:finish(dismiss_result(kind)),font=('Segoe UI',18),bg='white',fg='#193c58',relief='flat',bd=0,highlightthickness=0).pack(anchor='e')
+-    art=tk.Canvas(shell,width=80,height=68,bg='white',highlightthickness=0)
+-    if not options.get('selectable_rows'):art.pack(pady=(0,8))
+-    if options.get('artwork')=='auto_populate':
+-        # A sheet being filled automatically, drawn crisply at popup size.
+-        art.create_rectangle(17,4,66,63,fill='#eef6ff',outline='#2463a6',width=2)
+-        for y,length in ((20,22),(33,32),(46,26)):
+-            art.create_rectangle(24,y,24+length,y+5,fill='#3b82c4',outline='')
+-        art.create_line(3,31,14,31,fill='#25a45b',width=4,arrow='last')
+-        art.create_text(67,13,text='✦',fill='#db9d19',font=('Segoe UI',23,'bold'))
+-    else:
+-        colour='#c65b19' if icon=='warning' else '#c94343' if icon=='error' else '#2463a6'
+-        art.create_oval(10,3,70,63,fill=colour,outline='')
+-        symbol='!' if icon in ('warning','error') else '?' if icon=='question' or kind!='ok' else 'i'
+-        art.create_text(40,33,text=symbol,fill='white',font=('Segoe UI',30,'bold'))
+-    screen=win.winfo_screenwidth();width=max(220,min(720 if options.get('rows') is not None else 500,screen-100))
+-    tk.Label(shell,text=tr(title or 'NestSimple Money'),bg='white',fg='#193c58',font=('Segoe UI',18,'bold'),wraplength=width,justify='center').pack(fill='x',pady=(0,14))
++    screen=win.winfo_screenwidth();width=max(160,min(720 if options.get('rows') is not None else 500,screen-100,max(160,win.host.winfo_width()-64)))
++    from message_art import message_header
++    message_header(shell,tr(title or 'NestSimple Money'),icon,kind,width,options.get('artwork'))
+     body=str(message or '')
+     if options.get('detail'):body+='\n\n'+str(options['detail'])
+     # A wrapping label requests its actual content height even before mapping.
+@@ -166,8 +155,8 @@
+     actions=tk.Frame(shell,bg='white');actions.pack(pady=(14,0))
+     buttons={}
+     for label,value in choices:
+-        label=options.get('button_labels',{}).get(value,label)
+-        b=tk.Button(actions,text=tr(label),command=lambda v=value:finish(v),font=('Segoe UI',13,'bold'),bg='white',fg='#194795',activebackground='#eef5fc',relief='solid',bd=1,padx=16,pady=8)
++        label=options.get('button_labels',{}).get(value,'Got It' if kind=='ok' and value=='ok' else label)
++        b=tk.Button(actions,text=tr(label),command=lambda v=value:finish(v),font=('Segoe UI',14,'bold'),bg='#2463a6' if value==options.get('default',choices[0][1]) else 'white',fg='white' if value==options.get('default',choices[0][1]) else '#194795',activebackground='#dcebf8',relief='solid',bd=1,padx=20,pady=11)
+         b.pack(side='left',padx=6);buttons[value]=b
+     default=options.get('default') or choices[0][1]
+     if default not in buttons:default=choices[0][1]
+@@ -176,7 +165,8 @@
+         focused.invoke() if isinstance(focused,tk.Button) else finish(default)
+         return 'break'
+     win.bind('<Return>',enter)
+-    win.bind('<Escape>',lambda e:finish(dismiss_result(kind)))
++    def dismiss(event=None):finish(dismiss_result(kind));return 'break'
++    win.bind('<Escape>',dismiss)
+     win.protocol('WM_DELETE_WINDOW',lambda:finish(dismiss_result(kind)))
+     win.update_idletasks();w=win.winfo_reqwidth();h=win.winfo_reqheight()
+     x=(win.winfo_screenwidth()-w)//2;y=(win.winfo_screenheight()-h)//2

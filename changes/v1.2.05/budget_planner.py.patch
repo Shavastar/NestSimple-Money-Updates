@@ -1,0 +1,11 @@
+--- a/budget_planner.py
++++ b/budget_planner.py
+@@ -102,7 +102,7 @@
+         before=cents(amounts[category].get());after=plans.get(category,before)
+         delta=after-before
+         direction=('↑ '+tr('Up')) if delta>0 else ('↓ '+tr('Down')) if delta<0 else tr('Unchanged')
+-        rows.append((category,money(before),money(after),direction+(' '+money(abs(delta)) if delta else '')))
++        rows.append((category,f'{before/100:,.2f}',f'{after/100:,.2f}',direction+(' '+f'{abs(delta)/100:,.2f}' if delta else '')))
+     return rows
+ 
+ 
