@@ -15,7 +15,9 @@ with tempfile.TemporaryDirectory() as d:
  # the installed program from earlier packages before overlaying the candidate.
  dependencies=package.parent/'NestSimple-Money-v1.0.137.nsmupdate'
  assert dependencies.is_file(),'Cumulative dependency package v1.0.137 is required'
- for update in [dependencies,baseline,package]:
+ runtime_dependencies=package.parent/'NestSimple-Money-v1.0.198.nsmupdate'
+ assert runtime_dependencies.is_file(),'Cumulative runtime package v1.0.198 is required'
+ for update in [dependencies,runtime_dependencies,baseline,package]:
   with zipfile.ZipFile(update) as z:
    for name in z.namelist():
     if name.startswith('payload/'):

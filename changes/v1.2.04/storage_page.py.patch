@@ -1,0 +1,89 @@
+--- a/storage_page.py
++++ b/storage_page.py
+@@ -1,13 +1,18 @@
+ """Local drive capacity and household storage charts."""
+ from pathlib import Path
+ from tkinter import ttk
+-import shutil,os
++import shutil,os,threading,queue
+ from visuals import chart_panel,format_value
+ 
+ def folder_bytes(folder):
+     total=0
+     for root,dirs,files in os.walk(folder,followlinks=False):
+-        dirs[:]=[d for d in dirs if not (Path(root)/d).is_symlink()]
++        def local_directory(name):
++            try:
++                p=Path(root)/name
++                return not p.is_symlink() and not (getattr(p.lstat(),'st_file_attributes',0)&0x400)
++            except OSError:return False
++        dirs[:]=[d for d in dirs if local_directory(d)]
+         for name in files:
+             try:
+                 p=Path(root)/name
+@@ -15,7 +20,62 @@
+             except OSError:pass
+     return total
+ 
++def storage_snapshot(program,data,backup=None):
++    program=Path(program).resolve();data=Path(data).resolve()
++    database=data/'finances.sqlite3'
++    database_bytes=sum(p.stat().st_size for p in (database,Path(str(database)+'-wal'),Path(str(database)+'-shm')) if p.is_file())
++    drives={}
++    for purpose,path in [('Application',program),('Household',data)]+([('Backups',Path(backup).resolve())] if backup else []):
++        existing=path
++        while not existing.exists() and existing!=existing.parent:existing=existing.parent
++        key=existing.anchor.casefold()
++        if key in drives:drives[key]['purposes'].append(purpose);continue
++        try:
++            usage=shutil.disk_usage(existing)
++            drives[key]=dict(drive=existing.anchor,purposes=[purpose],total=usage.total,used=usage.used,free=usage.free)
++        except OSError:drives[key]=dict(drive=existing.anchor,purposes=[purpose],error='Unavailable')
++    return dict(program=str(program),data=str(data),application_bytes=folder_bytes(program),household_bytes=folder_bytes(data),database_bytes=database_bytes,drives=list(drives.values()))
++
+ def storage_page(parent,app):
+-    from reports import section_reports
+-    spec=section_reports(app.store,app.month.get(),app.profile)['Backup & help']
+-    chart_panel(parent,spec,'#714ab1').pack(fill='both',expand=True)
++    from layout import ScrollArea
++    from i18n import tr
++    viewport=ScrollArea(parent,min_width=0,min_height=0);viewport.vertical_only=True;viewport.pack(fill='both',expand=True)
++    body=ttk.Frame(viewport.content,padding=18);body.pack(fill='both',expand=True)
++    heading=ttk.Frame(body);heading.pack(fill='x',pady=(0,14))
++    ttk.Label(heading,text=tr('Storage'),font=('Segoe UI',17,'bold')).pack(side='left')
++    refresh=ttk.Button(heading,text=tr('Refresh'));refresh.pack(side='right')
++    content=ttk.Frame(body);content.pack(fill='both',expand=True)
++    status=ttk.Label(body,text='');status.pack(anchor='w',pady=8)
++    results=queue.Queue()
++    program=Path(__file__).resolve().parent;data=Path(app.store.root);backup=app.profile.get('backup_dir')
++    def show(snapshot):
++        for child in content.winfo_children():child.destroy()
++        sizes=ttk.Frame(content);sizes.pack(fill='x',pady=(0,16));sizes.columnconfigure(1,weight=1)
++        for row,(title,key) in enumerate([('Application Folder','application_bytes'),('Household Folder','household_bytes'),('Database Files','database_bytes')]):
++            ttk.Label(sizes,text=tr(title),font=('Segoe UI',11,'bold')).grid(row=row,column=0,sticky='w',padx=(0,20),pady=6)
++            ttk.Label(sizes,text=format_value(snapshot[key],'bytes'),font=('Segoe UI',12)).grid(row=row,column=1,sticky='e',pady=6)
++        ttk.Label(content,text=tr('Database files are included in the household folder total.')).pack(anchor='w',pady=(0,14))
++        for drive in snapshot['drives']:
++            frame=ttk.LabelFrame(content,text=drive['drive']+' — '+', '.join(tr(p) for p in drive['purposes']),padding=12);frame.pack(fill='x',pady=7)
++            if drive.get('error'):
++                ttk.Label(frame,text=tr(drive['error'])).pack(anchor='w');continue
++            for label,key in [('Capacity','total'),('Used','used'),('Free','free')]:
++                ttk.Label(frame,text=tr(label)+': '+format_value(drive[key],'bytes')).pack(anchor='w',pady=2)
++            ttk.Progressbar(frame,maximum=max(1,drive['total']),value=drive['used']).pack(fill='x',pady=(10,0))
++        for title,key in [('Application Location','program'),('Household Location','data')]:
++            label=ttk.Label(content,text=tr(title)+': '+snapshot[key],wraplength=600);label.pack(fill='x',pady=(10,0))
++            label.bind('<Configure>',lambda e,w=label:w.configure(wraplength=max(100,e.width-8)))
++    def poll():
++        if not body.winfo_exists():return
++        try:kind,value=results.get_nowait()
++        except queue.Empty:body.after(100,poll);return
++        refresh.configure(state='normal')
++        if kind=='ok':show(value);status.configure(text='')
++        else:status.configure(text=tr('Could not measure storage')+': '+value)
++    def measure():
++        refresh.configure(state='disabled');status.configure(text=tr('Measuring storage...'))
++        def work():
++            try:results.put(('ok',storage_snapshot(program,data,backup)))
++            except Exception as error:results.put(('error',str(error)))
++        threading.Thread(target=work,daemon=True).start();body.after(100,poll)
++    refresh.configure(command=measure);measure()

@@ -1,11 +1,11 @@
 {
-  "version": "1.2.03",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.03.nsmupdate",
-  "size": 62914,
-  "sha256": "7d742d84f4379db6c149c3b067f9a6e276d44b576379d419064f13764ee79a4e",
+  "version": "1.2.04",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.04.nsmupdate",
+  "size": 92228,
+  "sha256": "30f6d441192ce195ed4a2493f5dc4c0c23bacf703c48db4e6dc4ece736963b53",
   "changes": [
-    "Fix updates waiting for unrelated processes after Windows reuses an old app process number.",
-    "Verify process birth time for app sessions and update locks; preserve unrelated running programs.",
-    "Include category totals and independently expandable groups from v1.2.02."
+    "Keep modal dialogs above their owning window, including nested dialogs and reactivation of the main window.",
+    "Match the Python install button and package target to the running Python major/minor version instead of hard-coded 3.13.",
+    "Replace ZIP-archive Storage charts with drive capacity, used/free space, application folder, household folder and database-file sizes. Measure folders in the background."
   ]
 }

@@ -1,0 +1,11 @@
+--- a/upgrade.py
++++ b/upgrade.py
+@@ -266,7 +266,7 @@
+         ttk.Label(runtime,text=tr('Python tools'),font=('Segoe UI',14,'bold')).pack(anchor='w',pady=(14,5))
+         ttk.Label(runtime,text=tr('App runtime: Python {version}').format(version=sys.version.split()[0])).pack(anchor='w')
+         pythonbar=ttk.Frame(runtime); pythonbar.pack(anchor='w',pady=5)
+-        ttk.Button(pythonbar,text='Install Python 3.13',command=lambda:self.python_tool('install')).pack(side='left',padx=(0,10))
++        ttk.Button(pythonbar,text=f'Install Python {sys.version_info.major}.{sys.version_info.minor}',command=lambda:self.python_tool('install')).pack(side='left',padx=(0,10))
+         ttk.Button(pythonbar,text='Update Python',command=lambda:self.python_tool('upgrade')).pack(side='left')
+         HelpButton(pythonbar,'Python installers open in a separate window. Finish the installer, close NestSimple Money if requested, then restart it.').pack(side='left',padx=4)
+         if getattr(sys,'frozen',False): HelpButton(pythonbar,'This EXE has a bundled runtime. Python tools manage system Python, not the bundled runtime.').pack(side='left',padx=4)

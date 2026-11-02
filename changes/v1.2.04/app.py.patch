@@ -1,0 +1,11 @@
+--- a/app.py
++++ b/app.py
+@@ -21,6 +21,8 @@
+         from branding import windows_identity
+         windows_identity()
+         super().__init__()
++        from modal_windows import install as install_modal_windows
++        install_modal_windows()
+         from friendly_messages import install as install_messages
+         install_messages()
+         self.title(f'NestSimple Money v{CURRENT_VERSION} | Simple household finances')

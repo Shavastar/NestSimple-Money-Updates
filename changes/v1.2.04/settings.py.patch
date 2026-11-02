@@ -1,0 +1,11 @@
+--- a/settings.py
++++ b/settings.py
+@@ -104,7 +104,7 @@
+     if action not in ('install','upgrade'): raise ValueError('Unsupported Python action.')
+     if sys.platform!='win32': raise OSError('Python installation and updates are available on Windows only.')
+     if not shutil.which('winget'): raise OSError('Windows App Installer (winget) is unavailable. Download Python from python.org instead.')
+-    if minor is None: minor=13 if action=='install' or getattr(sys,'frozen',False) else sys.version_info.minor
++    if minor is None: minor=sys.version_info.minor
+     if not isinstance(minor,int) or isinstance(minor,bool) or minor<10 or minor>30: raise ValueError('Unsupported Python version.')
+     command=['winget',action,'--id',f'Python.Python.3.{minor}','--exact','--source','winget','--interactive','--wait']
+     return subprocess.Popen(command,creationflags=getattr(subprocess,'CREATE_NEW_CONSOLE',0))
