@@ -1,11 +1,11 @@
 {
-  "version": "1.2.17",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.17.nsmupdate",
-  "size": 166612,
-  "sha256": "154adb1fdbb410d02962e5045c49bc4503c0f1d7a52e251c6cbd25a23ffbbfc8",
+  "version": "1.2.18",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.18.nsmupdate",
+  "size": 167297,
+  "sha256": "c9463dbafc26e0e8d4af3172c85638ec0ef91d7da3f2a0cb539c475d3ca6a63c",
   "changes": [
-    "Keep the storage pie visible even when hard drive capacity makes the other slices extremely small.",
-    "Remove Total records from the pie chart and its legend; retain record information on the bar chart."
+    "Make every positive storage item visible as its own contrasting pie slice, even when drive capacity is much larger than program and database sizes.",
+    "Keep exact storage sizes in the legend and bars, label the enlargement of small slices, and exclude records from the pie."
   ]
 }
 
