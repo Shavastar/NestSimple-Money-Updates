@@ -1,11 +1,11 @@
 {
-  "version": "1.2.15",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.15.nsmupdate",
-  "size": 165700,
-  "sha256": "774b93661af47e002e95b60657d2384864036e208fe221f2ec70e19e0f46da15",
+  "version": "1.2.16",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.16.nsmupdate",
+  "size": 166216,
+  "sha256": "762d3ee172eb9b1605c6344b200a194e297aa19058d789af97e89a27e6ee3089",
   "changes": [
-    "Keep Testing open while the pointer is over its button or panel, instead of closing on keyboard-focus events.",
-    "Open Testing on hover or click and slide it away after the pointer leaves both areas, allowing a short pause to cross between them."
+    "Show Hard drive space, Program size and Database size as the storage categories in both charts.",
+    "Show Total records clearly on both charts, separate from byte measurements, with matching high-contrast colours."
   ]
 }
 
