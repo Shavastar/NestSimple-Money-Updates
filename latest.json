@@ -1,10 +1,10 @@
 {
-  "version": "1.0.188",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.188.nsmupdate",
-  "size": 1283133,
-  "sha256": "6a8c3acfb146295a9b3b735fa6a253f917a47e23292472a27a2cfbe5c5cca6cd",
+  "version": "1.0.189",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.189.nsmupdate",
+  "size": 1284659,
+  "sha256": "57ed9fae84e876c384799bf23f24396c79408af3f073943a407176837f82da25",
   "changes": [
-    "Match Budget Trend Graph legends to the Bar Chart with coloured boxes and labels on one line.",
-    "Show the month and exact amounts when hovering over Budget trend data points."
+    "Group Budget pie charts into expandable main categories while preserving totals and records.",
+    "Keep verified update readiness and installation review visible on the download page; report review-loading failures."
   ]
 }

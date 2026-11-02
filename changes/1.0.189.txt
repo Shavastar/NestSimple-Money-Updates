@@ -1,0 +1,2 @@
+1. Group Budget pie charts into expandable main categories, preserving totals and records.
+2. Keep verified update readiness and installation review visible on the download page; report review-loading failures.
