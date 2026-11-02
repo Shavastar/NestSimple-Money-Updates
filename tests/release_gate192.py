@@ -13,9 +13,9 @@ with tempfile.TemporaryDirectory() as d:
  root=Path(d);home=root/'HomeMoney';home.mkdir()
  # Update packages contain changed files, not a complete installation. Rebuild
  # the installed program from earlier packages before overlaying the candidate.
- version=lambda p:tuple(map(int,p.stem.split('-v')[-1].split('.')))
- history=sorted((p for p in package.parent.glob('NestSimple-Money-v*.nsmupdate') if version(p)<version(package)),key=version)
- for update in [*history,package]:
+ dependencies=package.parent/'NestSimple-Money-v1.0.137.nsmupdate'
+ assert dependencies.is_file(),'Cumulative dependency package v1.0.137 is required'
+ for update in [dependencies,baseline,package]:
   with zipfile.ZipFile(update) as z:
    for name in z.namelist():
     if name.startswith('payload/'):
