@@ -1,7 +1,14 @@
 """Run updater/hover gates against actual packaged source and its prior release."""
 from pathlib import Path
-import tempfile,zipfile,shutil,subprocess,sys
+import tempfile,zipfile,shutil,subprocess,sys,json,hashlib
 package=Path(sys.argv[1]).resolve();baseline=Path(sys.argv[2]).resolve()
+feed_path=package.parent.parent/'latest.json'
+if feed_path.is_file():
+ info=json.loads(feed_path.read_text());data=package.read_bytes()
+ assert len(data)==info['size'],'Published package size differs from feed'
+ assert hashlib.sha256(data).hexdigest()==info['sha256'],'Published package checksum differs from feed'
+with zipfile.ZipFile(package) as archive:
+ assert archive.testzip() is None,'Published ZIP contains damaged files'
 with tempfile.TemporaryDirectory() as d:
  root=Path(d);home=root/'HomeMoney';home.mkdir()
  with zipfile.ZipFile(package) as z:
