@@ -1,11 +1,11 @@
 {
-  "version": "1.0.192",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.192.nsmupdate",
-  "size": 1286232,
-  "sha256": "c507e5d02032cf608b00932dac85526ef2f2cc0b84761b060bb3747a6e9eb31d",
+  "version": "1.0.193",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.193.nsmupdate",
+  "size": 1286861,
+  "sha256": "0f656cc1e18d5d2eb769f4c9747dfdbbd8956b079470fdf2c2b1a2da94913936",
   "changes": [
-    "Keep Ready To Install and Apply Update and Restart above release notes so completion remains visible.",
-    "Show 100 percent only after the installation review loads; retain error and retry controls on failure.",
-    "Fix Budget trend hover targets after date controls reposition points; show month and exact series amounts."
+    "Fix Apply Update And Restart failing with pid when a leftover close-request.json exists.",
+    "Read only registered process session files; preserve running-window checks, program backups, rollback and household files.",
+    "Fix the same session-file error in the standalone repair installer; preserve the approved update interface."
   ]
 }
