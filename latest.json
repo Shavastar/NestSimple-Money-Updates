@@ -1,10 +1,10 @@
 {
-  "version": "1.0.187",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.187.nsmupdate",
-  "size": 1282383,
-  "sha256": "620c548498cef4b3841a8f8439a54696e145ebefc3b7e9fd74e477e5d117ac5c",
+  "version": "1.0.188",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.188.nsmupdate",
+  "size": 1283133,
+  "sha256": "6a8c3acfb146295a9b3b735fa6a253f917a47e23292472a27a2cfbe5c5cca6cd",
   "changes": [
-    "Use the brighter 20-colour reference palette for every pie chart and matching legend, clockwise from the top.",
-    "Assign colours in slice order and use lighter tints beyond 20 slices to reduce repeats; preserve chart data and layouts."
+    "Match Budget Trend Graph legends to the Bar Chart with coloured boxes and labels on one line.",
+    "Show the month and exact amounts when hovering over Budget trend data points."
   ]
 }
