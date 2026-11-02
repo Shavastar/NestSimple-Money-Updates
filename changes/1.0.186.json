@@ -1,0 +1,10 @@
+{
+  "version": "1.0.186",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.186.nsmupdate",
+  "size": 1281486,
+  "sha256": "750ee8c812bb2b677cabc63a996d0c993716f93014407e11fb93d8f33321fa82",
+  "changes": [
+    "Remove vertical gaps between main-menu section buttons.",
+    "Use the approved main-menu colours for all pie charts and matching legends on screen and in printed reports."
+  ]
+}

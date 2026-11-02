@@ -1,11 +1,10 @@
 {
-  "version": "1.0.185",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.185.nsmupdate",
-  "size": 1278238,
-  "sha256": "42b75ba337cdb7b4b4e608a355b177ccdc7836ce7b9cd37ef40131473a994048",
+  "version": "1.0.186",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.186.nsmupdate",
+  "size": 1281486,
+  "sha256": "750ee8c812bb2b677cabc63a996d0c993716f93014407e11fb93d8f33321fa82",
   "changes": [
-    "Show historical monthly average actual payments in Budget edit screens and open their source records for editing.",
-    "Double-click record lists to edit the clicked record, keeping Planner review selection unchanged.",
-    "Add once-only fictional savings transfers and goal contributions to Emergency Fund A and Retirement Savings, without creating expenses."
+    "Remove vertical gaps between main-menu section buttons.",
+    "Use the approved main-menu colours for all pie charts and matching legends on screen and in printed reports."
   ]
 }
