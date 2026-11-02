@@ -1,11 +1,11 @@
 {
-  "version": "1.0.179",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.179.nsmupdate",
-  "size": 426195,
-  "sha256": "d736882e64e06302e02c28a8276ee73877bd9a7f2e8b1c2f0964aba3c9ed8b49",
+  "version": "1.0.181",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.181.nsmupdate",
+  "size": 429396,
+  "sha256": "e1ad38531a689ec3bef036d6a5c8e624f4564c74fdbb3c2deca4e572ca67af1d",
   "changes": [
-    "Suggested budgets round up to the next $10 then add $10; preserve historical methods and overrides.",
-    "Refresh hover text is Refresh only. Auto Populate review includes category icons and red up triangles, green down triangles and yellow unchanged squares.",
-    "Auto Populate explanation offers Don\u2019t Show This Again; approval review always remains available."
+    "Auto Populate approval shows Total Change and a larger instruction card above the list.",
+    "Checkboxes and multi-row selection apply only selected budget changes on Save; category icons are larger and sortable headers are preserved.",
+    "Include the compatible shared card helper so Budgets opens after updates from older installations."
   ]
 }
