@@ -1,12 +1,12 @@
 {
-  "version": "1.2.09",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.09.nsmupdate",
-  "size": 161938,
-  "sha256": "ea850b492e51f22af9710a70bf2157e1034c813cf19c76f708c4eb2bb01bdc15",
+  "version": "1.2.10",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.10.nsmupdate",
+  "size": 162916,
+  "sha256": "030d6e1686a858d83247b15aedae09f758e7add4bcc3ae2819cd67350e905c49",
   "changes": [
-    "Remove (CAD) from column headers.",
-    "Add the selected-currency dropdown at the bottom of the main menu, with a spaced banknote-style icon for each of the ten supported currencies.",
-    "Use saved exchange rates for currency selection; keep original ledger values unchanged."
+    "Group Income into Income (Salary & wages, Freelance income, Rental income, Refunds), Benefits (Government benefits, Pension), and standalone Interest & dividends, Gifts received and Other income categories.",
+    "Move the currency dropdown directly below Backup & help.",
+    "Refine all currency banknote icons with engraved borders, security details, portrait silhouettes and denomination marks."
   ]
 }
 
