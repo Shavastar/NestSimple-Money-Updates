@@ -1,11 +1,12 @@
 {
-  "version": "1.2.11",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.11.nsmupdate",
-  "size": 163580,
-  "sha256": "d096fc0dacd8862f107adb15fdc57fda4b35f0ca917620c277984afaf93f400d",
+  "version": "1.2.12",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.12.nsmupdate",
+  "size": 164418,
+  "sha256": "64026d18ac604e67e1b285f03e3296022c4700a2e5ea2be2cfb14547fbda947e",
   "changes": [
-    "Add country or region names to the currency box and all dropdown choices.",
-    "Use distinct country-inspired banknote motifs, security windows and fine details for all ten currencies."
+    "Add spacing before the banknote icon and currency name, using names such as Canadian Dollar.",
+    "Close the Testing panel when focus moves outside it while retaining its toggle and Close button.",
+    "Print all budget categories, including zero-budget categories, instead of only summary cards or filtered rows."
   ]
 }
 
