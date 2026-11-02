@@ -1,11 +1,10 @@
 {
-  "version": "1.0.181",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.181.nsmupdate",
-  "size": 429396,
-  "sha256": "e1ad38531a689ec3bef036d6a5c8e624f4564c74fdbb3c2deca4e572ca67af1d",
+  "version": "1.0.182",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.182.nsmupdate",
+  "size": 429582,
+  "sha256": "c94e3e88df5e589ba4083ab0bbef3f0b9f6d9854681bf9a09527713b8b17dd6a",
   "changes": [
-    "Auto Populate approval shows Total Change and a larger instruction card above the list.",
-    "Checkboxes and multi-row selection apply only selected budget changes on Save; category icons are larger and sortable headers are preserved.",
-    "Include the compatible shared card helper so Budgets opens after updates from older installations."
+    "Fix Budget tabs failing to load on Python versions before 3.12 by removing incompatible nested f-string quotes.",
+    "Retain the shared card compatibility repair, selected-row approval saving and all existing budget styles and calculations."
   ]
 }
