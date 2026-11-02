@@ -1,12 +1,12 @@
 {
-  "version": "1.2.06",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.06.nsmupdate",
-  "size": 148406,
-  "sha256": "8134e885cc7583bbce54be5970751bb9414c24e88e07838f1b378656248dd1f2",
+  "version": "1.2.07",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.07.nsmupdate",
+  "size": 151305,
+  "sha256": "56ed7a3267e845a37539113e5b823bba3569e99612dc2279ddc573db91164e9f",
   "changes": [
-    "Keep all Budget Planner columns aligned and reserve space for the vertical scrollbar.",
-    "Match Accounts, Income, Transactions and Bills charts to Budget, with category totals, expandable indented subcategories, shared colours, two-tone blue bars and date ranges.",
-    "Match printed charts and complete details lists; offer a slide-up choice of category, newest date or alphabetical sorting for long lists.",
-    "Show Name (account, supplier or payee) in Transaction Details instead of a category column."
+    "Replace the update-page explanation with Changes This Version, matching the Program Updates title.",
+    "Use simple sequential numbering and a blank line between requests in current updates and all archived testing records.",
+    "Slide Testing in from the left beside the main menu. Toggle the Testing button or use Close Testing to slide it back out."
   ]
 }
+
