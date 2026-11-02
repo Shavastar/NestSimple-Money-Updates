@@ -1,10 +1,12 @@
 {
-  "version": "1.0.183",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.183.nsmupdate",
-  "size": 617216,
-  "sha256": "51af58a4f6cbb8e3d422b92e74d687e07691e94a0c62bed3a3acfa1ee7893686",
+  "version": "1.0.184",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.184.nsmupdate",
+  "size": 1262038,
+  "sha256": "de7a451cd6732c591921925aff3f6189d351f3ba772f27bd36285772aedb61df",
   "changes": [
-    "Remove the optional Pillow requirement from Budget refresh artwork, category icons, main cards and approval review by shipping ready-sized PNG artwork.",
-    "Preserve budget data, calculations, approved icon style and prior compatibility repairs."
+    "Remove calendar hover text and default chart From/To ranges to the latest year or shorter available history.",
+    "Add once-only fictional sample records for five income sources, preserving personal households and existing testing edits.",
+    "Move Auto Populate approval into a Budget Planner subpage with sortable selected-row saving and retained drafts.",
+    "Show matching large category artwork on the right of budget category edit screens."
   ]
 }
