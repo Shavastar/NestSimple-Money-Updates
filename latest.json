@@ -1,13 +1,12 @@
 {
-  "version": "1.2.08",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.08.nsmupdate",
-  "size": 156388,
-  "sha256": "f6d498a39277da976b6d0004af3f60652ec0d23bd6aa1b9ed6f753159128c14a",
+  "version": "1.2.09",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.09.nsmupdate",
+  "size": 161938,
+  "sha256": "ea850b492e51f22af9710a70bf2157e1034c813cf19c76f708c4eb2bb01bdc15",
   "changes": [
-    "Keep main categories and indented subcategories when sorting by Category in Auto Populate and other category lists.",
-    "Sort every row together without category headings when selecting another header; restore category groups when Category is selected again.",
-    "Preserve all fields, selections and active filters while switching between grouped and flat sorting.",
-    "Slide-up messages match the visible list width, including its border and scrollbar, instead of filling the page."
+    "Remove (CAD) from column headers.",
+    "Add the selected-currency dropdown at the bottom of the main menu, with a spaced banknote-style icon for each of the ten supported currencies.",
+    "Use saved exchange rates for currency selection; keep original ledger values unchanged."
   ]
 }
 
