@@ -11,10 +11,17 @@ with zipfile.ZipFile(package) as archive:
  assert archive.testzip() is None,'Published ZIP contains damaged files'
 with tempfile.TemporaryDirectory() as d:
  root=Path(d);home=root/'HomeMoney';home.mkdir()
- with zipfile.ZipFile(package) as z:
-  for name in z.namelist():
-   if name.startswith('payload/'):
-    target=home/name[8:];target.parent.mkdir(parents=True,exist_ok=True);target.write_bytes(z.read(name))
+ # Update packages contain changed files, not a complete installation. Rebuild
+ # the installed program from earlier packages before overlaying the candidate.
+ dependencies=package.parent/'NestSimple-Money-v1.0.137.nsmupdate'
+ assert dependencies.is_file(),'Cumulative dependency package v1.0.137 is required'
+ for update in [dependencies,baseline,package]:
+  with zipfile.ZipFile(update) as z:
+   for name in z.namelist():
+    if name.startswith('payload/'):
+     target=home/name[8:]
+     assert target.resolve().is_relative_to(home.resolve()),'Unsafe fixture path'
+     target.parent.mkdir(parents=True,exist_ok=True);target.write_bytes(z.read(name))
  with zipfile.ZipFile(baseline) as z:
   target=root/'release191/payload/program_updates.py';target.parent.mkdir(parents=True);target.write_bytes(z.read('payload/program_updates.py'))
  for name in ('verify_update_handoff.py','verify_trend192.py'):

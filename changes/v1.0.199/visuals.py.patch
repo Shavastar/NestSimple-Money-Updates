@@ -1,0 +1,47 @@
+--- a/visuals.py
++++ b/visuals.py
+@@ -29,7 +29,8 @@
+     for item in set(canvas.find_all())-set(before): canvas.addtag_withtag(tag,item)
+     def choose(event=None):
+         canvas._budget_expanded=None if getattr(canvas,'_budget_expanded',None)==group else group
+-        redraw()
++        # Redraw the complete panel so embedded date controls and offsets survive.
++        getattr(canvas,'_chart_redraw',redraw)()
+     canvas.tag_bind(tag,'<Button-1>',choose)
+ 
+ 
+@@ -103,12 +104,13 @@
+         y=top+i*max(45,len(spec['series'])*21+10)
+         tag='category-row-'+str(i)
+         first=canvas.find_all()
+-        canvas.create_text(left-12,y+9,anchor='e',text=tr(label),fill=ink,font=('Segoe UI',10),width=160)
++        if grouped_bars is not None:
++            label_x=22+(24 if label.startswith('  ') else 0)
++            canvas.create_text(label_x,y+9,anchor='w',text=tr(label.strip()),fill=ink,font=('Segoe UI',10),width=left-label_x-12)
++        else:
++            canvas.create_text(left-12,y+9,anchor='e',text=tr(label),fill=ink,font=('Segoe UI',10),width=160)
+         for j,value in enumerate(values):
+             yj=y+j*21; color=accent if j==0 else '#91b7e6'
+-            if grouped_bars is not None:
+-                color=budget_colour(label,grouped_bars[i][2],spec['bar'])
+-                if j==0:color=lighten(color)
+             canvas.create_rectangle(left,yj,right,yj+14,fill='#edf2f8',outline='')
+             if value>0:canvas.create_rectangle(left,yj,left+(right-left)*value/maxval,yj+14,fill=color,outline='')
+             canvas.create_text(right+12,yj+7,anchor='w',text=format_value(value,unit),fill=ink,font=('Segoe UI',10))
+@@ -163,7 +165,7 @@
+                 except ValueError as exc:err.set(str(exc))
+             for title,var in [('Date From',start),('Date To',end)]:
+                 ttk.Label(date_controls,text=tr(title)+':',style='ChartDates.TLabel').pack(side='left',padx=(0,4))
+-                entry=ttk.Entry(date_controls,textvariable=var,width=11);entry.pack(side='left');entry.bind('<Return>',apply_range);entry.bind('<FocusOut>',apply_range)
++                entry=tk.Entry(date_controls,textvariable=var,width=11,relief='flat',borderwidth=0,highlightthickness=0,background='white',foreground='#183d69',font=('Segoe UI',10));entry.pack(side='left');entry.bind('<Return>',apply_range);entry.bind('<FocusOut>',apply_range)
+                 def pick(v=var,apply=apply_range):
+                     picker=CalendarPicker(frame.winfo_toplevel(),v)
+                     picker.bind('<Destroy>',lambda e,p=picker:apply() if e.widget is p else None,add='+')
+@@ -200,6 +202,7 @@
+                         region=c.bbox('all')
+                         if region:c.configure(scrollregion=(0,0,max(600,c.winfo_width()),region[3]+40))
+                         c.create_window(22,43,window=controls,anchor='nw')
++        canvas._chart_redraw=draw
+         canvas.bind('<Configure>',draw)
+         pending=canvas.after_idle(draw)
+         canvas.bind('<Destroy>',lambda event,c=canvas,p=pending:c.after_cancel(p))
