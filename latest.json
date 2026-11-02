@@ -1,10 +1,11 @@
 {
-  "version": "1.2.02",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.02.nsmupdate",
-  "size": 61980,
-  "sha256": "d7acee3bf71841e0eebcb034b7c4d3229f5f06e51397a4b236ca620570c91445",
+  "version": "1.2.03",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.03.nsmupdate",
+  "size": 62914,
+  "sha256": "7d742d84f4379db6c149c3b067f9a6e276d44b576379d419064f13764ee79a4e",
   "changes": [
-    "Keep each main bar category showing its planned and actual totals when expanded.",
-    "Expand or collapse each main category independently; multiple categories can remain open together. Preserve selected dates, indentation and legend colours."
+    "Fix updates waiting for unrelated processes after Windows reuses an old app process number.",
+    "Verify process birth time for app sessions and update locks; preserve unrelated running programs.",
+    "Include category totals and independently expandable groups from v1.2.02."
   ]
 }

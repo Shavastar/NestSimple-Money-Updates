@@ -1,0 +1,11 @@
+--- a/update_runtime.py
++++ b/update_runtime.py
+@@ -73,7 +73,7 @@
+         except Exception as error:fail('The repair could not start: '+str(error));return
+         def wait():
+             nonlocal installed
+-            if any(u.alive(s['pid']) for s in targets):
++            if any(u.session_alive(s) for s in targets):
+                 if time.monotonic()<deadline:win.after(150,wait);return
+                 fail('A NestSimple Money process has not closed. No program files were changed. Close its windows and run the repair again.');return
+             try:

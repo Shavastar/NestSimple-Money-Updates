@@ -8,3 +8,5 @@
 - Keep the shared STYLE_GUIDE.md and release history current.
 
 - Standalone repairs must be small native file-only installers: back up affected program files and replace them directly. No Python requirement, session checks, process shutdown or app reopening. This supersedes restart requirements above for standalone repairs only.
+
+- Do not open test app windows, test dialogs or installers on the user desktop unless the user explicitly requests it. Prefer background and headless verification, and state when visual or full GUI checks were not performed.

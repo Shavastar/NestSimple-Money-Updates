@@ -1,0 +1,78 @@
+--- a/program_updates.py
++++ b/program_updates.py
+@@ -120,16 +120,41 @@
+     except ProcessLookupError:return False
+     except PermissionError:return True
+ 
++def process_started(pid):
++    """Windows process birth time identifies a process across PID reuse."""
++    if sys.platform!='win32':return None
++    import ctypes
++    from ctypes import wintypes as w
++    api=ctypes.WinDLL('kernel32',use_last_error=True)
++    api.OpenProcess.argtypes=[w.DWORD,w.BOOL,w.DWORD];api.OpenProcess.restype=w.HANDLE
++    api.GetProcessTimes.argtypes=[w.HANDLE,*([ctypes.POINTER(w.FILETIME)]*4)];api.GetProcessTimes.restype=w.BOOL
++    api.CloseHandle.argtypes=[w.HANDLE];api.CloseHandle.restype=w.BOOL
++    handle=api.OpenProcess(0x1000,False,pid)
++    if not handle:return None
++    try:
++        created,exited,kernel,user=(w.FILETIME() for _ in range(4))
++        if not api.GetProcessTimes(handle,ctypes.byref(created),ctypes.byref(exited),ctypes.byref(kernel),ctypes.byref(user)):return None
++        return ((created.dwHighDateTime<<32)|created.dwLowDateTime)/10000000-11644473600
++    finally:api.CloseHandle(handle)
++
++def session_alive(session):
++    if not alive(session['pid']):return False
++    started=process_started(session['pid']);expected=session.get('started')
++    return started is None or expected is None or abs(started-expected)<0.01
++
+ def acquire_lock(root):
+     path=stage_root(root)/'apply.lock'
+     for attempt in range(2):
+         try:
+-            with path.open('x') as stream:stream.write(str(os.getpid()))
++            with path.open('x') as stream:json.dump({'pid':os.getpid(),'started':process_started(os.getpid())},stream)
+             return path
+         except FileExistsError:
+-            try:pid=int(path.read_text())
++            try:
++                saved=json.loads(path.read_text());session=saved if isinstance(saved,dict) else {'pid':int(saved)}
++                started=process_started(session['pid'])
++                stale=started is not None and started>path.stat().st_mtime+1
+             except (OSError,ValueError):raise ValueError('Another update is starting. Try again shortly.')
+-            if alive(pid):raise ValueError('Another update is already running.')
++            if not stale and session_alive(session):raise ValueError('Another update is already running.')
+             path.unlink(missing_ok=True)
+     raise ValueError('Could not obtain the program update lock.')
+ 
+@@ -147,13 +172,19 @@
+                 or data['pid']<=0 or str(data['pid'])!=entry.stem
+                 or not isinstance(data.get('token'),str) or not data['token']):
+             raise ValueError('Invalid app session '+entry.name+'. Close all app windows and retry.')
+-        if alive(data['pid']):tokens.append(data)
++        started=process_started(data['pid'])
++        # Legacy records have no birth time. A newer process than the record
++        # cannot be the app that wrote it, even though its PID now matches.
++        stale=started is not None and started>entry.stat().st_mtime+1
++        if not stale and session_alive(data):
++            if started is not None:data['started']=started
++            tokens.append(data)
+         else:entry.unlink(missing_ok=True)
+     return tokens
+ 
+ def install_session(app,root=None):
+     root=Path(root or Path(__file__).resolve().parent);sessions=stage_root(root)/'sessions';sessions.mkdir(parents=True,exist_ok=True)
+-    token=uuid.uuid4().hex;entry=sessions/(str(os.getpid())+'.json');entry.write_text(json.dumps({'pid':os.getpid(),'token':token}))
++    token=uuid.uuid4().hex;entry=sessions/(str(os.getpid())+'.json');entry.write_text(json.dumps({'pid':os.getpid(),'token':token,'started':process_started(os.getpid())}))
+     def check():
+         request=sessions/'close-request.json'
+         try:targets=json.loads(request.read_text()).get('sessions',[]) if request.is_file() else []
+@@ -177,7 +208,7 @@
+ 
+ REPOSITORY='Shavastar/NestSimple-Money-Updates'
+ FEED_URL='https://raw.githubusercontent.com/'+REPOSITORY+'/main/latest.json'
+-CURRENT_VERSION='1.2.02'
++CURRENT_VERSION='1.2.03'
+ 
+ def version_tuple(value):
+     if not isinstance(value,str) or not re.fullmatch(r'\d+\.\d+\.\d+',value):raise ValueError('Invalid update version.')
