@@ -1,10 +1,10 @@
 {
-  "version": "1.0.186",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.186.nsmupdate",
-  "size": 1281486,
-  "sha256": "750ee8c812bb2b677cabc63a996d0c993716f93014407e11fb93d8f33321fa82",
+  "version": "1.0.187",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.187.nsmupdate",
+  "size": 1282383,
+  "sha256": "620c548498cef4b3841a8f8439a54696e145ebefc3b7e9fd74e477e5d117ac5c",
   "changes": [
-    "Remove vertical gaps between main-menu section buttons.",
-    "Use the approved main-menu colours for all pie charts and matching legends on screen and in printed reports."
+    "Use the brighter 20-colour reference palette for every pie chart and matching legend, clockwise from the top.",
+    "Assign colours in slice order and use lighter tints beyond 20 slices to reduce repeats; preserve chart data and layouts."
   ]
 }
