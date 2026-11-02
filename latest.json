@@ -1,12 +1,11 @@
 {
-  "version": "1.2.12",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.12.nsmupdate",
-  "size": 164418,
-  "sha256": "64026d18ac604e67e1b285f03e3296022c4700a2e5ea2be2cfb14547fbda947e",
+  "version": "1.2.13",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.13.nsmupdate",
+  "size": 164502,
+  "sha256": "6e83b06ac0fa39ff59ce82a55c6c86c14e3322d497698e7b0f72fa5d0ba647a5",
   "changes": [
-    "Add spacing before the banknote icon and currency name, using names such as Canadian Dollar.",
-    "Close the Testing panel when focus moves outside it while retaining its toggle and Close button.",
-    "Print all budget categories, including zero-budget categories, instead of only summary cards or filtered rows."
+    "Replace ZIP archive charts in Charts and Backup & help with actual hard drive used/free space, program size and database size.",
+    "Show saved record counts for accounts, income, expenses, bills, budget entries, contacts and goals."
   ]
 }
 
