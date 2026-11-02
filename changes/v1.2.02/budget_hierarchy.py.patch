@@ -1,0 +1,24 @@
+--- a/budget_hierarchy.py
++++ b/budget_hierarchy.py
+@@ -23,13 +23,16 @@
+     for item in items:groups.setdefault('Income' if income else parent(item[0]),[]).append(item)
+     return [(g,groups[g]) for g in (['Income'] if income else GROUPS) if g in groups]
+ 
+-def chart_rows(items, expanded=None):
+-    """Expanded heading has zero geometry: children replace its total, never add to it."""
+-    result=[]
++def expanded_groups(expanded):
++    return {expanded} if isinstance(expanded,str) else set(expanded or ())
++
++def chart_rows(items, expanded=None, keep_totals=False):
++    """Pie children replace geometry; bar headings retain category totals."""
++    result=[];expanded=expanded_groups(expanded)
+     for group,children in ordered(items):
+         size=len(children[0][1]);totals=tuple(sum(v[j] for _,v in children) for j in range(size))
+-        result.append((group,(0,)*size if group==expanded else totals,group))
+-        if group==expanded:result.extend(('  '+n,tuple(v),group) for n,v in children)
++        result.append((group,(0,)*size if group in expanded and not keep_totals else totals,group))
++        if group in expanded:result.extend(('  '+n,tuple(v),group) for n,v in children)
+     return result
+ 
+ def colour(label,group,items=()):

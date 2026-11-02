@@ -1,0 +1,17 @@
+--- a/budget_page.py
++++ b/budget_page.py
+@@ -242,12 +242,12 @@
+             if len(rows)==1:c.create_oval(x,y,x+size,y+size,fill=colour,outline='')
+             else:c.create_arc(x,y,x+size,y+size,start=start,extent=extent,fill=colour,outline='')
+             start+=extent;legend=size+30+(24 if name.startswith('  ') else 0);ly=25+i*34
+-            if not name.startswith('  ') and group==getattr(c,'_budget_expanded',None):value=sum(a for n,b,a in self.data['rows'] if __import__('budget_hierarchy').parent(n)==group)
++            if not name.startswith('  ') and group in __import__('budget_hierarchy').expanded_groups(getattr(c,'_budget_expanded',None)):value=sum(a for n,b,a in self.data['rows'] if __import__('budget_hierarchy').parent(n)==group)
+             c.create_rectangle(legend,ly,legend+9,ly+9,fill=colour,outline='')
+             c.create_text(legend+15,ly+4,anchor='w',text=tr(name)+' '+money(value)+f' ({value*100/total:.0f}%)',width=w-legend-20,font=('Segoe UI',9),fill=DARK)
+             bind_budget_slice(c,before,group,lambda:self.draw_pie(c,w))
+     def draw_comparison(self,c,w):
+-        c.delete('all');grouped=chart_rows([(name,(b,s)) for name,b,s in self.data['rows']],getattr(c,'_budget_expanded',None));rows=[(n,*v) for n,v,g in grouped];c.configure(height=max(180,60+len(rows)*42));scale=max([v for _,b,s in rows for v in (b,s)]+[1]);left=160
++        c.delete('all');grouped=chart_rows([(name,(b,s)) for name,b,s in self.data['rows']],getattr(c,'_budget_expanded',None),keep_totals=True);rows=[(n,*v) for n,v,g in grouped];c.configure(height=max(180,60+len(rows)*42));scale=max([v for _,b,s in rows for v in (b,s)]+[1]);left=160
+         c.create_rectangle(15,9,28,18,fill='#a9c2ef',outline='');c.create_text(34,14,anchor='w',text=tr('Budget'),fill=DARK)
+         c.create_rectangle(125,9,138,18,fill=BLUE,outline='');c.create_text(145,14,anchor='w',text=tr('Actual'),fill=DARK)
+         for i,(name,b,s) in enumerate(rows):

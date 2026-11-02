@@ -1,12 +1,10 @@
 {
-  "version": "1.2.00",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.00.nsmupdate",
-  "size": 1297696,
-  "sha256": "d9cfbfdedcdf249e9b8210c4db553c1ae5ed644929f01682cbddd1c746970ae6",
+  "version": "1.2.02",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.02.nsmupdate",
+  "size": 61980,
+  "sha256": "d7acee3bf71841e0eebcb034b7c4d3229f5f06e51397a4b236ca620570c91445",
   "changes": [
-    "Request a fresh GitHub update feed so cached release information cannot hide an update.",
-    "Keep repair and update status visible through installation and reopening; require a ready receipt from the reopened app before reporting completion.",
-    "Save restart diagnostics and show Retry Reopen when startup fails; preserve the chosen household, program backups and rollback.",
-    "Include the v1.0.199 chart fixes: retained From/To controls, borderless date fields, indented subcategories and bars matching the legend."
+    "Keep each main bar category showing its planned and actual totals when expanded.",
+    "Expand or collapse each main category independently; multiple categories can remain open together. Preserve selected dates, indentation and legend colours."
   ]
 }

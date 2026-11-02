@@ -1,0 +1,41 @@
+--- a/visuals.py
++++ b/visuals.py
+@@ -19,7 +19,7 @@
+ 
+ 
+ # Shared presentation hierarchy; stored keys and money are never changed.
+-from budget_hierarchy import GROUPS as BUDGET_GROUPS, chart_rows, colour as budget_colour, lighten
++from budget_hierarchy import GROUPS as BUDGET_GROUPS, chart_rows, colour as budget_colour, lighten, expanded_groups
+ 
+ def budget_pie_items(items, expanded=None):
+     return [(name,values[0],group) for name,values,group in chart_rows([(n,(v,)) for n,v in items],expanded)]
+@@ -28,7 +28,10 @@
+     tag='budget-pie-'+str(len(canvas.find_all()))
+     for item in set(canvas.find_all())-set(before): canvas.addtag_withtag(tag,item)
+     def choose(event=None):
+-        canvas._budget_expanded=None if getattr(canvas,'_budget_expanded',None)==group else group
++        opened=expanded_groups(getattr(canvas,'_budget_expanded',None))
++        if group in opened:opened.remove(group)
++        else:opened.add(group)
++        canvas._budget_expanded=opened
+         # Redraw the complete panel so embedded date controls and offsets survive.
+         getattr(canvas,'_chart_redraw',redraw)()
+     canvas.tag_bind(tag,'<Button-1>',choose)
+@@ -75,7 +78,7 @@
+             indent=24 if grouped is not None and name.startswith('  ') else 0
+             row_x=legend_x+indent
+             canvas.create_rectangle(row_x,y-7,row_x+12,y+5,fill=color if value else '#edf2f8',outline=color)
+-            if grouped is not None and not name.startswith('  ') and grouped[index][2]==getattr(canvas,'_budget_expanded',None):
++            if grouped is not None and not name.startswith('  ') and grouped[index][2] in expanded_groups(getattr(canvas,'_budget_expanded',None)):
+                 from budget_hierarchy import parent
+                 value=sum(v for n,v in spec['pie'] if parent(n)==name)
+             percent=100*value/total if total else 0
+@@ -95,7 +98,7 @@
+         color=accent if j==0 else '#91b7e6'; x=25+j*200
+         canvas.create_rectangle(x,legend_y-6,x+13,legend_y+7,fill=color,outline='')
+         canvas.create_text(x+22,legend_y,anchor='w',text=tr(name),fill=ink,font=('Segoe UI',10))
+-    top=title_y+87; rows=spec['bar']; grouped_bars=chart_rows(rows,getattr(canvas,'_budget_expanded',None)) if spec.get('_budget_chart') else None
++    top=title_y+87; rows=spec['bar']; grouped_bars=chart_rows(rows,getattr(canvas,'_budget_expanded',None),keep_totals=True) if spec.get('_budget_chart') else None
+     if grouped_bars is not None:rows=[(n,v) for n,v,g in grouped_bars]
+     unit=spec.get('bar_unit',spec['unit'])
+     left=190; right=width-160; maxval=max([v for _,values in rows for v in values]+[1])
