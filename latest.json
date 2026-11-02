@@ -1,12 +1,11 @@
 {
-  "version": "1.0.197",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.197.nsmupdate",
-  "size": 1294221,
-  "sha256": "449603c0e117a6da09f2dce56a33f321bf92b011410390066ac36491d9fc638b",
+  "version": "1.0.198",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.198.nsmupdate",
+  "size": 1294531,
+  "sha256": "e7e511aea1e88e3809b0cbbe38773d03ae39fb6c4db77c063353774a1963a6d8",
   "changes": [
-    "Correct the installed version number and keep download/review controls reachable with vertical scrolling on shorter update pages; preserve additive control order.",
-    "Align Auto Populate fixed headers and records using identical pixel column widths, including the checkbox column and scrollbar allowance.",
-    "Align Budget Planner headers with editable columns and maintain alignment during resizing and scrolling.",
-    "Centre custom list headers over their columns in Bills Trend, Budget Trend and backup lists; preserve sorting, selection and record actions."
+    "Fix the blank Update page on older installations by avoiding an unsupported scrolling-helper constructor option.",
+    "Keep Check Again, Download Update and progress above installation review and Apply Update And Restart.",
+    "Add a real Tk regression against the original installed scrolling helper; preserve program backups, rollback and household files."
   ]
 }
