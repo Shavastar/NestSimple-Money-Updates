@@ -1,12 +1,11 @@
 {
-  "version": "1.2.14",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.14.nsmupdate",
-  "size": 165104,
-  "sha256": "db5eb08d5ab809c6f05be93c626128ccb46c9607f7d7e44898749ae3303371b7",
+  "version": "1.2.15",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.15.nsmupdate",
+  "size": 165700,
+  "sha256": "774b93661af47e002e95b60657d2384864036e208fe221f2ec70e19e0f46da15",
   "changes": [
-    "Use contrasting colours by stepping around the ordered colour wheel instead of choosing adjacent shades.",
-    "Match Backup & help storage bars to every pie category with the same values, order and colours.",
-    "Keep program size, database size and record counts visible below both storage charts."
+    "Keep Testing open while the pointer is over its button or panel, instead of closing on keyboard-focus events.",
+    "Open Testing on hover or click and slide it away after the pointer leaves both areas, allowing a short pause to cross between them."
   ]
 }
 
