@@ -1,9 +1,12 @@
 {
-  "version": "1.0.196",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.196.nsmupdate",
-  "size": 1292699,
-  "sha256": "7817bbded412eb05af429d54e7ebe22d798c31d99fd4808fb5432108f391aad8",
+  "version": "1.0.197",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.197.nsmupdate",
+  "size": 1294221,
+  "sha256": "449603c0e117a6da09f2dce56a33f321bf92b011410390066ac36491d9fc638b",
   "changes": [
-    "Display installation review and Apply Update and Restart below Check Again, Download Update and download progress; keep existing controls in place when the review appears."
+    "Correct the installed version number and keep download/review controls reachable with vertical scrolling on shorter update pages; preserve additive control order.",
+    "Align Auto Populate fixed headers and records using identical pixel column widths, including the checkbox column and scrollbar allowance.",
+    "Align Budget Planner headers with editable columns and maintain alignment during resizing and scrolling.",
+    "Centre custom list headers over their columns in Bills Trend, Budget Trend and backup lists; preserve sorting, selection and record actions."
   ]
 }

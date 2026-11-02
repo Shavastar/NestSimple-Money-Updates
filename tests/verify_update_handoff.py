@@ -27,6 +27,9 @@ class Widget:
     def destroy(self):self.dead=True
     def after(self,delay,callback):self.pending.append(callback)
     def record_back(self):pass
+class Viewport(Widget):
+    def __init__(self,parent=None,**kw):
+        super().__init__(parent,**kw);self.content=Widget(self)
 class Style:
     def __init__(self,*a):pass
     def element_names(self):return ()
@@ -68,6 +71,7 @@ def run(package):
             with ExitStack() as stack:
                 for p in patches:stack.enter_context(p)
                 stack.enter_context(patch.object(ttk,'Style',Style))
+                stack.enter_context(patch('layout.ScrollArea',Viewport))
                 stack.enter_context(patch.object(messages,'showerror'))
                 stack.enter_context(patch.object(u,'__file__',str(root/'program_updates.py')))
                 stack.enter_context(patch.object(u,'read_feed',return_value=info))
@@ -77,14 +81,16 @@ def run(package):
                 u.online_page(parent,app)
                 button=find('Download Update')
                 pump(lambda:button.kw.get('state')=='normal')
+                control_order=list(button.parent.parent.order)
                 button.kw['command']()
                 pump(lambda:find('Check Again').kw.get('state')=='normal')
+                assert button.parent.parent.order==control_order, 'Existing controls moved during download completion'
                 texts=[w.kw.get('text','') for w in Widget.widgets if not w.dead]
                 bars=[w for w in Widget.widgets if w.kw.get('maximum')==100]
                 if failure=='success':
                     ready=find('Ready To Install — Version '+version);apply=find('Apply Update and Restart')
                     assert apply.kw.get('state')!='disabled'
-                    container=ready.parent.parent;assert container.parent.order.index(container)<container.parent.order.index(find('Check Again').parent)
+                    container=ready.parent.parent;assert container.parent.order.index(container)>container.parent.order.index(find('Check Again').parent)
                     assert bars[-1].kw['value']==100
                     assert any('100% — Update ready' in t for t in texts)
                 else:
