@@ -1,11 +1,12 @@
 {
-  "version": "1.2.13",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.13.nsmupdate",
-  "size": 164502,
-  "sha256": "6e83b06ac0fa39ff59ce82a55c6c86c14e3322d497698e7b0f72fa5d0ba647a5",
+  "version": "1.2.14",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.14.nsmupdate",
+  "size": 165104,
+  "sha256": "db5eb08d5ab809c6f05be93c626128ccb46c9607f7d7e44898749ae3303371b7",
   "changes": [
-    "Replace ZIP archive charts in Charts and Backup & help with actual hard drive used/free space, program size and database size.",
-    "Show saved record counts for accounts, income, expenses, bills, budget entries, contacts and goals."
+    "Use contrasting colours by stepping around the ordered colour wheel instead of choosing adjacent shades.",
+    "Match Backup & help storage bars to every pie category with the same values, order and colours.",
+    "Keep program size, database size and record counts visible below both storage charts."
   ]
 }
 
