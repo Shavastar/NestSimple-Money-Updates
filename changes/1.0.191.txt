@@ -1,0 +1,2 @@
+1. Group Savings under Banking, Health and Leisure under Family And Personal, and Food and Insurance under Home.
+2. Indent expanded subcategories, preserving totals and saved records.

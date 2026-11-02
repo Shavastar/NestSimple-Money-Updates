@@ -1,10 +1,10 @@
 {
-  "version": "1.0.189",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.189.nsmupdate",
-  "size": 1284659,
-  "sha256": "57ed9fae84e876c384799bf23f24396c79408af3f073943a407176837f82da25",
+  "version": "1.0.191",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.0.191.nsmupdate",
+  "size": 1285667,
+  "sha256": "07bb3a1740722a1c6aa8840db30862805312083674476ee2b5300a6e546edf5c",
   "changes": [
-    "Group Budget pie charts into expandable main categories while preserving totals and records.",
-    "Keep verified update readiness and installation review visible on the download page; report review-loading failures."
+    "Group Savings under Banking, Health and Leisure under Family And Personal, and Food and Insurance under Home in Budget pie charts.",
+    "Indent expanded subcategory legends while preserving totals, colours, date filters and saved records."
   ]
 }
