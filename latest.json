@@ -1,12 +1,13 @@
 {
-  "version": "1.2.27",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.27.nsmupdate",
-  "size": 1226807,
-  "sha256": "7330897543b583dbe5ec6ff96e2ef92c5c5e6a99abd7e097df3af4a87a15eb68",
+  "version": "1.2.28",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.28.nsmupdate",
+  "size": 1227906,
+  "sha256": "63d8bc2e8534854ff77b6b107a6a877210af585b4c69214c9e58582b1fceffc9",
   "changes": [
-    "Use compact icon-only Previous/Next controls and wider Day/Month/Year and date fields.",
-    "Open a single-month calendar in Day and Month modes, highlighting the selected date in Day mode. Open the complete year graphic in Year mode.",
-    "Calendar arrows move one month in Day/Month views and one year in Year view; retain existing record filters, search and financial actions."
+    "Restore shared action icons in every Income tab.",
+    "Make month/day calendars compact and add borders around date cells; keep the complete year graphic with year navigation.",
+    "Keep Day/Month/Year choices pending until OK applies them; Cancel leaves the record filter unchanged.",
+    "Restore Add Scheduled Income in the calendar using the existing Income-only scheduling form and save logic."
   ]
 }
 
