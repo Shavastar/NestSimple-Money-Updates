@@ -1,9 +1,9 @@
 {
-  "version": "1.2.49",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.49.nsmupdate",
-  "size": 2523945,
-  "sha256": "1f7440f0838ebb0439d74f8e0bfd16bfd1c502e2934f889c86db783292f96ea9",
+  "version": "1.2.50",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.50.nsmupdate",
+  "size": 2524265,
+  "sha256": "9819046952170e097ae39e5a08cff303abce8dc10c34ecab7a493361869fa2ee",
   "changes": [
-    "Pay Day only: align the calendar top with the income list, correct the banner separators to space/middle dot/space, and use the main Income landscape banner with matching action-button margins."
+    "Pay Day banner only: match the main Income banner exact14px side inset and5px bottom space, retaining its identical shared artwork, text and rendering."
   ]
 }
