@@ -1,10 +1,9 @@
 {
-  "version": "1.2.34",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.34.nsmupdate",
-  "size": 1369915,
-  "sha256": "dc9d053237bb26c35991914c063e5cebdd4d84120c0043f7da77fff4e746b3bb",
+  "version": "1.2.35",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.35.nsmupdate",
+  "size": 2497305,
+  "sha256": "ef9e78f613a8790aa5b1fd8177e4890a83c62105ad42f2232980fc70d45b4bb4",
   "changes": [
-    "Inspect the installed version and program files locally, prepare one combined update including skipped releases, and show the installed-to-latest version in the installation review.",
-    "Build compatibility from published program-file hashes, preserving path/checksum checks, backups, rollback and all household data."
+    "Support v1.0.183 directly by including the skipped v1.0.198 program dependencies and verified prior file hashes. Preserve all household data, existing validation, backups and rollback."
   ]
 }
