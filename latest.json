@@ -1,9 +1,10 @@
 {
-  "version": "1.2.33",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.33.nsmupdate",
-  "size": 1368858,
-  "sha256": "bcf9fbe28600ee9cd0553d578ab878d63e622436b22ff51d6500bdd8255d9014",
+  "version": "1.2.34",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.34.nsmupdate",
+  "size": 1369915,
+  "sha256": "dc9d053237bb26c35991914c063e5cebdd4d84120c0043f7da77fff4e746b3bb",
   "changes": [
-    "Restore the full Add Scheduled Income button directly from the approved image, including its original text appearance. Keep all other artwork, layout and functions unchanged."
+    "Inspect the installed version and program files locally, prepare one combined update including skipped releases, and show the installed-to-latest version in the installation review.",
+    "Build compatibility from published program-file hashes, preserving path/checksum checks, backups, rollback and all household data."
   ]
 }
