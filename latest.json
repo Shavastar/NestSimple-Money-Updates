@@ -1,9 +1,9 @@
 {
-  "version": "1.2.52",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.52.nsmupdate",
-  "size": 2527103,
-  "sha256": "6c0fb2b8245eb72ec686ede29d196951d7a83594ad4b15c9d2e46b3205a7032f",
+  "version": "1.2.53",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.53.nsmupdate",
+  "size": 2528150,
+  "sha256": "789d95fbfb1e903a3dd6c88ca8a92cf39dc2b55eb58daea88eb8d28c17142098",
   "changes": [
-    "Income Pie Chart centre follows the selected category or single expanded category and its amount. Multiple expanded categories show Total Income. Retain the approved concept layout, handheld date controls and all actual records."
+    "Income Pie Chart only: larger standalone calendar icons without button backgrounds, larger category text, raised ring/chip highlights, selection-aware title with Month View or Year View, and borderless chart container above the main-aligned scenery banner."
   ]
 }
