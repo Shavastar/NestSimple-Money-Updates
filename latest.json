@@ -1,12 +1,13 @@
 {
-  "version": "1.2.21",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.21.nsmupdate",
-  "size": 198489,
-  "sha256": "03ec21a53f2f658704deb13866ae73f4d1e60dadb40d4b0970ba0285d719d30b",
+  "version": "1.2.22",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.22.nsmupdate",
+  "size": 209770,
+  "sha256": "1ae9de030aa049f748bd69c7817cf1ab1ec6c1e87c3a520886aec848c432bcbb",
   "changes": [
-    "Place Contact information beside Original Image as tabs on the right of Income, Expense and Bill entry screens, keeping entry details on the left.",
-    "Keep Original Image and Contact adjacent on record details, followed by Split Payment where applicable.",
-    "Include all v1.2.20 Settings changes: white storage boxes, blue/light-blue bars and currency/category icons."
+    "Redesign Income with compact Arial title and section bars, four evenly fitted white summary cards, and more room for the record list.",
+    "Manage, Pay Day, Pie Chart, Bar Chart, Trend Graph and Export precede a spacer and Add, Edit and Delete. Add remains enabled; selecting a row enables Edit and Delete; double-click details are preserved.",
+    "Add alternating Income rows, compact period navigation and a calendar year/month picker; retain all-date, account and search filters, sorting, charts, export and printing.",
+    "Use subtle Income-colour hills behind the low-profile status and filtered total; fit controls at small widths without a horizontal list scrollbar."
   ]
 }
 
