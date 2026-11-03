@@ -1,10 +1,9 @@
 {
-  "version": "1.2.44",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.44.nsmupdate",
-  "size": 2519904,
-  "sha256": "41ed124849410f59376ba773bc33ebae32b5e297042a185918d7ad45f40d3ee7",
+  "version": "1.2.45",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.45.nsmupdate",
+  "size": 2520214,
+  "sha256": "1c9d1f4f8330fb4d98dcb53e181bbb22c4844a7991b1f44fdd443d9a73b28651",
   "changes": [
-    "Correct Income Add, Edit and Details to the approved rounded pale-blue panel design, with centred matching Save/Cancel controls, larger image placeholders and visible Attach / preview and Original Image actions.",
-    "Make Income Export a full content page listing months for selection and CSV export. Preserve existing fields, account/category data, CSV format, completed Manage/Pay Day/calendar pages and update rollback."
+    "Income Export only: selecting a month updates the Export as filename; rename Save to Export, inset the export card to the action-button margins and restore the landscape footer with total export-file count."
   ]
 }
