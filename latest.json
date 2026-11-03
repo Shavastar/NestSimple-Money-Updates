@@ -1,10 +1,10 @@
 {
-  "version": "1.2.37",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.37.nsmupdate",
-  "size": 2499355,
-  "sha256": "b1faef7751968b220272d516f122deee38e2d5c83ed50d4a6d99425dc937e90d",
+  "version": "1.2.38",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.38.nsmupdate",
+  "size": 2500338,
+  "sha256": "5d775715f9090a241e32f505adfa2bd67967da5708291a4d36ba10e78bf62888",
   "changes": [
-    "Savings Deposit shows only filtered Income deposited into Savings accounts and opens those records. Sources shows the distinct filtered source count and opens a source list.",
-    "Keep Income Received and Largest Deposit behavior; match Income record-detail top spacing to the edit view. No stored financial records are changed."
+    "Use larger ring charts with the section name and filtered total in the center, and center the ring-and-legend group in the chart area.",
+    "Preserve existing dates, amounts, category colors and expansion interactions. Storage center text identifies separate system sizes without adding them into a misleading total."
   ]
 }
