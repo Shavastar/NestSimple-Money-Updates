@@ -1,12 +1,12 @@
 {
-  "version": "1.2.23",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.23.nsmupdate",
-  "size": 222284,
-  "sha256": "174e29055b6c2496c46dad51961d84cbae83a388338dca911d91d1b1e8f8b2b5",
+  "version": "1.2.24",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.24.nsmupdate",
+  "size": 1217249,
+  "sha256": "549cdf5a8a993f99bd10f17c8a787ddbcb07f538cae4bbe542f91abd67fa8b82",
   "changes": [
-    "Match Income to the supplied image: warm orange/brown title bars, blue raised tabs and action buttons with artwork, bordered compact cards, orange table headings and cream tiger stripes.",
-    "Show the existing account name beside each Income record without changing stored data; retain filtering, sorting, totals and double-click details.",
-    "Use layered orange hills and trees in the compact status footer. Keep Income navigation tabs on Pay Day, record details and entry subpages."
+    "Rebuild Income against the approved reference artwork: one compact action row, four illustrated cards, matching title bands, larger striped table and separate right-aligned total over the hills footer.",
+    "Restore the visible Year/Month/All Dates, Previous/Next, calendar, account and search controls with correct widget parenting. Keep the main menu on the left and the Income tabs on every subpage.",
+    "Prevent Retry Reopen from opening a second copy while the first process is still starting; show startup stages, wait for a real ready receipt and verify the same household. Keep backups, rollback and household files intact."
   ]
 }
 
