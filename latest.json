@@ -1,13 +1,12 @@
 {
-  "version": "1.2.25",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.25.nsmupdate",
-  "size": 1222477,
-  "sha256": "74d6dac653255ddc5f4071e1c9d6e4d3a853abb6166e95bd761e6cfdf8168479",
+  "version": "1.2.26",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.26.nsmupdate",
+  "size": 1225945,
+  "sha256": "654b53382cd9bd2197d0ba6401af0821ae4d92b39e20c4cee951611bdc92bca3",
   "changes": [
-    "Keep the Income title bar and all tabs in place while only the content changes. Restore original Back, Home and Close controls on the right beside a pictorial printer icon; keep title heights fixed.",
-    "Show a whole-year calendar with twelve months and day/month/year selection. Keep the search field visible and run searches on Search or Enter.",
-    "Use matching Add/Edit/Delete tabs. Edit and Delete stay grey until a record is selected, then become coloured and run the existing record actions.",
-    "Load charts only when requested and reuse the unchanged Manage list, preserving existing financial functions, household data and report behavior."
+    "Use the existing realistic printer picture inside the circular Print icon, with transparent space outside the circle and no square button background.",
+    "Remove hover text from all buttons and command icons.",
+    "Remove Back, Home and Close from the main Income Manage page; retain the original circular icons on Income subpages, drawn directly on the title bar without square backgrounds."
   ]
 }
 
