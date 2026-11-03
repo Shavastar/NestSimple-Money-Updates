@@ -1,11 +1,11 @@
 {
-  "version": "1.2.18",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.18.nsmupdate",
-  "size": 167297,
-  "sha256": "c9463dbafc26e0e8d4af3172c85638ec0ef91d7da3f2a0cb539c475d3ca6a63c",
+  "version": "1.2.19",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.19.nsmupdate",
+  "size": 167593,
+  "sha256": "51d72abd50729a765cc0d4e2a23ba993d48e75d34b28274dad8a179f393af09c",
   "changes": [
-    "Make every positive storage item visible as its own contrasting pie slice, even when drive capacity is much larger than program and database sizes.",
-    "Keep exact storage sizes in the legend and bars, label the enlargement of small slices, and exclude records from the pie."
+    "Show Hard drive space remaining using actual free space in both storage charts instead of total drive capacity.",
+    "Use blue for remaining drive space in the pie, bars and matching legends."
   ]
 }
 
