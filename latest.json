@@ -1,10 +1,9 @@
 {
-  "version": "1.2.40",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.40.nsmupdate",
-  "size": 2505808,
-  "sha256": "50760855b43ed5072258bf01c36c497737d24fe4537e4bc4cfd50db439c59afa",
+  "version": "1.2.41",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.41.nsmupdate",
+  "size": 2506836,
+  "sha256": "8853cfbcb18ce37d663df103b1a3178a0282ac16f4576f6f594efa5f6ef6b82f",
   "changes": [
-    "Add demonstration-only monthly savings examples: four income deposits from varied sources and two separate Chequing transfers every month, plus matching Chequing funding.",
-    "Seed once only in explicitly fictional demonstration households; preserve existing records and edits. Keep Savings Deposit income-only, with transfers excluded from Income Received."
+    "Move only tagged monthly demonstration examples into existing Chequing, Savings and Cash accounts; create no new monthly sample accounts. Preserve amounts, dates and unrelated edits; remove generated accounts only when empty and unchanged."
   ]
 }
