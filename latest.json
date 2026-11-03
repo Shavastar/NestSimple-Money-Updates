@@ -1,13 +1,12 @@
 {
-  "version": "1.2.28",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.28.nsmupdate",
-  "size": 1227906,
-  "sha256": "63d8bc2e8534854ff77b6b107a6a877210af585b4c69214c9e58582b1fceffc9",
+  "version": "1.2.29",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.29.nsmupdate",
+  "size": 1229628,
+  "sha256": "e4c55734bc6f9ab3848eec969f12b5bf2de64175832e8ee9e662cf5aa96dff32",
   "changes": [
-    "Restore shared action icons in every Income tab.",
-    "Make month/day calendars compact and add borders around date cells; keep the complete year graphic with year navigation.",
-    "Keep Day/Month/Year choices pending until OK applies them; Cancel leaves the record filter unchanged.",
-    "Restore Add Scheduled Income in the calendar using the existing Income-only scheduling form and save logic."
+    "Use one fixed-size tablet-style calendar frame with padded controls and bordered dates.",
+    "Allow Day/Month/Year view switching inside the calendar without resizing; OK still applies and Cancel leaves filters unchanged.",
+    "Add the shared Income icon to Add Scheduled Income, and enlarge tab icons to nearly tab height with separate padded text."
   ]
 }
 
