@@ -1,10 +1,10 @@
 {
-  "version": "1.2.42",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.42.nsmupdate",
-  "size": 2507817,
-  "sha256": "6f9a6e5b3183f40022ca2a385106128ea354eb1538b20cf02a874a406fb48923",
+  "version": "1.2.43",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.43.nsmupdate",
+  "size": 2515834,
+  "sha256": "641695bc53ba0e98d0e599f06dab05e7b9bf5afb8a970a900efd69df34f1e5b8",
   "changes": [
-    "Finish Income chart colors from the approved concept: distinct category colors, matching shades for expanded subcategories, corresponding bar colors and green/blue trend lines.",
-    "Preserve Manage, Pay Day, all calendar controls, completed ring layout, existing forms, CSV export/delete behavior and financial data."
+    "Add a content-owned original-image viewer sliding up from the bottom, with fit, zoom, scrolling and image-only printing; close slides down. Original attachments are not modified.",
+    "Apply remaining approved Income presentation to chart panels/legends/trend, Add/Edit forms, CSV save sheet and delete confirmation. Preserve Manage, Pay Day, all calendar controls and financial actions."
   ]
 }
