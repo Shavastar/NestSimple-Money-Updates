@@ -1,12 +1,12 @@
 {
-  "version": "1.2.26",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.26.nsmupdate",
-  "size": 1225945,
-  "sha256": "654b53382cd9bd2197d0ba6401af0821ae4d92b39e20c4cee951611bdc92bca3",
+  "version": "1.2.27",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.27.nsmupdate",
+  "size": 1226807,
+  "sha256": "7330897543b583dbe5ec6ff96e2ef92c5c5e6a99abd7e097df3af4a87a15eb68",
   "changes": [
-    "Use the existing realistic printer picture inside the circular Print icon, with transparent space outside the circle and no square button background.",
-    "Remove hover text from all buttons and command icons.",
-    "Remove Back, Home and Close from the main Income Manage page; retain the original circular icons on Income subpages, drawn directly on the title bar without square backgrounds."
+    "Use compact icon-only Previous/Next controls and wider Day/Month/Year and date fields.",
+    "Open a single-month calendar in Day and Month modes, highlighting the selected date in Day mode. Open the complete year graphic in Year mode.",
+    "Calendar arrows move one month in Day/Month views and one year in Year view; retain existing record filters, search and financial actions."
   ]
 }
 
