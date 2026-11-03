@@ -1,9 +1,10 @@
 {
-  "version": "1.2.53",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.53.nsmupdate",
-  "size": 2528150,
-  "sha256": "789d95fbfb1e903a3dd6c88ca8a92cf39dc2b55eb58daea88eb8d28c17142098",
+  "version": "1.2.54",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.54.nsmupdate",
+  "size": 2530499,
+  "sha256": "6de99dcac1746abdc15c44be292e70da2bb3ccd1cdcece856868feedbb86e9b7",
   "changes": [
-    "Income Pie Chart only: larger standalone calendar icons without button backgrounds, larger category text, raised ring/chip highlights, selection-aware title with Month View or Year View, and borderless chart container above the main-aligned scenery banner."
+    "Income Pie Chart: apply the approved programmatic 3D ring with curved lighting, gradients and visible thickness, using cached standard-library rendering and actual transaction totals.",
+    "Separate selection from expansion: single Income or Benefits keeps that category and amount; Ctrl-click selects multiple categories and shows Total Income. Double-click expands/collapses without losing selection. Preserve the main banner exact artwork, fonts, side alignment and bottom gap."
   ]
 }
