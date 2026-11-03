@@ -1,9 +1,9 @@
 {
-  "version": "1.2.50",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.50.nsmupdate",
-  "size": 2524265,
-  "sha256": "9819046952170e097ae39e5a08cff303abce8dc10c34ecab7a493361869fa2ee",
+  "version": "1.2.51",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.51.nsmupdate",
+  "size": 2526649,
+  "sha256": "90f14e50990e69d6c1af3e455076b03cc82a2af9c4ca370c60cefe1175124d31",
   "changes": [
-    "Pay Day banner only: match the main Income banner exact14px side inset and5px bottom space, retaining its identical shared artwork, text and rendering."
+    "Income Pie Chart only: match the approved rounded ring-and-legend panel, centred compact From/To fields, expanded Income subcategories in parent-colour shades and aligned main-style banner. Date icons open the approved handheld calendar with pending day/month/year selection and OK to apply. Preserve actual data, totals and all other page designs."
   ]
 }
