@@ -1,12 +1,11 @@
 {
-  "version": "1.2.30",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.30.nsmupdate",
-  "size": 1526680,
-  "sha256": "7485550f89131de072ae29a43b6b15d7d643d2a8b12248d143f3d42a8bbc7a9d",
+  "version": "1.2.31",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.31.nsmupdate",
+  "size": 1530761,
+  "sha256": "b427fa3d39587277398bba8f1e83d2a820bd72d3d3d8b18577725f1d82d90169",
   "changes": [
-    "Match the approved light pearl-white portrait calendar device, pale peach colors and Month/Year layout, with no camera or power button.",
-    "Keep the same device size across Day/Month/Year; use live accurate calendar dates and existing scheduled-income/OK/Cancel actions.",
-    "Click any month in the year graphic to open that month. Selection stays pending until OK; Cancel preserves the previous filter."
+    "Reduce the calendar device to three quarters of its previous size; use live text and Month/Year view buttons.",
+    "Double-click a day to open Scheduled Income inside the device, with the existing subtitle Back icon resized to fit.",
+    "Next date and End date each open a date-picking screen sliding in from the right and back out to close; preserve existing schedule validation and recurrence options."
   ]
 }
-
