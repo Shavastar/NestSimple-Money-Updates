@@ -1,10 +1,10 @@
 {
-  "version": "1.2.38",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.38.nsmupdate",
-  "size": 2500338,
-  "sha256": "5d775715f9090a241e32f505adfa2bd67967da5708291a4d36ba10e78bf62888",
+  "version": "1.2.39",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.39.nsmupdate",
+  "size": 2504737,
+  "sha256": "d1ace37baaabe616d1dd5330a20846dd4706f0ac9f212595bfd8c075fc773a2a",
   "changes": [
-    "Use larger ring charts with the section name and filtered total in the center, and center the ring-and-legend group in the chart area.",
-    "Preserve existing dates, amounts, category colors and expansion interactions. Storage center text identifies separate system sizes without adding them into a misleading total."
+    "Implement the approved Pay Day content: two illustrated income cards, one main Pay Day tab, embedded small calendar device, white account selector, striped records and landscape status.",
+    "List only actual Cash, Chequing and Savings accounts, refreshing eligible accounts whenever the dropdown opens. The dropdown overlays the list. Preserve recorded/scheduled income totals, Month/Year filtering and existing record/edit actions."
   ]
 }
