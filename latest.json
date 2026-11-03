@@ -1,10 +1,10 @@
 {
-  "version": "1.2.39",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.39.nsmupdate",
-  "size": 2504737,
-  "sha256": "d1ace37baaabe616d1dd5330a20846dd4706f0ac9f212595bfd8c075fc773a2a",
+  "version": "1.2.40",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.40.nsmupdate",
+  "size": 2505808,
+  "sha256": "50760855b43ed5072258bf01c36c497737d24fe4537e4bc4cfd50db439c59afa",
   "changes": [
-    "Implement the approved Pay Day content: two illustrated income cards, one main Pay Day tab, embedded small calendar device, white account selector, striped records and landscape status.",
-    "List only actual Cash, Chequing and Savings accounts, refreshing eligible accounts whenever the dropdown opens. The dropdown overlays the list. Preserve recorded/scheduled income totals, Month/Year filtering and existing record/edit actions."
+    "Add demonstration-only monthly savings examples: four income deposits from varied sources and two separate Chequing transfers every month, plus matching Chequing funding.",
+    "Seed once only in explicitly fictional demonstration households; preserve existing records and edits. Keep Savings Deposit income-only, with transfers excluded from Income Received."
   ]
 }
