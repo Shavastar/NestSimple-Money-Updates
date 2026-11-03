@@ -1,11 +1,12 @@
 {
-  "version": "1.2.19",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.19.nsmupdate",
-  "size": 167593,
-  "sha256": "51d72abd50729a765cc0d4e2a23ba993d48e75d34b28274dad8a179f393af09c",
+  "version": "1.2.20",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.20.nsmupdate",
+  "size": 191595,
+  "sha256": "5bbc5e773e91002a6ff110ac6d8d7f1455fe94d4b49c0bc7e8b4b2d21644cca5",
   "changes": [
-    "Show Hard drive space remaining using actual free space in both storage charts instead of total drive capacity.",
-    "Use blue for remaining drive space in the pie, bars and matching legends."
+    "Make Settings Storage size and hard drive boxes white, with blue progress on light-blue tracks.",
+    "Add spaced banknote icons to the Currency tab labels and reporting-currency dropdown.",
+    "Add category icons with space before and after them in Budget and Income category settings; preserve category names, sorting and editing."
   ]
 }
 
