@@ -1,9 +1,9 @@
 {
-  "version": "1.2.48",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.48.nsmupdate",
-  "size": 2523731,
-  "sha256": "df492429b771a1709c04beadae5e1849d57f475ec629934fbdd394a648559837",
+  "version": "1.2.49",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.49.nsmupdate",
+  "size": 2523945,
+  "sha256": "1f7440f0838ebb0439d74f8e0bfd16bfd1c502e2934f889c86db783292f96ea9",
   "changes": [
-    "Image viewer appearance only: reuse the actual approved 3D calendar frame artwork, size viewer to90% of content with visible5% margins, and remove the white preview panel and image drop shadow so the original image sits directly on the warm background."
+    "Pay Day only: align the calendar top with the income list, correct the banner separators to space/middle dot/space, and use the main Income landscape banner with matching action-button margins."
   ]
 }
