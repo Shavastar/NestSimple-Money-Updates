@@ -1,11 +1,9 @@
 {
-  "version": "1.2.32",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.32.nsmupdate",
-  "size": 1358282,
-  "sha256": "87b441e1627d5a46e07966dc137c205519fa0252e6ce25a6af2dd2bfa7506355",
+  "version": "1.2.33",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.33.nsmupdate",
+  "size": 1368858,
+  "sha256": "bcf9fbe28600ee9cd0553d578ab878d63e622436b22ff51d6500bdd8255d9014",
   "changes": [
-    "Restore the approved peach calendar colors, orange title panel and original rounded blue button artwork, with translated live text over unchanged button surfaces.",
-    "Make the device exterior transparent and clip its rounded corners so the page content shows behind them. Preserve compact size, scheduling, date selection and slide transitions.",
-    "Opening Update from Income now changes the subtitle to Program Updates; update review uses Install Update, and Back restores Income without changing the bar height."
+    "Restore the full Add Scheduled Income button directly from the approved image, including its original text appearance. Keep all other artwork, layout and functions unchanged."
   ]
 }
