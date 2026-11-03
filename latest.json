@@ -1,9 +1,10 @@
 {
-  "version": "1.2.55",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.55.nsmupdate",
-  "size": 2530556,
-  "sha256": "71e00b75cf92a986d7104b0a945df872c0559b4594cda53515138f2bbf358dbf",
+  "version": "1.2.56",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.56.nsmupdate",
+  "size": 2534748,
+  "sha256": "0bac59eb5d6235f852127743fb9d81f86fe97f9f4baa78c43cbf1e5357688bcc",
   "changes": [
-    "Income Pie Chart only: remove white slice separator borders and make category expansion/collapse a single click while retaining category selection/centre amount and Ctrl-click multi-selection."
+    "Income Bar Chart only: apply the approved rounded horizontal-bar layout with aligned category/percentage/bar/amount columns, parent-colour subcategory shades, selection-aware Month/Year title and main-style banner.",
+    "Reuse approved handheld date controls: choosing a From month sets its first/last dates; choosing a later To month preserves From and accepts that month end, with inclusive month count in the title. Retain recorded data, category actions, range validation/report behavior and completed Pie Chart."
   ]
 }
