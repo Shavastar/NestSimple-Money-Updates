@@ -1,12 +1,12 @@
 {
-  "version": "1.2.29",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.29.nsmupdate",
-  "size": 1229628,
-  "sha256": "e4c55734bc6f9ab3848eec969f12b5bf2de64175832e8ee9e662cf5aa96dff32",
+  "version": "1.2.30",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.30.nsmupdate",
+  "size": 1526680,
+  "sha256": "7485550f89131de072ae29a43b6b15d7d643d2a8b12248d143f3d42a8bbc7a9d",
   "changes": [
-    "Use one fixed-size tablet-style calendar frame with padded controls and bordered dates.",
-    "Allow Day/Month/Year view switching inside the calendar without resizing; OK still applies and Cancel leaves filters unchanged.",
-    "Add the shared Income icon to Add Scheduled Income, and enlarge tab icons to nearly tab height with separate padded text."
+    "Match the approved light pearl-white portrait calendar device, pale peach colors and Month/Year layout, with no camera or power button.",
+    "Keep the same device size across Day/Month/Year; use live accurate calendar dates and existing scheduled-income/OK/Cancel actions.",
+    "Click any month in the year graphic to open that month. Selection stays pending until OK; Cancel preserves the previous filter."
   ]
 }
 
