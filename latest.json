@@ -1,9 +1,10 @@
 {
-  "version": "1.2.41",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.41.nsmupdate",
-  "size": 2506836,
-  "sha256": "8853cfbcb18ce37d663df103b1a3178a0282ac16f4576f6f594efa5f6ef6b82f",
+  "version": "1.2.42",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.42.nsmupdate",
+  "size": 2507817,
+  "sha256": "6f9a6e5b3183f40022ca2a385106128ea354eb1538b20cf02a874a406fb48923",
   "changes": [
-    "Move only tagged monthly demonstration examples into existing Chequing, Savings and Cash accounts; create no new monthly sample accounts. Preserve amounts, dates and unrelated edits; remove generated accounts only when empty and unchanged."
+    "Finish Income chart colors from the approved concept: distinct category colors, matching shades for expanded subcategories, corresponding bar colors and green/blue trend lines.",
+    "Preserve Manage, Pay Day, all calendar controls, completed ring layout, existing forms, CSV export/delete behavior and financial data."
   ]
 }
