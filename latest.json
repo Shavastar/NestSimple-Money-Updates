@@ -1,12 +1,12 @@
 {
-  "version": "1.2.20",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.20.nsmupdate",
-  "size": 191595,
-  "sha256": "5bbc5e773e91002a6ff110ac6d8d7f1455fe94d4b49c0bc7e8b4b2d21644cca5",
+  "version": "1.2.21",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.21.nsmupdate",
+  "size": 198489,
+  "sha256": "03ec21a53f2f658704deb13866ae73f4d1e60dadb40d4b0970ba0285d719d30b",
   "changes": [
-    "Make Settings Storage size and hard drive boxes white, with blue progress on light-blue tracks.",
-    "Add spaced banknote icons to the Currency tab labels and reporting-currency dropdown.",
-    "Add category icons with space before and after them in Budget and Income category settings; preserve category names, sorting and editing."
+    "Place Contact information beside Original Image as tabs on the right of Income, Expense and Bill entry screens, keeping entry details on the left.",
+    "Keep Original Image and Contact adjacent on record details, followed by Split Payment where applicable.",
+    "Include all v1.2.20 Settings changes: white storage boxes, blue/light-blue bars and currency/category icons."
   ]
 }
 
