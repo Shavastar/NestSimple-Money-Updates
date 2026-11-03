@@ -1,11 +1,11 @@
 {
-  "version": "1.2.31",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.31.nsmupdate",
-  "size": 1530761,
-  "sha256": "b427fa3d39587277398bba8f1e83d2a820bd72d3d3d8b18577725f1d82d90169",
+  "version": "1.2.32",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.32.nsmupdate",
+  "size": 1358282,
+  "sha256": "87b441e1627d5a46e07966dc137c205519fa0252e6ce25a6af2dd2bfa7506355",
   "changes": [
-    "Reduce the calendar device to three quarters of its previous size; use live text and Month/Year view buttons.",
-    "Double-click a day to open Scheduled Income inside the device, with the existing subtitle Back icon resized to fit.",
-    "Next date and End date each open a date-picking screen sliding in from the right and back out to close; preserve existing schedule validation and recurrence options."
+    "Restore the approved peach calendar colors, orange title panel and original rounded blue button artwork, with translated live text over unchanged button surfaces.",
+    "Make the device exterior transparent and clip its rounded corners so the page content shows behind them. Preserve compact size, scheduling, date selection and slide transitions.",
+    "Opening Update from Income now changes the subtitle to Program Updates; update review uses Install Update, and Back restores Income without changing the bar height."
   ]
 }
