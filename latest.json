@@ -1,10 +1,10 @@
 {
-  "version": "1.2.43",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.43.nsmupdate",
-  "size": 2515834,
-  "sha256": "641695bc53ba0e98d0e599f06dab05e7b9bf5afb8a970a900efd69df34f1e5b8",
+  "version": "1.2.44",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.44.nsmupdate",
+  "size": 2519904,
+  "sha256": "41ed124849410f59376ba773bc33ebae32b5e297042a185918d7ad45f40d3ee7",
   "changes": [
-    "Add a content-owned original-image viewer sliding up from the bottom, with fit, zoom, scrolling and image-only printing; close slides down. Original attachments are not modified.",
-    "Apply remaining approved Income presentation to chart panels/legends/trend, Add/Edit forms, CSV save sheet and delete confirmation. Preserve Manage, Pay Day, all calendar controls and financial actions."
+    "Correct Income Add, Edit and Details to the approved rounded pale-blue panel design, with centred matching Save/Cancel controls, larger image placeholders and visible Attach / preview and Original Image actions.",
+    "Make Income Export a full content page listing months for selection and CSV export. Preserve existing fields, account/category data, CSV format, completed Manage/Pay Day/calendar pages and update rollback."
   ]
 }
