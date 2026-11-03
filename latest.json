@@ -1,9 +1,11 @@
 {
-  "version": "1.2.35",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.35.nsmupdate",
-  "size": 2497305,
-  "sha256": "ef9e78f613a8790aa5b1fd8177e4890a83c62105ad42f2232980fc70d45b4bb4",
+  "version": "1.2.36",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.36.nsmupdate",
+  "size": 2498387,
+  "sha256": "9d61da120602ecbe453281b33ebcb906a251376c11232bbfa0d7d44563f7149a",
   "changes": [
-    "Support v1.0.183 directly by including the skipped v1.0.198 program dependencies and verified prior file hashes. Preserve all household data, existing validation, backups and rollback."
+    "Income Received, Deposits and Sources cards open the filtered Income record list inside the content area with no tab highlighted. Deposits and Sources now display dollar totals.",
+    "Largest Deposit opens the details of the largest record matching the active period, account and search filters. Preserve existing list sorting, reports and record actions.",
+    "Align the Income main title and subtitle flush to the main menu top/right edge and across the full available page width."
   ]
 }
