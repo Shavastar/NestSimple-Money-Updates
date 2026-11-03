@@ -1,10 +1,9 @@
 {
-  "version": "1.2.47",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.47.nsmupdate",
-  "size": 2523208,
-  "sha256": "d734aa289bc10230b622e779fd5fde584d1fde8731a361129774122f6400b5ef",
+  "version": "1.2.48",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.48.nsmupdate",
+  "size": 2523731,
+  "sha256": "df492429b771a1709c04beadae5e1849d57f475ec629934fbdd394a648559837",
   "changes": [
-    "Use the approved wide pearl/cream tablet image viewer with calendar-style bottom controls, zoom icons, transparent rounded corners and slide up/down transitions. Fix explicit app ownership and hidden-page image opening; rename actions Attach Image and View Image.",
-    "Print images through the Windows printer dialog instead of a browser. Align Income banners to common main-page margins and show record payee/Saved/Unsaved state, selected chart totals or export file count. Preserve original image bytes and household data."
+    "Image viewer appearance only: reuse the actual approved 3D calendar frame artwork, size viewer to90% of content with visible5% margins, and remove the white preview panel and image drop shadow so the original image sits directly on the warm background."
   ]
 }
