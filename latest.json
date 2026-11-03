@@ -1,12 +1,13 @@
 {
-  "version": "1.2.24",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.24.nsmupdate",
-  "size": 1217249,
-  "sha256": "549cdf5a8a993f99bd10f17c8a787ddbcb07f538cae4bbe542f91abd67fa8b82",
+  "version": "1.2.25",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.25.nsmupdate",
+  "size": 1222477,
+  "sha256": "74d6dac653255ddc5f4071e1c9d6e4d3a853abb6166e95bd761e6cfdf8168479",
   "changes": [
-    "Rebuild Income against the approved reference artwork: one compact action row, four illustrated cards, matching title bands, larger striped table and separate right-aligned total over the hills footer.",
-    "Restore the visible Year/Month/All Dates, Previous/Next, calendar, account and search controls with correct widget parenting. Keep the main menu on the left and the Income tabs on every subpage.",
-    "Prevent Retry Reopen from opening a second copy while the first process is still starting; show startup stages, wait for a real ready receipt and verify the same household. Keep backups, rollback and household files intact."
+    "Keep the Income title bar and all tabs in place while only the content changes. Restore original Back, Home and Close controls on the right beside a pictorial printer icon; keep title heights fixed.",
+    "Show a whole-year calendar with twelve months and day/month/year selection. Keep the search field visible and run searches on Search or Enter.",
+    "Use matching Add/Edit/Delete tabs. Edit and Delete stay grey until a record is selected, then become coloured and run the existing record actions.",
+    "Load charts only when requested and reuse the unchanged Manage list, preserving existing financial functions, household data and report behavior."
   ]
 }
 
