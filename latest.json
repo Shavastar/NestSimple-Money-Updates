@@ -1,10 +1,9 @@
 {
-  "version": "1.2.71",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.71.nsmupdate",
-  "size": 4092154,
-  "sha256": "4a9efa9217793f4e21af1a4473c0bfa7b7e7bc01f4e75fd0408d1a8d13e5b500",
+  "version": "1.2.72",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.72.nsmupdate",
+  "size": 4092898,
+  "sha256": "0462c94efd904425098b9e1a65261bac3c1480c9cc58d1c16f700752c4ad76f3",
   "changes": [
-    "Correct General Settings only: larger title icon, bold field text and larger beveled blue checkboxes. Keep General, Sound and Tools, Keyboard Shortcuts and Runtime Tools buttons permanently at the top, replacing Additional options. Preserve Save/Cancel and all existing callbacks.",
-    "Prevent Settings navigation from disappearing by removing native window clipping; retain the rounded menu outline and all ten pages."
+    "General Settings volume slider only: match the combined width of all four top option buttons; show blue before the handle and white after it. Preserve the existing volume preference and sound controls."
   ]
 }
