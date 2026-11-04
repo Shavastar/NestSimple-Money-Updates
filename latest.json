@@ -1,10 +1,10 @@
 {
-  "version": "1.2.65",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.65.nsmupdate",
-  "size": 3605448,
-  "sha256": "359636fd35d3adcceaeec3d2afe03195114168e95aa149d4813beedcb9ce9958",
+  "version": "1.2.66",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.66.nsmupdate",
+  "size": 4079791,
+  "sha256": "0f9dd514f709d0bfef84e63842e7ba53fe761ae8a926eece6cfd7e87dad94e38",
   "changes": [
-    "Settings only: approved purple headers, persistent left navigation, Arial, glossy controls and new purple lakeside scenery across General, Household, Accounts, Categories, Currencies, Backup, Updates, Security, Language and Appearance. Remove all Settings summary cards and report controls; use full-width information areas.",
-    "Retain existing profile/password/language/folder safeguards, account/category actions, currency conversion and online rates, automatic/encrypted backups/recovery, update review/install, runtime/add-ons, data connections/storage, appearance/accessibility and complete keyboard shortcuts. Maximize currency/account lists and shortcuts; switching Settings pages updates only content. Preserve household data and completed Income pages."
+    "Settings visual correction only: rounded reference-style buttons, fields, table headers and purple navigation states; correctly scaled transparent page icons and green-check Save/red-cross Cancel; softer reference background and compact consistent headers. Keep all content cards removed and full information areas.",
+    "Preserve existing functions/data and completed Income pages. Correct the Settings-only forced control height, use shared native graphic surfaces with real text, and restore lake/bridge/willow banner proportions. Actual Windows screenshots captured before publication; existing profile, account and currency callbacks retained."
   ]
 }
