@@ -1,9 +1,9 @@
 {
-  "version": "1.2.83",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.83-QUICK.nsmupdate",
-  "size": 15752,
-  "sha256": "6cb90a7460d984f539c0a06f4c83f25c249a662aa546d0cdc5d57c1afb332574",
+  "version": "1.2.84",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.84-QUICK.nsmupdate",
+  "size": 50901,
+  "sha256": "d5525a805544f589ba4f473f87c9bc525f7db910b604dae1bc3e21d114a761a5",
   "changes": [
-    "Fast test update for v1.2.82: Categories animation20steps at8ms, with the same160ms nominal duration and matching easing in both directions. Only animation code and version marker change."
+    "Categories Add/Edit: choose Main category or Subcategory; subcategories must select an existing main category. Save the relationship, reflect it in grouping, and prevent self-parenting, cycles and third-level categories. Preserve existing financial records, artwork and animation."
   ]
 }
