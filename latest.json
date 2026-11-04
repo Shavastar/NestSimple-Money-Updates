@@ -1,9 +1,9 @@
 {
-  "version": "1.2.60",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.60.nsmupdate",
-  "size": 2540325,
-  "sha256": "4f8777322a059531fcb72bfb8576040ded9ce4d00add3f5c259a2a8654f00d94",
+  "version": "1.2.61",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.61.nsmupdate",
+  "size": 2541554,
+  "sha256": "08cab43a20a4f9d090e0c6ed2bbb2b3b345dfd6ffe2e37aeb5adb5565ce650b4",
   "changes": [
-    "Pie title only: show the selected inclusive month count for multi-month date ranges, matching Bar. Preserve single-month title, calendars, chart design, functions and data."
+    "Main Income print report only: all four current summary cards, category pie and bar charts and filtered trend on page one; filtered complete record list begins on page two. Preserve list ordering, other Income print views, other pages and household data."
   ]
 }
