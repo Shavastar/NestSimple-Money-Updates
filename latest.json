@@ -1,9 +1,10 @@
 {
-  "version": "1.2.62",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.62.nsmupdate",
-  "size": 2545855,
-  "sha256": "f74bb9b90bfae00afbbaa66701b832d246e015859ccb6503aaedd84df6396aab",
+  "version": "1.2.63",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.63.nsmupdate",
+  "size": 2552045,
+  "sha256": "091ae81023b2809a8753ed6ebed6464c7b7b1d98b4cb15cb22e873d10c19d239",
   "changes": [
-    "Main Income print preview slides up in the shared tablet frame with page navigation, zoom, Fit Page, Print and Close. Print opens Windows printer selection and prints the report directly, with page ranges; no browser/PDF viewer opening. Preserve page-one cards/charts and page-two filtered list, all other print routes and household data."
+    "Income Trend matches the approved line/area chart with green Income, blue Expenses, medium-purple Investments and orange Savings. New lines show actual month-end account balances. Same handheld calendars, month-end range selection, inclusive month-count title and main banner alignment.",
+    "Main Income print preview embeds Windows native PDF rendering at the exact displayed/zoomed size, replacing the blocky image scaling. Compact glossy icon buttons in one row: zoom/fit left, triangle page controls centred, Print/Close right. Native printer selection and report content preserved; no browser, household data unchanged."
   ]
 }
