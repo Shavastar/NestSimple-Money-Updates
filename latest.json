@@ -1,10 +1,10 @@
 {
-  "version": "1.2.73",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.73.nsmupdate",
-  "size": 4096835,
-  "sha256": "37820323f3f370f2967458f630041f21edfa8e9354298837861fc4b99ee475c2",
+  "version": "1.2.74",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.74.nsmupdate",
+  "size": 4101415,
+  "sha256": "ae77440022f92c958cba42568ca4f8996706e3a1eb53f0643d372abfe1a32e83",
   "changes": [
-    "General Settings Keyboard Shortcuts now offers a compact practice page with all 18 shortcuts, separate Alt+1 through Alt+9 key boxes, realistic small keycaps and selection highlighting. The requested title reads Test Using Shortcuts - followed by the regular-text explanation.",
-    "Shortcuts preview only while this practice page is active. Screen shortcuts show a title placeholder and Launch actual screen; action shortcuts show a graphical explanation and Continue the action. Explicit buttons use existing callbacks; normal shortcuts resume elsewhere."
+    "Household Settings uses the approved rounded layout, existing household/folder fields and setup links, and eight starter budget categories with left-aligned icons/names and right-side amounts. Indicators compare against Planner average actual spending: green higher, red lower, yellow equal.",
+    "Add a read-only total and Use Average Actual Spending. Save only edited budget groups, allocating by existing detailed actual-spending proportions with exact-cent rounding. Preserve existing validation, backups, undo, rollback, other months and categories. Household members and notes are not added."
   ]
 }
