@@ -1,9 +1,9 @@
 {
-  "version": "1.2.61",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.61.nsmupdate",
-  "size": 2541554,
-  "sha256": "08cab43a20a4f9d090e0c6ed2bbb2b3b345dfd6ffe2e37aeb5adb5565ce650b4",
+  "version": "1.2.62",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.62.nsmupdate",
+  "size": 2545855,
+  "sha256": "f74bb9b90bfae00afbbaa66701b832d246e015859ccb6503aaedd84df6396aab",
   "changes": [
-    "Main Income print report only: all four current summary cards, category pie and bar charts and filtered trend on page one; filtered complete record list begins on page two. Preserve list ordering, other Income print views, other pages and household data."
+    "Main Income print preview slides up in the shared tablet frame with page navigation, zoom, Fit Page, Print and Close. Print opens Windows printer selection and prints the report directly, with page ranges; no browser/PDF viewer opening. Preserve page-one cards/charts and page-two filtered list, all other print routes and household data."
   ]
 }
