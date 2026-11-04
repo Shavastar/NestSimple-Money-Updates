@@ -1,10 +1,10 @@
 {
-  "version": "1.2.63",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.63.nsmupdate",
-  "size": 2552045,
-  "sha256": "091ae81023b2809a8753ed6ebed6464c7b7b1d98b4cb15cb22e873d10c19d239",
+  "version": "1.2.64",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.64.nsmupdate",
+  "size": 2553387,
+  "sha256": "194c1d9ea9f666326d616bc1fb69103b51240819c7c87b52fdb075fd1e69032d",
   "changes": [
-    "Income Trend matches the approved line/area chart with green Income, blue Expenses, medium-purple Investments and orange Savings. New lines show actual month-end account balances. Same handheld calendars, month-end range selection, inclusive month-count title and main banner alignment.",
-    "Main Income print preview embeds Windows native PDF rendering at the exact displayed/zoomed size, replacing the blocky image scaling. Compact glossy icon buttons in one row: zoom/fit left, triangle page controls centred, Print/Close right. Native printer selection and report content preserved; no browser, household data unchanged."
+    "Income Trend: show visible single-month values and empty-period message; independent stronger category-colour-to-white shading without large Savings area hiding the other colours. Each legend name is followed by its selected-period total; Investments/Savings remain closing balances, Income/Expenses remain selected-period flows.",
+    "Double-clicking a scheduled date opens the existing schedule inside the calendar device instead of leaving for another page. Preload all schedule/recurrence fields, Save updates the same record, unchanged Save/Cancel leave data untouched. Other page designs and report preview unchanged."
   ]
 }
