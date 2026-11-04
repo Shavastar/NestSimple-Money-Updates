@@ -1,10 +1,10 @@
 {
-  "version": "1.2.75",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.75.nsmupdate",
-  "size": 4108920,
-  "sha256": "8597c73ee92b1d6453612e783acc8adba3c6da9bc94ce397bb86869847f6849e",
+  "version": "1.2.76",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.76.nsmupdate",
+  "size": 4110436,
+  "sha256": "abb1fed48ddebab73ce6034cb0c003db64b0a27d4501fd40caf2f142d3dbf722",
   "changes": [
-    "Replace Settings Accounts with the approved preferences page: default Income and Expense accounts, closed/zero-balance selector visibility, account ordering arrows, Open Accounts, Save and Cancel, using the existing purple Settings style. Main Accounts management remains unchanged.",
-    "Saved defaults and ordering are used by transaction and schedule account selectors, with Payday retaining its Cash/Chequing/Savings restriction. Existing record selections remain accessible when editing. No help text, account records or transactions are added."
+    "Place Default Accounts in a compact top-left card and Display in a top-right card, giving the account-order list more height. Put Open Accounts, Save and Cancel on the same bottom row. Preserve the approved Settings style and controls.",
+    "Apply the saved account order centrally to account lists and account dropdowns throughout the app. Account dropdowns retain the saved order when opened instead of being re-sorted alphabetically. Other dropdowns and account selections remain unchanged."
   ]
 }
