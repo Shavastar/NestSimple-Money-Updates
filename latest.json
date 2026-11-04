@@ -1,9 +1,11 @@
 {
-  "version": "1.2.80",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.80.nsmupdate",
-  "size": 4391927,
-  "sha256": "8b6d9277de61c3438e8391ac50936fc9f622ea8ab7b6a903f25576cfb4688113",
+  "version": "1.2.81",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.81.nsmupdate",
+  "size": 4397407,
+  "sha256": "71c26cec3605c389e354607414d11c6c9634bb4bd8d6db9f531905e93f2afd0e",
   "changes": [
-    "Delete illustration fix only: package the five approved transparent garbage-creature icons at200x200 pixels instead of full resolution, and display the prepared icons directly rather than reducing them at runtime. Preserve random selection per screen opening and existing Delete/Remove behavior."
+    "Categories Add/Edit/Delete: bold middle-aligned fields and field-height category icons. Add has category fields on the left and the icon selection box on the right; add private PNG/GIF icons up to225x225 pixels, saved only with the category.",
+    "Delete shows the live current/replacement category names and icons with striped tables and moving records beneath the right-hand fields; retain the random garbage creature and existing confirmation/reassignment safeguards.",
+    "Smooth Categories slide transitions with smaller movement steps; keep the list visible throughout closing and remove the duplicated left strip by using a directly placed form body. Preserve other pages and household data."
   ]
 }
