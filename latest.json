@@ -1,9 +1,10 @@
 {
-  "version": "1.2.72",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.72.nsmupdate",
-  "size": 4092898,
-  "sha256": "0462c94efd904425098b9e1a65261bac3c1480c9cc58d1c16f700752c4ad76f3",
+  "version": "1.2.73",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.73.nsmupdate",
+  "size": 4096835,
+  "sha256": "37820323f3f370f2967458f630041f21edfa8e9354298837861fc4b99ee475c2",
   "changes": [
-    "General Settings volume slider only: match the combined width of all four top option buttons; show blue before the handle and white after it. Preserve the existing volume preference and sound controls."
+    "General Settings Keyboard Shortcuts now offers a compact practice page with all 18 shortcuts, separate Alt+1 through Alt+9 key boxes, realistic small keycaps and selection highlighting. The requested title reads Test Using Shortcuts - followed by the regular-text explanation.",
+    "Shortcuts preview only while this practice page is active. Screen shortcuts show a title placeholder and Launch actual screen; action shortcuts show a graphical explanation and Continue the action. Explicit buttons use existing callbacks; normal shortcuts resume elsewhere."
   ]
 }
