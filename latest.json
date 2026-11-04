@@ -1,10 +1,10 @@
 {
-  "version": "1.2.56",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.56.nsmupdate",
-  "size": 2534748,
-  "sha256": "0bac59eb5d6235f852127743fb9d81f86fe97f9f4baa78c43cbf1e5357688bcc",
+  "version": "1.2.57",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.57.nsmupdate",
+  "size": 2536802,
+  "sha256": "e2e99bd01ac0dfbb73e268394bc3c4acbf7bcf946ba355427175ee1950fbc4ef",
   "changes": [
-    "Income Bar Chart only: apply the approved rounded horizontal-bar layout with aligned category/percentage/bar/amount columns, parent-colour subcategory shades, selection-aware Month/Year title and main-style banner.",
-    "Reuse approved handheld date controls: choosing a From month sets its first/last dates; choosing a later To month preserves From and accepts that month end, with inclusive month count in the title. Retain recorded data, category actions, range validation/report behavior and completed Pie Chart."
+    "Income Bar only: bold category/percentage/amount text and exact main-banner container, period/account/record wording, artwork and alignment.",
+    "Bar handheld calendars reuse Add Scheduled Income, highlight existing scheduled income dates in month/year views, and double-click a marked date opens its scheduled record (choose when more than one). Preserve date-range behavior and completed pages."
   ]
 }
