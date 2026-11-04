@@ -1,10 +1,10 @@
 {
-  "version": "1.2.64",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.64.nsmupdate",
-  "size": 2553387,
-  "sha256": "194c1d9ea9f666326d616bc1fb69103b51240819c7c87b52fdb075fd1e69032d",
+  "version": "1.2.65",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.65.nsmupdate",
+  "size": 3605448,
+  "sha256": "359636fd35d3adcceaeec3d2afe03195114168e95aa149d4813beedcb9ce9958",
   "changes": [
-    "Income Trend: show visible single-month values and empty-period message; independent stronger category-colour-to-white shading without large Savings area hiding the other colours. Each legend name is followed by its selected-period total; Investments/Savings remain closing balances, Income/Expenses remain selected-period flows.",
-    "Double-clicking a scheduled date opens the existing schedule inside the calendar device instead of leaving for another page. Preload all schedule/recurrence fields, Save updates the same record, unchanged Save/Cancel leave data untouched. Other page designs and report preview unchanged."
+    "Settings only: approved purple headers, persistent left navigation, Arial, glossy controls and new purple lakeside scenery across General, Household, Accounts, Categories, Currencies, Backup, Updates, Security, Language and Appearance. Remove all Settings summary cards and report controls; use full-width information areas.",
+    "Retain existing profile/password/language/folder safeguards, account/category actions, currency conversion and online rates, automatic/encrypted backups/recovery, update review/install, runtime/add-ons, data connections/storage, appearance/accessibility and complete keyboard shortcuts. Maximize currency/account lists and shortcuts; switching Settings pages updates only content. Preserve household data and completed Income pages."
   ]
 }
