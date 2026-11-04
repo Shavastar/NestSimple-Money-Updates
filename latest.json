@@ -1,11 +1,9 @@
 {
-  "version": "1.2.81",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.81.nsmupdate",
-  "size": 4397407,
-  "sha256": "71c26cec3605c389e354607414d11c6c9634bb4bd8d6db9f531905e93f2afd0e",
+  "version": "1.2.82",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.82.nsmupdate",
+  "size": 4397406,
+  "sha256": "33a5df9ca3e10b2d8347234153b1097e3b486a93454385c76fde432e55b71eae",
   "changes": [
-    "Categories Add/Edit/Delete: bold middle-aligned fields and field-height category icons. Add has category fields on the left and the icon selection box on the right; add private PNG/GIF icons up to225x225 pixels, saved only with the category.",
-    "Delete shows the live current/replacement category names and icons with striped tables and moving records beneath the right-hand fields; retain the random garbage creature and existing confirmation/reassignment safeguards.",
-    "Smooth Categories slide transitions with smaller movement steps; keep the list visible throughout closing and remove the duplicated left strip by using a directly placed form body. Preserve other pages and household data."
+    "Categories animation only: use the same ten steps,16ms interval and cubic easing as the calendar for both opening and closing. Keep the list visible and preserve all Categories controls, artwork and data behavior."
   ]
 }
