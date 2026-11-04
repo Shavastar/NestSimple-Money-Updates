@@ -1,10 +1,10 @@
 {
-  "version": "1.2.77",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.77.nsmupdate",
-  "size": 4116662,
-  "sha256": "cd4d906408545fc0ee2a3c401410281f82d444b62e70b98a2c5fffe767f4b398",
+  "version": "1.2.78",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.78.nsmupdate",
+  "size": 12874263,
+  "sha256": "ec8f5aa422f1d967c744c449a33d6f1ad7384fc41eaea6ad68f460e9fc1def5b",
   "changes": [
-    "Implement the approved Categories Settings page with Budget Categories and Income Categories scope buttons, matching list titles and a larger list. Add, Edit, Delete, Save and Close share one compact bottom row. Add/Edit/Delete replace the list with matching forms that slide in from the right and close to the right.",
-    "Preserve existing category validation, rename confirmation, usage reassignment, carry-forward, backups and undo. General, Household, Accounts and Categories now show Title = Saved in the scenic status bar, with Saved green or Unsaved red while editing. Other Settings pages retain their current status format until updated."
+    "Correct Categories Add/Edit/Delete forms to appear as matching rounded Settings panels sliding over the list from the right and closing back to the right. Each form has its own action and Close buttons; the main Categories Close button retains its text and matches the other button sizes.",
+    "Use the five approved transparent garbage-creature illustrations on Delete/Remove forms and confirmation screens, choosing randomly once each time a screen opens. Creatures are distinct; bins 2 and 5 have different funny recycling logos and creature 5 has tentacles. Preserve deletion confirmations, values and data safeguards."
   ]
 }
