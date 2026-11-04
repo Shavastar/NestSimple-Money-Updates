@@ -1,9 +1,9 @@
 {
-  "version": "1.2.84",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.84-QUICK.nsmupdate",
-  "size": 50901,
-  "sha256": "d5525a805544f589ba4f473f87c9bc525f7db910b604dae1bc3e21d114a761a5",
+  "version": "1.2.85",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.85-QUICK.nsmupdate",
+  "size": 58005,
+  "sha256": "f9a11183a68bce2d47ee84c6deab81a03e8aa09cf3fd3c416d5f6fe310f076ca",
   "changes": [
-    "Categories Add/Edit: choose Main category or Subcategory; subcategories must select an existing main category. Save the relationship, reflect it in grouping, and prevent self-parenting, cycles and third-level categories. Preserve existing financial records, artwork and animation."
+    "Currencies only: compact rounded Settings page with banknote icon, currency name/code, relative rate, date and flag columns; selected reporting base recalculates all displayed rates while stored ledger conversions remain CAD. Refresh Rate with wavy banknote icon stages rates and reveals adjacent Save/Cancel; no changes are saved until Save. Scenic status shows selected currency and Last Updated date: green today/just refreshed, orange1-10days old, red older. Preserve manual rate/date editing and saved entries."
   ]
 }
