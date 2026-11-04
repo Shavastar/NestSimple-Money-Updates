@@ -1,9 +1,9 @@
 {
-  "version": "1.2.86",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.86-QUICK.nsmupdate",
-  "size": 88255,
-  "sha256": "f486df0e048ee384c1a1156410ca431c48eaef8361a10a19d6703ab9c0309a7c",
+  "version": "1.2.87",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.87-QUICK.nsmupdate",
+  "size": 1057375,
+  "sha256": "1092b24cef41028e5ad95665b5d450a51b774dfd4f15c7ed5274256d55bf20a1",
   "changes": [
-    "Settings style only: Backup, Security, Language and Appearance now use the established rounded page/menu design, bold aligned text and Title = Saved/Unsaved scenic status. All Settings page title icons match General at48x44. Preserve existing controls, backup/security/language/appearance functions and data."
+    "First-time startup follows the approved welcome design, using the supplied cluttered-table photograph initially and laptop photograph when information entry begins. Preserve existing setup tabs, profile validation, folders, starting budgets, shortcut and document add-on options. Add Test Startup above Testing in the main menu; preview validates input without creating or replacing a household/profile or installing shortcuts/add-ons."
   ]
 }
