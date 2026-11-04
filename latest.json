@@ -1,10 +1,9 @@
 {
-  "version": "1.2.59",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.59.nsmupdate",
-  "size": 2540206,
-  "sha256": "bd2df8a5ebfe0b36dee7e8e011692d7b25a1c6d0e77c8026f1bb167e4f5257f0",
+  "version": "1.2.60",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.60.nsmupdate",
+  "size": 2540325,
+  "sha256": "4f8777322a059531fcb72bfb8576040ded9ce4d00add3f5c259a2a8654f00d94",
   "changes": [
-    "Income Pie only: include all registered categories and reuse updated handheld scheduling calendars with highlighted pending/recorded dates, record opening and month-end range behavior.",
-    "Demonstration household only: once-only additive income examples rebalance salary to about56%, with refunds/pension lowest, using existing accounts/categories. Preserve all existing records and salary amounts; back up through normal data change mechanism. Personal households are excluded."
+    "Pie title only: show the selected inclusive month count for multi-month date ranges, matching Bar. Preserve single-month title, calendars, chart design, functions and data."
   ]
 }
