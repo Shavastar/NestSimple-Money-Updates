@@ -1,10 +1,10 @@
 {
-  "version": "1.2.67",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.67.nsmupdate",
-  "size": 4082774,
-  "sha256": "0335d1f81263000051e6a1e63ff7ab33c3f85655cfc3c2fb14a4939b6e13cf82",
+  "version": "1.2.68",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.68.nsmupdate",
+  "size": 4083557,
+  "sha256": "f2cf22d4e87a4fd765789043f77386229fd8c014a8d2f2b3ffe7675bb98b63aa",
   "changes": [
-    "Settings Updates page only: approved rounded content container and rounded menu, Updates icon/title inside the container, green live status strip, installed-version line, matching primary actions and What\u2019s New section. Preserve all updater callbacks, validation, review, backups and installation safeguards.",
-    "Keep download action available when a newer update exists, show progress when active, and retain downloaded-installer action below the release notes. Other Settings pages and completed Income designs are unchanged."
+    "Settings Updates only: Download Update stays visible, grey when no newer update is available; retain Check for Updates and Choose Update File. Keep the old manual .exe installer action clearly labelled under collapsed Advanced options.",
+    "Draw Updates status text directly over the scenic bottom bar, with clear insets and readable contrast. Preserve rounded menu/content, existing updater callbacks and safeguards. Other pages and household data unchanged."
   ]
 }
