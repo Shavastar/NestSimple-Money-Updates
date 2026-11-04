@@ -1,10 +1,10 @@
 {
-  "version": "1.2.76",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.76.nsmupdate",
-  "size": 4110436,
-  "sha256": "abb1fed48ddebab73ce6034cb0c003db64b0a27d4501fd40caf2f142d3dbf722",
+  "version": "1.2.77",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.77.nsmupdate",
+  "size": 4116662,
+  "sha256": "cd4d906408545fc0ee2a3c401410281f82d444b62e70b98a2c5fffe767f4b398",
   "changes": [
-    "Place Default Accounts in a compact top-left card and Display in a top-right card, giving the account-order list more height. Put Open Accounts, Save and Cancel on the same bottom row. Preserve the approved Settings style and controls.",
-    "Apply the saved account order centrally to account lists and account dropdowns throughout the app. Account dropdowns retain the saved order when opened instead of being re-sorted alphabetically. Other dropdowns and account selections remain unchanged."
+    "Implement the approved Categories Settings page with Budget Categories and Income Categories scope buttons, matching list titles and a larger list. Add, Edit, Delete, Save and Close share one compact bottom row. Add/Edit/Delete replace the list with matching forms that slide in from the right and close to the right.",
+    "Preserve existing category validation, rename confirmation, usage reassignment, carry-forward, backups and undo. General, Household, Accounts and Categories now show Title = Saved in the scenic status bar, with Saved green or Unsaved red while editing. Other Settings pages retain their current status format until updated."
   ]
 }
