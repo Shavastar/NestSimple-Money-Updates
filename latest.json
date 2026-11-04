@@ -1,10 +1,9 @@
 {
-  "version": "1.2.78",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.78.nsmupdate",
-  "size": 12874263,
-  "sha256": "ec8f5aa422f1d967c744c449a33d6f1ad7384fc41eaea6ad68f460e9fc1def5b",
+  "version": "1.2.79",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.79.nsmupdate",
+  "size": 12874984,
+  "sha256": "d2bae15df05ba9f33995bafe151314f7dc4a9b0ccb76c11d6d45a1cdb95593b1",
   "changes": [
-    "Correct Categories Add/Edit/Delete forms to appear as matching rounded Settings panels sliding over the list from the right and closing back to the right. Each form has its own action and Close buttons; the main Categories Close button retains its text and matches the other button sizes.",
-    "Use the five approved transparent garbage-creature illustrations on Delete/Remove forms and confirmation screens, choosing randomly once each time a screen opens. Creatures are distinct; bins 2 and 5 have different funny recycling logos and creature 5 has tentacles. Preserve deletion confirmations, values and data safeguards."
+    "Settings Delete/Remove screens only: keep the randomly selected garbage-creature illustration visible on the left, put bold category/details text and fields on the right, and center the form buttons at the bottom. Apply the same left/right bold arrangement to Settings deletion confirmations. Preserve random selection on each opening, animation, confirmations and data behavior."
   ]
 }
