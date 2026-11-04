@@ -1,9 +1,9 @@
 {
-  "version": "1.2.79",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.79.nsmupdate",
-  "size": 12874984,
-  "sha256": "d2bae15df05ba9f33995bafe151314f7dc4a9b0ccb76c11d6d45a1cdb95593b1",
+  "version": "1.2.80",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.80.nsmupdate",
+  "size": 4391927,
+  "sha256": "8b6d9277de61c3438e8391ac50936fc9f622ea8ab7b6a903f25576cfb4688113",
   "changes": [
-    "Settings Delete/Remove screens only: keep the randomly selected garbage-creature illustration visible on the left, put bold category/details text and fields on the right, and center the form buttons at the bottom. Apply the same left/right bold arrangement to Settings deletion confirmations. Preserve random selection on each opening, animation, confirmations and data behavior."
+    "Delete illustration fix only: package the five approved transparent garbage-creature icons at200x200 pixels instead of full resolution, and display the prepared icons directly rather than reducing them at runtime. Preserve random selection per screen opening and existing Delete/Remove behavior."
   ]
 }
