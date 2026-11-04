@@ -1,9 +1,9 @@
 {
-  "version": "1.2.82",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.82.nsmupdate",
-  "size": 4397406,
-  "sha256": "33a5df9ca3e10b2d8347234153b1097e3b486a93454385c76fde432e55b71eae",
+  "version": "1.2.83",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.83-QUICK.nsmupdate",
+  "size": 15752,
+  "sha256": "6cb90a7460d984f539c0a06f4c83f25c249a662aa546d0cdc5d57c1afb332574",
   "changes": [
-    "Categories animation only: use the same ten steps,16ms interval and cubic easing as the calendar for both opening and closing. Keep the list visible and preserve all Categories controls, artwork and data behavior."
+    "Fast test update for v1.2.82: Categories animation20steps at8ms, with the same160ms nominal duration and matching easing in both directions. Only animation code and version marker change."
   ]
 }
