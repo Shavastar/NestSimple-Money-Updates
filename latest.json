@@ -1,9 +1,10 @@
 {
-  "version": "1.2.69",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.69.nsmupdate",
-  "size": 4083789,
-  "sha256": "29fc1102d375508870b26aa9173fd77fa8b8832eecfd47a0703b1d9b7046260d",
+  "version": "1.2.70",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.70.nsmupdate",
+  "size": 4085161,
+  "sha256": "cc8f5edd3881b3dd2ec4819ace16148c781b638d0ed5897b6f2b53997bdd4b2b",
   "changes": [
-    "Settings Updates styling only: apply the same rounded Settings controls and Arial to the installation review created after downloading or choosing an update. Preserve all download/install/restart callbacks and safeguards."
+    "General Settings now follows the approved rounded form: household and folder fields, folder icons, sound checkbox, centered Save and Cancel, and status over the purple scenery. Existing sound tests, full keyboard shortcuts and runtime tools remain available under Additional options.",
+    "Add the approved Check for updates at startup preference. Checks run in the background, offer to open Updates when a newer version is found, and retain download/install review. Offline checks do not block startup."
   ]
 }
