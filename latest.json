@@ -1,9 +1,9 @@
 {
-  "version": "1.2.89",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.89-QUICK.nsmupdate",
-  "size": 648672,
-  "sha256": "2c2bc8ccf1d41761d0df5dd2bef1b0653924a6761ba3192c7064cf0350193b98",
+  "version": "1.2.90",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.90-QUICK.nsmupdate",
+  "size": 77292,
+  "sha256": "a18c5c319bb4ec33f27ce32f353b15459825aad448dfd635927a13bf14bfdf91",
   "changes": [
-    "Startup only:reduce the full design to approximately75percent(615x735),remove the native window frame and make rounded outer corners transparent. Return to the cluttered-table photograph when entered information is cleared; use the laptop image while information is present. Existing setup actions and preview safety remain unchanged."
+    "Add MS Data beside Test Startup and in Settings > Household > Connections to open the separate local Microsoft Money test household. Keep personal and fictional households separate, preserve imported records, and reduce sidebar message text to fit."
   ]
 }
