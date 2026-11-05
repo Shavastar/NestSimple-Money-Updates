@@ -1,9 +1,9 @@
 {
-  "version": "1.2.87",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.87-QUICK.nsmupdate",
-  "size": 1057375,
-  "sha256": "1092b24cef41028e5ad95665b5d450a51b774dfd4f15c7ed5274256d55bf20a1",
+  "version": "1.2.88",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.88-QUICK.nsmupdate",
+  "size": 46719,
+  "sha256": "7e06d826b7e14efb256ff809338f5118ea1691aea35c98c408c8a367a721bfd8",
   "changes": [
-    "First-time startup follows the approved welcome design, using the supplied cluttered-table photograph initially and laptop photograph when information entry begins. Preserve existing setup tabs, profile validation, folders, starting budgets, shortcut and document add-on options. Add Test Startup above Testing in the main menu; preview validates input without creating or replacing a household/profile or installing shortcuts/add-ons."
+    "Startup presentation correction only: simplify the welcome form layout so the complete language selector, tabs, input fields and actions remain visible in the approved design. Retain the supplied clutter-to-laptop photo switch, all existing setup actions and the safe Test Startup button. No other pages or updater workflow changes."
   ]
 }
