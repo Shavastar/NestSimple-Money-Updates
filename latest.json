@@ -1,11 +1,11 @@
 {
-  "version": "1.3.05",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.05.nsmupdate",
-  "size": 7116616,
-  "sha256": "dabe0ec7c1f901b31569b151429d71a68d9df0fa705a0a17069d9f565fb97193",
+  "version": "1.3.06",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.06-QUICK.nsmupdate",
+  "size": 82921,
+  "sha256": "b2601247027e97d573bfb625fc7bcbd6940a6ef52e0a21555a3a02684eeb7500",
   "changes": [
-    "Bills Scheduler opens a handheld Add Schedule form on an unmarked date double-click.",
-    "Add and Edit share in-device date pickers, right-edge transitions and an editable automatic payment count.",
-    "Cumulative update for supported remote installations."
+    "Matched Income and Bills Add and Edit forms to the two-panel concept layout.",
+    "Scheduler dates split highlights by record. Click to show a record or double-click to edit. Bills schedule editors open immediately.",
+    "Income and Bills share compact schedule fields. Updated delete confirmation controls in Income, Bills and Settings."
   ]
 }
