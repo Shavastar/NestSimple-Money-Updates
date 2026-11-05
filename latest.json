@@ -1,9 +1,10 @@
 {
-  "version": "1.2.97",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.97-QUICK.nsmupdate",
-  "size": 1779153,
-  "sha256": "c205d4d10e5aefc92debd5cdabde86e4e1aad48189afa4fb6076ebbbdf7713b8",
+  "version": "1.2.98",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.98-QUICK.nsmupdate",
+  "size": 98365,
+  "sha256": "f3dd975b67e0165cfd9f9387681ec392a2dbc430e850c7246296517f7519cb90",
   "changes": [
-    "Approved Print Report filter/sorting sheet with live report-only dates and category/subcategory scope, stable default and custom category grouping, newest/alphabetical/numeric ordering, centered Preview Report, Print, Cancel, shared calendar device and in-app PDF/native print flows. Preserve empty results, split-category totals and household data. Replace only sign-out content with the approved blue artwork. Supersedes95 and96 before final handoff; preserve duplicate split-category amounts; install this combined update directly from94,95 or96."
+    "Restyled Bills Manage with the approved green title bars, compact tabs and filters, four totals, striped bill rows and scenic footer.",
+    "Scheduler opens the existing Bills calendar. Bill actions, charts and Print Report continue to use their existing functions."
   ]
 }
