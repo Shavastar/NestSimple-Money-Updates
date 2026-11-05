@@ -1,9 +1,9 @@
 {
-  "version": "1.2.95",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.95-QUICK.nsmupdate",
-  "size": 1778560,
-  "sha256": "ec62f2a50f3426563a05696ede0b756ff7056e1eb398b98a1463f47901e94221",
+  "version": "1.2.96",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.96-QUICK.nsmupdate",
+  "size": 1778925,
+  "sha256": "6652f4e9bbf4e790a5728e78a15b788e7f5f18ec952cc99e247981915888aded",
   "changes": [
-    "Replace the list-report ordering prompt with the approved page-owned Print Report sheet: report-only date/category/subcategory filters, live striped list preview, stable category grouping, newest-date/alphabetical/numeric ordering, and centered Preview Report, Print, Cancel controls. Reuse the calendar device, in-app PDF preview and native printer-selection flow; preserve empty results and financial data. Replace only the sign-out content image with the supplied blue version; retain existing menu and branding."
+    "Approved Print Report filter/sorting sheet with live report-only dates and category/subcategory scope, stable default and custom category grouping, newest/alphabetical/numeric ordering, centered Preview Report, Print, Cancel, shared calendar device and in-app PDF/native print flows. Preserve empty results, split-category totals and household data. Replace only sign-out content with the approved blue artwork. Supersedes95 before final handoff; install this combined update directly from94 or95."
   ]
 }
