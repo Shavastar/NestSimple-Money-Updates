@@ -1,10 +1,10 @@
 {
-  "version": "1.3.00",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.00-QUICK.nsmupdate",
-  "size": 185096,
-  "sha256": "97a9e18d7e92d129c46f77639752b695de3fbb4e42e4fb60926ad06870191ca9",
+  "version": "1.3.01",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.01.nsmupdate",
+  "size": 7105544,
+  "sha256": "c81fda404602d868b3804f96c42ad4b0703037545099f66be0757cd905a22f1d",
   "changes": [
-    "Bills now uses the approved green millstream footer and clickable Total, Paid, Unpaid and Upcoming filters.",
-    "Scheduler can display the full year with marked schedule dates and open any month from that view."
+    "Styled Bills pie, bar and trend charts and bill action pages. Added Confirm Paid and Confirm Delete, white dropdowns, and an instant content-only report filter.",
+    "Combined update for remote users on supported older versions. Household files are preserved."
   ]
 }
