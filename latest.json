@@ -1,9 +1,9 @@
 {
-  "version": "1.2.93",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.93-QUICK.nsmupdate",
-  "size": 42884,
-  "sha256": "edb181f4ce40f87f247163584ae19cdff619102204f87b708fcd3be30f54176b",
+  "version": "1.2.94",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.94-QUICK.nsmupdate",
+  "size": 1743055,
+  "sha256": "89e8401ee4c0f9d6bb0e2544467e7e6758dc7e229bf9387ce4d2adb4227cdc03",
   "changes": [
-    "Main-menu Update now opens Settings > Updates directly. Remove the legacy online update-page route; retain existing download, validation, installation review and restart functions in Settings."
+    "Temporary signed-out visual mock-up: keep the app window open and display the supplied concept images over the content and menu, preserving logo/tagline positions. Sign In removes the images and restores the page without a sign-in pop-up; Start Demo uses the existing demo action. Add the matching door artwork to Sign Out. This image mock-up is not a new authentication lock. No household data changes."
   ]
 }
