@@ -1,9 +1,9 @@
 {
-  "version": "1.2.88",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.88-QUICK.nsmupdate",
-  "size": 46719,
-  "sha256": "7e06d826b7e14efb256ff809338f5118ea1691aea35c98c408c8a367a721bfd8",
+  "version": "1.2.89",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.89-QUICK.nsmupdate",
+  "size": 648672,
+  "sha256": "2c2bc8ccf1d41761d0df5dd2bef1b0653924a6761ba3192c7064cf0350193b98",
   "changes": [
-    "Startup presentation correction only: simplify the welcome form layout so the complete language selector, tabs, input fields and actions remain visible in the approved design. Retain the supplied clutter-to-laptop photo switch, all existing setup actions and the safe Test Startup button. No other pages or updater workflow changes."
+    "Startup only:reduce the full design to approximately75percent(615x735),remove the native window frame and make rounded outer corners transparent. Return to the cluttered-table photograph when entered information is cleared; use the laptop image while information is present. Existing setup actions and preview safety remain unchanged."
   ]
 }
