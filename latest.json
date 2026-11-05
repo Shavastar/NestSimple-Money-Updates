@@ -1,9 +1,9 @@
 {
-  "version": "1.2.91",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.91-QUICK.nsmupdate",
-  "size": 60213,
-  "sha256": "d9ecd80b883dbb671232f8f8374faa6635021225a65a11bc712b2c7f6dc657e6",
+  "version": "1.2.92",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.92-QUICK.nsmupdate",
+  "size": 75804,
+  "sha256": "955d31e551155eb5ee5f2e8a835e5bd0cb7c16b6c2accbb58e6f55e18b840872",
   "changes": [
-    "Exclude closed accounts from current Overview and Accounts totals and current print summaries. Preserve account records, transaction history and historical registers. Recognize existing Yes, true and 1 closed-account flags. Private MS Data corrections remain local and are not included in this package."
+    "Keep Open example household separate from MS Data. Restore switching from the imported testing household back to the fictional demo and back again. Settings Household Connections uses the same actions; selecting the already-open MS Data shows its Overview. Preserve separate profiles, saved demo month and all financial records. Include the preceding closed-account totals correction for installations still on version1.2.90."
   ]
 }
