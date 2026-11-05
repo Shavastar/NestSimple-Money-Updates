@@ -1,10 +1,10 @@
 {
-  "version": "1.2.98",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.98-QUICK.nsmupdate",
-  "size": 98365,
-  "sha256": "f3dd975b67e0165cfd9f9387681ec392a2dbc430e850c7246296517f7519cb90",
+  "version": "1.2.99",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.99-QUICK.nsmupdate",
+  "size": 65685,
+  "sha256": "15a2b593fc0eb242c29cd73e90f703dd1ebd8eb046029b367b546c51e96da35a",
   "changes": [
-    "Restyled Bills Manage with the approved green title bars, compact tabs and filters, four totals, striped bill rows and scenic footer.",
-    "Scheduler opens the existing Bills calendar. Bill actions, charts and Print Report continue to use their existing functions."
+    "Added the Bills Scheduler page with a schedule list, calendar, upcoming dates and category splits.",
+    "Added direct two- and six-month recurrence and a versioned schedule-file importer. No Microsoft Money household or schedule files are included."
   ]
 }
