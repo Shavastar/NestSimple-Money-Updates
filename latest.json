@@ -1,9 +1,9 @@
 {
-  "version": "1.2.92",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.92-QUICK.nsmupdate",
-  "size": 75804,
-  "sha256": "955d31e551155eb5ee5f2e8a835e5bd0cb7c16b6c2accbb58e6f55e18b840872",
+  "version": "1.2.93",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.93-QUICK.nsmupdate",
+  "size": 42884,
+  "sha256": "edb181f4ce40f87f247163584ae19cdff619102204f87b708fcd3be30f54176b",
   "changes": [
-    "Keep Open example household separate from MS Data. Restore switching from the imported testing household back to the fictional demo and back again. Settings Household Connections uses the same actions; selecting the already-open MS Data shows its Overview. Preserve separate profiles, saved demo month and all financial records. Include the preceding closed-account totals correction for installations still on version1.2.90."
+    "Main-menu Update now opens Settings > Updates directly. Remove the legacy online update-page route; retain existing download, validation, installation review and restart functions in Settings."
   ]
 }
