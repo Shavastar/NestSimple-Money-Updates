@@ -1,9 +1,9 @@
 {
-  "version": "1.2.90",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.90-QUICK.nsmupdate",
-  "size": 77292,
-  "sha256": "a18c5c319bb4ec33f27ce32f353b15459825aad448dfd635927a13bf14bfdf91",
+  "version": "1.2.91",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.91-QUICK.nsmupdate",
+  "size": 60213,
+  "sha256": "d9ecd80b883dbb671232f8f8374faa6635021225a65a11bc712b2c7f6dc657e6",
   "changes": [
-    "Add MS Data beside Test Startup and in Settings > Household > Connections to open the separate local Microsoft Money test household. Keep personal and fictional households separate, preserve imported records, and reduce sidebar message text to fit."
+    "Exclude closed accounts from current Overview and Accounts totals and current print summaries. Preserve account records, transaction history and historical registers. Recognize existing Yes, true and 1 closed-account flags. Private MS Data corrections remain local and are not included in this package."
   ]
 }
