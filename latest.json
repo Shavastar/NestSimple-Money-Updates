@@ -1,9 +1,9 @@
 {
-  "version": "1.2.94",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.94-QUICK.nsmupdate",
-  "size": 1743055,
-  "sha256": "89e8401ee4c0f9d6bb0e2544467e7e6758dc7e229bf9387ce4d2adb4227cdc03",
+  "version": "1.2.95",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.2.95-QUICK.nsmupdate",
+  "size": 1778560,
+  "sha256": "ec62f2a50f3426563a05696ede0b756ff7056e1eb398b98a1463f47901e94221",
   "changes": [
-    "Temporary signed-out visual mock-up: keep the app window open and display the supplied concept images over the content and menu, preserving logo/tagline positions. Sign In removes the images and restores the page without a sign-in pop-up; Start Demo uses the existing demo action. Add the matching door artwork to Sign Out. This image mock-up is not a new authentication lock. No household data changes."
+    "Replace the list-report ordering prompt with the approved page-owned Print Report sheet: report-only date/category/subcategory filters, live striped list preview, stable category grouping, newest-date/alphabetical/numeric ordering, and centered Preview Report, Print, Cancel controls. Reuse the calendar device, in-app PDF preview and native printer-selection flow; preserve empty results and financial data. Replace only the sign-out content image with the supplied blue version; retain existing menu and branding."
   ]
 }
