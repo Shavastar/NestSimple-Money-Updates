@@ -1,10 +1,10 @@
 {
-  "version": "1.3.19",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.19-QUICK.nsmupdate",
-  "size": 113778,
-  "sha256": "f444fbf60a575e563050bf6bf4d882cd2605c2f17246f4cac949e3c1feec8ac4",
+  "version": "1.3.20",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.20-QUICK.nsmupdate",
+  "size": 123016,
+  "sha256": "18a70b1bafba2a9d70319cb8f9cd45a82d5b94c9c752014198251d38f37eecfc",
   "changes": [
-    "Bills, Income and Overview share the same inline Payment schedule layout. Choosing a repeat expands the fields directly.",
-    "The illustrated missing-fields sheet names each blank required field, including Number of payments when applicable."
+    "Overview editors use the existing full-width subtitle directly below the title bar and keep the Overview tabs visible.",
+    "Bills, Income and Overview show all payment schedule fields on first open. Scheduling remains optional."
   ]
 }
