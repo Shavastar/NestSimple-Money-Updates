@@ -1,10 +1,10 @@
 {
-  "version": "1.3.07",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.07.nsmupdate",
-  "size": 7117844,
-  "sha256": "a48150ae4eba18025ff5db6181d16692d1eb18c5a83a0baf668632307d896f2c",
+  "version": "1.3.08",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.08-QUICK.nsmupdate",
+  "size": 49408,
+  "sha256": "cf86e125b278fa6c03f0114255ee48a05fe812a3fc59b5959757bdd878251f7b",
   "changes": [
-    "Restored readable text and more room around the fields in the Income and Bills Add Schedule and Edit Schedule calendar forms.",
-    "The update includes earlier releases for supported remote installations."
+    "Bills reports show the flat, contrasting pie chart, shaded bars and shaded trend on the summary page.",
+    "Filtered bill details begin on page two, followed by the existing breakdown and monthly figures."
   ]
 }
