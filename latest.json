@@ -1,10 +1,10 @@
 {
-  "version": "1.3.08",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.08-QUICK.nsmupdate",
-  "size": 49408,
-  "sha256": "cf86e125b278fa6c03f0114255ee48a05fe812a3fc59b5959757bdd878251f7b",
+  "version": "1.3.09",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.09-QUICK.nsmupdate",
+  "size": 51305,
+  "sha256": "fd7b77faf4536c0cc3374ddfb255a6113b2b88b2f0355b8dde3379735a7708a8",
   "changes": [
-    "Bills reports show the flat, contrasting pie chart, shaded bars and shaded trend on the summary page.",
-    "Filtered bill details begin on page two, followed by the existing breakdown and monthly figures."
+    "Overview My Money now has four linked totals including Investments and a white information panel with the inset scenic status bar.",
+    "Information headers open their corresponding sections and existing detail pages."
   ]
 }
