@@ -1,11 +1,10 @@
 {
-  "version": "1.3.18",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.18-QUICK.nsmupdate",
-  "size": 172529,
-  "sha256": "cc271fc187dce61c11ae508944a4fabe82ded43d91227071e9bfffce75125f59",
+  "version": "1.3.19",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.19-QUICK.nsmupdate",
+  "size": 113778,
+  "sha256": "f444fbf60a575e563050bf6bf4d882cd2605c2f17246f4cac949e3c1feec8ac4",
   "changes": [
-    "Editor actions are centered with Save before Cancel. Image, Contact and Transfer panels are white, and scenic status shows the page title and colored status together.",
-    "Overview and Income entries can save optional future repeats into Scheduler. Bills brings expanded recurrence fields into view.",
-    "Supported input forms list missing required fields together in an illustrated bottom sheet."
+    "Bills, Income and Overview share the same inline Payment schedule layout. Choosing a repeat expands the fields directly.",
+    "The illustrated missing-fields sheet names each blank required field, including Number of payments when applicable."
   ]
 }
