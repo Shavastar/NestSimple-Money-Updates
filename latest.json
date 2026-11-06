@@ -1,10 +1,10 @@
 {
-  "version": "1.3.10",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.10-QUICK.nsmupdate",
-  "size": 93015,
-  "sha256": "b0392d67d4e3e638b21b5796c590f2c942f645b3b14ee196aabee8ce32c8c724",
+  "version": "1.3.11",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.11-QUICK.nsmupdate",
+  "size": 78144,
+  "sha256": "10a41e4f074828019b5a8effa5e9bc1e304b1c0e8448ab69d9fda4ae63245f3f",
   "changes": [
-    "Overview uses the reference lighthouse scenery in the standard inset status bar.",
-    "Add Income and Add Expense now follow My Money. The calendar row is centered and the information boxes show more detail."
+    "Overview Add Income and Add Expense use the Add Bill two-panel form layout and shared controls.",
+    "Both forms retain their existing fields, attachments and contacts. Add Expense also retains split payments."
   ]
 }
