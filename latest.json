@@ -1,10 +1,10 @@
 {
-  "version": "1.3.09",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.09-QUICK.nsmupdate",
-  "size": 51305,
-  "sha256": "fd7b77faf4536c0cc3374ddfb255a6113b2b88b2f0355b8dde3379735a7708a8",
+  "version": "1.3.10",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.10-QUICK.nsmupdate",
+  "size": 93015,
+  "sha256": "b0392d67d4e3e638b21b5796c590f2c942f645b3b14ee196aabee8ce32c8c724",
   "changes": [
-    "Overview My Money now has four linked totals including Investments and a white information panel with the inset scenic status bar.",
-    "Information headers open their corresponding sections and existing detail pages."
+    "Overview uses the reference lighthouse scenery in the standard inset status bar.",
+    "Add Income and Add Expense now follow My Money. The calendar row is centered and the information boxes show more detail."
   ]
 }
