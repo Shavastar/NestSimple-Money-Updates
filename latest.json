@@ -1,10 +1,10 @@
 {
-  "version": "1.3.12",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.12-QUICK.nsmupdate",
-  "size": 72940,
-  "sha256": "bbb65c29e8c60523f37b1c88300a5ffd4aaee2f18b5296bfc4e7df83c463f09a",
+  "version": "1.3.13",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.13-QUICK.nsmupdate",
+  "size": 62137,
+  "sha256": "93e2316bc44449982b889721ef3dad54a058dead668db7b51681ac78b9ad0daa",
   "changes": [
-    "Overview Add Income and Add Expense use the scenic status bar and the standard subtitle navigation icons.",
-    "Bills Add Bill and Mark Paid show Back, Home, and Close in the subtitle bar."
+    "Bills opens sorted by Status, with unpaid items first.",
+    "Add Bill keeps the right-side subtitle navigation and uses the centered Bills Save and Cancel row."
   ]
 }
