@@ -1,11 +1,10 @@
 {
-  "version": "1.3.26",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.26-QUICK.nsmupdate",
-  "size": 133272,
-  "sha256": "5ad561ecf7f83a4e82dcbd9323c7f2f8b77959265c7e8757dfade12dcdf0e883",
+  "version": "1.3.27",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.27-QUICK.nsmupdate",
+  "size": 82283,
+  "sha256": "9098b87ae517b7216156f12040852bf41080749ec4a621883d2d12dc7d22ac92",
   "changes": [
-    "Matched the compact tinted summary cards in Accounts, Overview and Budgets. Removed the Overview summary card arrows.",
-    "Compacted Budget Manage and its combined charts to fit the standard window.",
-    "Added Budget Year Start Date in Household settings and a year selector in Budget charts. Monthly plans that cross the boundary split by days."
+    "Budget Manage summary cards open their details, including a monthly Balance breakdown of recorded income minus recorded spending.",
+    "Budget Manage information boxes are larger and use the original 112-pixel icons."
   ]
 }
