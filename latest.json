@@ -1,10 +1,9 @@
 {
-  "version": "1.3.27",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.27-QUICK.nsmupdate",
-  "size": 82283,
-  "sha256": "9098b87ae517b7216156f12040852bf41080749ec4a621883d2d12dc7d22ac92",
+  "version": "1.3.28",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.28-QUICK.nsmupdate",
+  "size": 92854,
+  "sha256": "7aac0edfb6b81572d7b60c9bcdae90f5aa26ddf1db5f3816ab28da14da3e8ffa",
   "changes": [
-    "Budget Manage summary cards open their details, including a monthly Balance breakdown of recorded income minus recorded spending.",
-    "Budget Manage information boxes are larger and use the original 112-pixel icons."
+    "Summary cards in Budgets, Overview and Accounts stay visible and usable while switching between card details."
   ]
 }
