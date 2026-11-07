@@ -1,9 +1,9 @@
 {
-  "version": "1.3.29",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.29-QUICK.nsmupdate",
-  "size": 238219,
-  "sha256": "0d5f5dc227964ca84d30f2224de6787b660e35592704f7201969149eaca75276",
+  "version": "1.3.30",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.30-QUICK.nsmupdate",
+  "size": 160272,
+  "sha256": "f74ecde4f1e088b812c18eda9d01a0822172bc9e71eeb8815e5fd76dcbcd92e8",
   "changes": [
-    "Replaced the written and visual Style Guide in Testing with current shared styles and behavior."
+    "Redesigned Transactions with the shared page styles, larger title icons, and the approved gold train and station status scene."
   ]
 }
