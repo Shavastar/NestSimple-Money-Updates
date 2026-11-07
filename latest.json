@@ -1,9 +1,9 @@
 {
-  "version": "1.3.30",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.30-QUICK.nsmupdate",
-  "size": 160272,
-  "sha256": "f74ecde4f1e088b812c18eda9d01a0822172bc9e71eeb8815e5fd76dcbcd92e8",
+  "version": "1.3.31",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.31-QUICK.nsmupdate",
+  "size": 93323,
+  "sha256": "42d3115a547aa35fce4c45cb646d859b33b364b43a02724cab34a203aa24c335",
   "changes": [
-    "Redesigned Transactions with the shared page styles, larger title icons, and the approved gold train and station status scene."
+    "Charts now uses a left section menu and one combined chart page per section, with the approved indigo harbour status bar."
   ]
 }
