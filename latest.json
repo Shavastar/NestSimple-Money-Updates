@@ -1,10 +1,11 @@
 {
-  "version": "1.3.20",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.20-QUICK.nsmupdate",
-  "size": 123016,
-  "sha256": "18a70b1bafba2a9d70319cb8f9cd45a82d5b94c9c752014198251d38f37eecfc",
+  "version": "1.3.21",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.21-QUICK.nsmupdate",
+  "size": 199386,
+  "sha256": "8b8cc14d5fae2c98c87549590a006c92792c3b366d05259dd6e338901a0902e5",
   "changes": [
-    "Overview editors use the existing full-width subtitle directly below the title bar and keep the Overview tabs visible.",
-    "Bills, Income and Overview show all payment schedule fields on first open. Scheduling remains optional."
+    "Accounts uses the shared styles, with Manage and chart tabs above the action row and Assign Older Record last.",
+    "Assets, Debts and Net account balance open their supporting account lists. Removed Import Statement, Quick Entry and Check Statement from Accounts.",
+    "Transfer Money and Edit Transfer show optional scheduling fields and save recurring transfers to Scheduler."
   ]
 }
