@@ -1,9 +1,9 @@
 {
-  "version": "1.3.28",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.28-QUICK.nsmupdate",
-  "size": 92854,
-  "sha256": "7aac0edfb6b81572d7b60c9bcdae90f5aa26ddf1db5f3816ab28da14da3e8ffa",
+  "version": "1.3.29",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.29-QUICK.nsmupdate",
+  "size": 238219,
+  "sha256": "0d5f5dc227964ca84d30f2224de6787b660e35592704f7201969149eaca75276",
   "changes": [
-    "Summary cards in Budgets, Overview and Accounts stay visible and usable while switching between card details."
+    "Replaced the written and visual Style Guide in Testing with current shared styles and behavior."
   ]
 }
