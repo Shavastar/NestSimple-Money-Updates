@@ -1,11 +1,9 @@
 {
-  "version": "1.3.24",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.24.nsmupdate",
-  "size": 7256347,
-  "sha256": "9523b9ec639b9734a8586e430418280d5597f54f6d450a2c6884d05b30fbf5de",
+  "version": "1.3.25",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.25-QUICK.nsmupdate",
+  "size": 98072,
+  "sha256": "5838294a851d356e6ac70ecf9ff4997cddd5421fbd7b0a7c54214adad7c23ba9",
   "changes": [
-    "Budgets uses the shared title bars, persistent tabs, compact summary cards and a blue scenic status area.",
-    "The worksheet details, category editor, Planner, review pages and charts use the current Budgets style while retaining their existing budget and report behavior.",
-    "This cumulative in-app update includes earlier releases for supported remote installations."
+    "Matched Budgets subtitles, worksheet headings and charts to the established section designs."
   ]
 }
