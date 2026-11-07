@@ -1,9 +1,9 @@
 {
-  "version": "1.3.22",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.22-QUICK.nsmupdate",
-  "size": 101937,
-  "sha256": "c8802b8620642f6b3b6ec88f601591b7f2b777e2018bbec5825193196041309e",
+  "version": "1.3.23",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.23-QUICK.nsmupdate",
+  "size": 61178,
+  "sha256": "0ec6ac5ffc1042a1fca4996be581a02fe1fb1647f847da9d0f3da11a2069e14d",
   "changes": [
-    "Add Account and Edit Account use the shared two-panel layout with account details on the left and Contact information on the right."
+    "Accounts opens faster by calculating each balance once and loading charts when a chart tab is selected."
   ]
 }
