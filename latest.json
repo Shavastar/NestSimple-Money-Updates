@@ -1,9 +1,10 @@
 {
-  "version": "1.3.34",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.34-QUICK.nsmupdate",
-  "size": 138495,
-  "sha256": "ba2b3d570f436462482684230f954685da1477d8c017d79b995c67b079803763",
+  "version": "1.3.35",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.35.nsmupdate",
+  "size": 7484976,
+  "sha256": "16aa8ebedba6c042ce171f345284652244321ac5eb77295735e4b2013f226215",
   "changes": [
-    "Accounts, Income, Transactions, Bills and Budgets put their existing charts on one Chart page. Transactions toolbar labels are larger."
+    "The Charts pages in Accounts, Income, Transactions, Bills and Budgets use one scenic status bar and scroll as one page. Toolbar buttons fit their labels, and long pie labels shorten when needed.",
+    "Cumulative update for supported earlier installations."
   ]
 }
