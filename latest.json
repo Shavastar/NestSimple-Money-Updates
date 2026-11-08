@@ -1,9 +1,9 @@
 {
-  "version": "1.3.36",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.36-QUICK.nsmupdate",
-  "size": 61525,
-  "sha256": "2f80cd31600fd2a398c0a36df15a49ef60fe30bb036b6e73ad7697fe66858a03",
+  "version": "1.3.37",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.37-QUICK.nsmupdate",
+  "size": 81633,
+  "sha256": "75f013583b2274acbb5f37be0387ded717d1095fccc1f7d2c553fd1bb075eb5c",
   "changes": [
-    "Accounts and Transactions reports follow the Budgets report style with paired charts and striped detail tables. Overview retains its report layout and uses a shaded spending ring."
+    "Overview and Budgets open the shared Print Report filter first, then show the report in the in-app preview. Closing the preview returns to the same filter selections."
   ]
 }
