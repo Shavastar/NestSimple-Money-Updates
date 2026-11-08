@@ -1,9 +1,9 @@
 {
-  "version": "1.3.39",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.39.nsmupdate",
-  "size": 7488824,
-  "sha256": "b0d1d16fc17ca2bd50add8bf7d4ef3a9e0b0241fa9a72dfd38cd211ccbdc52f4",
+  "version": "1.3.40",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.40-QUICK.nsmupdate",
+  "size": 49437,
+  "sha256": "3fccd28a5b7c7607a6350617aa39cb2176e3e4d9641052a177ea8ebdadc63ff8",
   "changes": [
-    "Remote updater compatibility for the known i18n.py variant retained by v1.3.07 installations."
+    "Overview report uses larger, consistent text while retaining account balances, aligned summary cards and faster generation."
   ]
 }
