@@ -1,9 +1,10 @@
 {
-  "version": "1.3.37",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.37-QUICK.nsmupdate",
-  "size": 81633,
-  "sha256": "75f013583b2274acbb5f37be0387ded717d1095fccc1f7d2c553fd1bb075eb5c",
+  "version": "1.3.38",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.38.nsmupdate",
+  "size": 7488730,
+  "sha256": "d1826e20747a5b2b602da84a333c17aa09ea920acd1564d042de220633889676",
   "changes": [
-    "Overview and Budgets open the shared Print Report filter first, then show the report in the in-app preview. Closing the preview returns to the same filter selections."
+    "Faster Overview reports with aligned cards, account balances without transaction counts, and consistent text in Bills & Deposits and Reminders.",
+    "Cumulative update for supported earlier installations."
   ]
 }
