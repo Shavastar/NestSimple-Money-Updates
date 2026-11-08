@@ -1,9 +1,11 @@
 {
-  "version": "1.3.40",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.40-QUICK.nsmupdate",
-  "size": 49437,
-  "sha256": "3fccd28a5b7c7607a6350617aa39cb2176e3e4d9641052a177ea8ebdadc63ff8",
+  "version": "1.3.41",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.41-QUICK.nsmupdate",
+  "size": 54977,
+  "sha256": "11ef0cb664601f8a1223b5a5cd64ec03aa7806f3037c0de845c5d76789b82e19",
   "changes": [
-    "Overview report uses larger, consistent text while retaining account balances, aligned summary cards and faster generation."
+    "Align the Overview summary cards and use the Spending Tracker body text size in the four information boxes.",
+    "Show Title, Date, and Amount in Reminders and Bills & Deposits, with more room for each row.",
+    "Show every budget category with its spending total in the two-column legend beneath the spending ring."
   ]
 }
