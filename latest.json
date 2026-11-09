@@ -1,9 +1,9 @@
 {
-  "version": "1.3.42",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.42-QUICK.nsmupdate",
-  "size": 58148,
-  "sha256": "44f7e0d028c85d022c248923ccafc0f4a9e364e980e69a12c2272683f369ee56",
+  "version": "1.3.43",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.43-QUICK.nsmupdate",
+  "size": 58895,
+  "sha256": "7d77867a33c693f950dcef4f0315e1f9fa215340185cb07625f87732de94bedc",
   "changes": [
-    "Preserve the verified month-end rule for imported bills across shorter months, consistently in Scheduler and when marking bills paid."
+    "Fit reports to the full usable landscape area when printing from NestSimple Money. Keep Charts report labels printable when many categories are shown."
   ]
 }
