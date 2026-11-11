@@ -1,9 +1,9 @@
 {
-  "version": "1.3.47",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.47-QUICK.nsmupdate",
-  "size": 58298,
-  "sha256": "c1af89736a03b6043134722c9e4d6e82a8ebeed161f4e2b350aa131cd9a232bf",
+  "version": "1.3.48",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.48-QUICK.nsmupdate",
+  "size": 175729,
+  "sha256": "3ce666a3ce09e909a15e2131acb5a60819ee3be4f520c302e217ee4279f70e81",
   "changes": [
-    "In Bills Scheduler, hover over a date with multiple schedules to pick one from a list showing its name, type, and amount."
+    "Preview a Microsoft Money .mbf backup from Settings, Household, Connections. Inspect source counts and scheduled occurrences before importing."
   ]
 }
