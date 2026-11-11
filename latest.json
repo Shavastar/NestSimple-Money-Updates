@@ -1,9 +1,9 @@
 {
-  "version": "1.3.44",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.44-QUICK.nsmupdate",
-  "size": 68775,
-  "sha256": "7829801de3d9a2577c9a430a238ba36c9d78e8aac5e02488aeb0b713e34adaa6",
+  "version": "1.3.45",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.45-QUICK.nsmupdate",
+  "size": 47006,
+  "sha256": "f8b4adcb53eae13e09fb2a62fb1b2a239fd26bf97b19871837e6b75199d51eb8",
   "changes": [
-    "Import a scheduled deposit and its linked transfer as one schedule, then confirm both entries together in Bills Scheduler."
+    "Fix the Windows error when opening MS Data from the Example Household window."
   ]
 }
