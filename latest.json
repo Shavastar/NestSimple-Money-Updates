@@ -1,9 +1,9 @@
 {
-  "version": "1.3.46",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.46-QUICK.nsmupdate",
-  "size": 137451,
-  "sha256": "0429043b7780f0f096965399ba67d9710b9296f01722654ee031ff9da686b1a8",
+  "version": "1.3.47",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.47-QUICK.nsmupdate",
+  "size": 58298,
+  "sha256": "c1af89736a03b6043134722c9e4d6e82a8ebeed161f4e2b350aa131cd9a232bf",
   "changes": [
-    "Add and edit income category and transfer splits on income schedules, including overdue occurrences. Confirm the deposit and transfers together."
+    "In Bills Scheduler, hover over a date with multiple schedules to pick one from a list showing its name, type, and amount."
   ]
 }
