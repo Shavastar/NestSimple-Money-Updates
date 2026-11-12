@@ -1,9 +1,9 @@
 {
-  "version": "1.3.49",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.49-QUICK.nsmupdate",
-  "size": 52792,
-  "sha256": "1feafd00eed00f9ff228336454d3f961315a8f12acab314027e967f3f190cb40",
+  "version": "1.3.50",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.50-QUICK.nsmupdate",
+  "size": 65413,
+  "sha256": "3c24b39de6a9ba20bca9817005df044316bb44129f65bf02d488474da75103b7",
   "changes": [
-    "Microsoft Money backup preview shows verified schedules from a matching local review, plus clearer schedule names and status counts."
+    "Import a reviewed Microsoft Money backup into a separate test household. Keep inactive schedules out and preserve the active household."
   ]
 }
