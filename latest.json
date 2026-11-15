@@ -1,10 +1,10 @@
 {
-  "version": "1.3.60",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.60-QUICK.nsmupdate",
-  "size": 74425,
-  "sha256": "f9b2411af0bda20ae768407cd3ac4d0226f4be0d014dad2ba60af20429796237",
+  "version": "1.3.61",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.61-QUICK.nsmupdate",
+  "size": 76067,
+  "sha256": "aeccbef32b0f918bf48104580a25dc1236065ea78cd54c75ed37392b9938fa0a",
   "changes": [
-    "Preserve source schedule templates and securities when importing reviewed Microsoft Money backups.",
-    "Keep detached loan templates out of the posted register and report how many rows still need review."
+    "Verify more Microsoft Money schedules directly from posted history, including corroborated monthly and month-end schedules.",
+    "Preserve scheduled expense splits and linked deposits, and leave completed one-time payments and confirmed loan payoffs inactive."
   ]
 }
