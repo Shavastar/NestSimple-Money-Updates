@@ -1,10 +1,10 @@
 {
-  "version": "1.3.58",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.58-QUICK.nsmupdate",
-  "size": 46217,
-  "sha256": "9ca67d51bb09acca7a4e64d2a160644f85365957e86e1d0f442267380f690ca1",
+  "version": "1.3.59",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.59-QUICK.nsmupdate",
+  "size": 73960,
+  "sha256": "d0e330218b5ccfbb66b1c4bc6c00c58308033d1998615c28b425032efe3d925a",
   "changes": [
-    "Import Microsoft Money backups directly into a separate test household when their source records can be mapped.",
-    "Preserve linked investment cash transfers and payroll details. Keep securities and non-posted bill templates with the import for review."
+    "Add the Property account type and preserve verified property-to-mortgage transfers and property adjustments from Microsoft Money.",
+    "Fix opening and repeating Microsoft Money imports stored on Windows network shares."
   ]
 }
