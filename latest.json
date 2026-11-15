@@ -1,10 +1,10 @@
 {
-  "version": "1.3.57",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.57-VM-compatible.nsmupdate",
-  "size": 93432,
-  "sha256": "ce3a71a8b41028f9b3684ff4b0d30ac25a0b07c66b7f81ce3ca8eded859756f1",
+  "version": "1.3.58",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.58-QUICK.nsmupdate",
+  "size": 46217,
+  "sha256": "9ca67d51bb09acca7a4e64d2a160644f85365957e86e1d0f442267380f690ca1",
   "changes": [
-    "Post scheduled deposits, payments and transfers directly from Bills Scheduler.",
-    "Support the virtual machine installer and earlier v1.3.52–v1.3.56 builds."
+    "Import Microsoft Money backups directly into a separate test household when their source records can be mapped.",
+    "Preserve linked investment cash transfers and payroll details. Keep securities and non-posted bill templates with the import for review."
   ]
 }
