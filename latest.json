@@ -1,10 +1,10 @@
 {
-  "version": "1.3.67",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.67-QUICK.nsmupdate",
-  "size": 95393,
-  "sha256": "c0cb8aed6da3aeb38df10ad45ada078f98549eb1ab09230ad6a05ab2fb33fe62",
+  "version": "1.3.68",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.68.nsmupdate",
+  "size": 394348,
+  "sha256": "2b217e07a08be67022575c2220ca33b864a7e4280abd5804e19629c23a69c7ab",
   "changes": [
-    "Import four Microsoft Money investment accounts with zero-unit securities and show their tracked securities in the account statements.",
-    "Keep closed tangible assets with a zero balance in account history. The Nov 4 backup includes one closed vehicle."
+    "Update directly from v1.3.39 through v1.3.67 using the normal Update button.",
+    "Includes the Microsoft Money import fixes through v1.3.67."
   ]
 }
