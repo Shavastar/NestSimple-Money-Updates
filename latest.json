@@ -1,10 +1,10 @@
 {
-  "version": "1.3.65",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.65-QUICK.nsmupdate",
-  "size": 78752,
-  "sha256": "efd30dff938cdb645262da75ac6ab2d08e3247abbfc00cdf7fd39e5b3629e57c",
+  "version": "1.3.66",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.66-QUICK.nsmupdate",
+  "size": 79020,
+  "sha256": "9807bc37cd8b2aa13ef3b6417b0e7a47efed763aee9cf43b45ac75723b23279c",
   "changes": [
-    "Project the active Microsoft Money budget into its applicable months in the imported register year.",
-    "Preserve linked cash-only savings accounts with no security holdings or register activity."
+    "Import supported Microsoft Money property accounts and recorded opening balances for linked investment accounts without securities positions.",
+    "Preserve closed account status and retain unsupported securities and other tangible assets with the source records."
   ]
 }
