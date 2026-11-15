@@ -1,10 +1,10 @@
 {
-  "version": "1.3.61",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.61-QUICK.nsmupdate",
-  "size": 76067,
-  "sha256": "aeccbef32b0f918bf48104580a25dc1236065ea78cd54c75ed37392b9938fa0a",
+  "version": "1.3.62",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.62-QUICK.nsmupdate",
+  "size": 77171,
+  "sha256": "5a9c0c6b330f2065ce6a1a3286ff9d18b143f4d24421f7ec13688e7907c8de7d",
   "changes": [
-    "Verify more Microsoft Money schedules directly from posted history, including corroborated monthly and month-end schedules.",
-    "Preserve scheduled expense splits and linked deposits, and leave completed one-time payments and confirmed loan payoffs inactive."
+    "Restore corroborated annual and twice-yearly Microsoft Money schedules directly from the backup.",
+    "Recognize a scheduled transfer when a single reciprocal posted pair matches the missing month and the schedule history."
   ]
 }
