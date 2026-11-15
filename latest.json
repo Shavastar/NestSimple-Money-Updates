@@ -1,10 +1,10 @@
 {
-  "version": "1.3.63",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.63-QUICK.nsmupdate",
-  "size": 77812,
-  "sha256": "fb72c1f27c7ce0fa239e48523bb3ecd68daf136ffd946758d808539ff4c89770",
+  "version": "1.3.64",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.64-QUICK.nsmupdate",
+  "size": 78253,
+  "sha256": "ded9d779c730584efaa884dd1cdd3c9744f6220994f9238fde04ea0bb27f4c01",
   "changes": [
-    "Use the stored Microsoft Money expense amounts when the schedule cadence is corroborated by posted history.",
-    "Preserve estimated amounts as source metadata for imported schedules."
+    "Preserve historical one-time Microsoft Money templates past their stored final date with the import.",
+    "Keep historical templates with no confirmed payment out of active bills and the posted register."
   ]
 }
