@@ -1,14 +1,9 @@
 {
-  "version": "1.3.84",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.84.nsmupdate",
-  "size": 552919,
-  "sha256": "9d6096dd005e0bfa95dd30717fc8f0491d5c9913e34564aaa60477dd06988fb7",
+  "version": "1.3.85",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.85.nsmupdate",
+  "size": 552931,
+  "sha256": "d93723fd13d8621716b82e7a8c7cdba34a7a25e49b8cb8c965c3cabe0f71af85",
   "changes": [
-    "Correct batch payment matching when the paying account changes. Keep unrelated scheduled bills due.",
-    "Restore Accounts printing after leaving Transfer Money and Back navigation from Multi-Debt Payoff.",
-    "Fix Account Balances report options and restore sortable household table headings.",
-    "Restore distinct colours on the Budgets spending ring and match button sizes on the affected screens and deletion messages.",
-    "Correct investment editor status and Dividend fields, Expense Details spacing, and Account Holdings table width.",
-    "Restore the Bill Details scenic status and correct the Mark Paid heading, payee field and action sizing."
+    "Keep Apply Update and Restart at the standard 40 px Updates button height in both the download review and Choose Update File review."
   ]
 }
