@@ -1,10 +1,9 @@
 {
-  "version": "1.3.74",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.74.nsmupdate",
-  "size": 453424,
-  "sha256": "b292b9abbd96da780c803eae8227610e1008018cfdef6a4e211c18747c234b39",
+  "version": "1.3.75",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.75.nsmupdate",
+  "size": 453502,
+  "sha256": "f637958802d3b636ac53cc0f52605f3759ae35d8adeb2559461d6bc452bbc84e",
   "changes": [
-    "Put Delete Account beside Edit Account on the second row and use the same button style.",
-    "Keep all Accounts commands visible at narrower window sizes."
+    "Keep Charts last on the Accounts toolbar, after Manage and Investments."
   ]
 }
