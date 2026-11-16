@@ -1,12 +1,12 @@
 {
-  "version": "1.3.72",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.72.nsmupdate",
-  "size": 452261,
-  "sha256": "e9ef1ff1933204f338962e43d1532adf6d4cd30b6e4ea4c30c1333ae89eecd71",
+  "version": "1.3.73",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.73.nsmupdate",
+  "size": 453243,
+  "sha256": "547dcf47ce72cf42b1d8da6e5f75cb11d604ae113f7fcf1a78cb9408e334d928",
   "changes": [
-    "Keep hidden accounts in Accounts and mark them with a crossed-eye icon in the Type column.",
-    "Use Hide Account or Show Hidden for the selected row. Move Delete Account to the top.",
-    "Hide accounts from other account lists and new account choices while preserving balances and existing records.",
-    "Remove the Home-button artwork from Property rows."
+    "Allow the normal Update to install from the v1.3.71 build with the in-page Add and Edit Account forms.",
+    "Keep hidden accounts in Accounts and show the crossed-eye icon beside Type.",
+    "Use Hide Account and Show Hidden below the list and Delete Account at the top.",
+    "Remove the Home button artwork from Property and keep hidden accounts out of other account lists."
   ]
 }
