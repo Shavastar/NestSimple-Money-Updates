@@ -1,9 +1,9 @@
 {
-  "version": "1.3.80",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.80.nsmupdate",
-  "size": 487751,
-  "sha256": "fc6ef835f7b1602af32b5c99b8802372423667581cbf5ab5236b1ed4604ab91b",
+  "version": "1.3.81",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.81.nsmupdate",
+  "size": 496696,
+  "sha256": "56847ba8e552b8ab0913d0194c78234a879a7c9834610299c4dac76b23924b58",
   "changes": [
-    "Open Debt Payoff Planner from Overview \u2192 Debts. Enter an annual interest rate and monthly payment to see estimated payoff months, interest, total paid, and the monthly breakdown. The planner leaves household records intact."
+    "Open Payee History from a selected bill or a transaction\u2019s details. See payments, deposits and unpaid bills across accounts, filter by date and open the original entry."
   ]
 }
