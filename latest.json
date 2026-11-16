@@ -1,9 +1,13 @@
 {
-  "version": "1.3.75",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.75.nsmupdate",
-  "size": 453502,
-  "sha256": "f637958802d3b636ac53cc0f52605f3759ae35d8adeb2559461d6bc452bbc84e",
+  "version": "1.3.76",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.76.nsmupdate",
+  "size": 458680,
+  "sha256": "88bd97c39f50384369a2a9661e6d349491919c37b09c13916c0e13849978fe4a",
   "changes": [
-    "Keep Charts last on the Accounts toolbar, after Manage and Investments."
+    "Keep Income summary cards visible and clickable when Largest Deposit opens its transaction.",
+    "Use Space or Enter to open the focused Income card.",
+    "Put Charts after Budget Plans on the Budgets toolbar.",
+    "Show the selected account-card detail in the Overview header.",
+    "Use equal-width summary cards in Overview, Accounts, and Budgets."
   ]
 }
