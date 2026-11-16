@@ -1,9 +1,14 @@
 {
-  "version": "1.3.82",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.82.nsmupdate",
-  "size": 503068,
-  "sha256": "67e952f9f929b0e0a7b4f3bd491f3f1abbd7e8b45c258967158c8ca4a5fac90c",
+  "version": "1.3.83",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.83.nsmupdate",
+  "size": 529022,
+  "sha256": "ca6ea148096f62240a48db39cf0e662f12d821398a5c016626fda671bcfea421",
   "changes": [
-    "Open Net Worth History from Overview \u2192 Balance. Choose a date range and select a month end to see recorded account balances and saved investment values. Missing investment prices leave the affected values, assets and net worth unavailable."
+    "Record buys, sales, dividends, reinvestments and splits in the Investment Register. See settlement activity, portfolio performance and realized lot gains.",
+    "Compare several debts in one plan and project loan and mortgage payments with optional extra principal.",
+    "Project household savings and spending through retirement with Lifetime Plan.",
+    "Review tax categories and estimate federal and provincial bracket amounts for Ontario and British Columbia.",
+    "Create, save, compare and print household reports.",
+    "Review and record a batch of bill payments and preview numbered cheque pages."
   ]
 }
