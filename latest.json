@@ -1,10 +1,9 @@
 {
-  "version": "1.3.79",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.79.nsmupdate",
-  "size": 484085,
-  "sha256": "c08403db421b30ea738b529dd9b29dd2b3a0caf0dbee777f3d65c2d99941ae5a",
+  "version": "1.3.80",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.80.nsmupdate",
+  "size": 487751,
+  "sha256": "fc6ef835f7b1602af32b5c99b8802372423667581cbf5ab5236b1ed4604ab91b",
   "changes": [
-    "Balance an account from its register. Enter the statement date and ending balance, clear matching entries, and save when the difference is zero.",
-    "Open Cash Flow Forecast from Overview \u2192 Bills & Deposits to see projected balances and daily activity for the selected account over 30, 60, or 90 days."
+    "Open Debt Payoff Planner from Overview \u2192 Debts. Enter an annual interest rate and monthly payment to see estimated payoff months, interest, total paid, and the monthly breakdown. The planner leaves household records intact."
   ]
 }
