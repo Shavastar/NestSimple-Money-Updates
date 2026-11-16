@@ -1,11 +1,11 @@
 {
-  "version": "1.3.69",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.69.nsmupdate",
-  "size": 406108,
-  "sha256": "d87f952cf1d667676ad0f2182c3fa9ebfaab0c97ee504037eb0b6cd219b73981",
+  "version": "1.3.70",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.70.nsmupdate",
+  "size": 406965,
+  "sha256": "1f668615ecb84225fdca9fc6a16eff569293cf4b63e10b499d199a6838b486b2",
   "changes": [
-    "Open Accounts > Portfolio Manager to see portfolio totals, account holdings and individual securities.",
-    "View units, recorded cost basis, saved prices and investment activity from Microsoft Money imports when available.",
-    "Retains normal Update compatibility from v1.3.39 onward."
+    "Rename Portfolio Manager to Investments under Accounts.",
+    "Show linked investment cash balances even when an account has no securities with units held.",
+    "Reimport the same Microsoft Money backup to fill in missing investment links for an existing test household while preserving its ledger."
   ]
 }
