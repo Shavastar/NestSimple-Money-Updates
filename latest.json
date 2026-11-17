@@ -1,10 +1,10 @@
 {
-  "version": "1.3.87",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.87.nsmupdate",
-  "size": 574702,
-  "sha256": "d669389761c12fff12bf1d278e8d0e2eaf388ff3933d00b9570edc2babf19f9d",
+  "version": "1.3.88",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.88.nsmupdate",
+  "size": 627589,
+  "sha256": "c9576fb425ff04b9538e7c40a5b3cedb60807b24e80acf76be1e326e15062037",
   "changes": [
-    "Install directly through normal Update from any released version from 1.3.70 through 1.3.86.",
-    "Includes the previously released fixes through v1.3.86. No new feature or layout changes."
+    "Reuse bundled artwork across screens, avoid oversized temporary images, and skip unchanged redraws.",
+    "Install directly through normal Update from v1.3.70 through v1.3.87. The update carries forward the previously released changes."
   ]
 }
