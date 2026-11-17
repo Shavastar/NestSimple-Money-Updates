@@ -1,9 +1,9 @@
 {
-  "version": "1.3.89",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.89.nsmupdate",
-  "size": 721766,
-  "sha256": "c28d5fc545c945db1289a2b0274785403e6c48ef8713b32658b4dc18a55c2c87",
+  "version": "1.3.90",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.90.nsmupdate",
+  "size": 728760,
+  "sha256": "fa57e015aa2cd00bd3f95f6190e7f3a7fd66bf63f7a75d5597c20df8e3f7fb2d",
   "changes": [
-    "Complete French and Spanish interface translations, including screens, controls, dialogs, and financial terminology."
+    "Reorganize Settings into Preferences, Household, Backup & Data, Currencies, Security, Language, Updates and Tools. Preserve existing actions."
   ]
 }
