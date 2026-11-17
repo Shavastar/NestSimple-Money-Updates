@@ -1,17 +1,10 @@
 {
-  "version": "1.3.86",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.86.nsmupdate",
-  "size": 82318,
-  "sha256": "b0ca3bc1b1694dc4c5f00ad2b5e62175420414871a8501122a733c08f0bbcec7",
+  "version": "1.3.87",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.87.nsmupdate",
+  "size": 574702,
+  "sha256": "d669389761c12fff12bf1d278e8d0e2eaf388ff3933d00b9570edc2babf19f9d",
   "changes": [
-    "Fix the built-in category icon picker.",
-    "Open a valid connected household without a stale window error.",
-    "Match Confirm Delete and Cancel on the category editor.",
-    "Match Create household and Cancel on first-time setup.",
-    "Match Confirm Assignment and Cancel when assigning an older record.",
-    "Keep Export CSV readable in the Transactions toolbar at narrower widths.",
-    "Use the standard Accounts button and artwork for Investment Register in Account Holdings.",
-    "Place Charts last in the Overview, Income, Transactions and Bills toolbars.",
-    "Match the repair and update action buttons at the standard 40 px height."
+    "Install directly through normal Update from any released version from 1.3.70 through 1.3.86.",
+    "Includes the previously released fixes through v1.3.86. No new feature or layout changes."
   ]
 }
