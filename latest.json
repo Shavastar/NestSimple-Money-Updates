@@ -1,12 +1,11 @@
 {
-  "version": "1.3.98",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.98.nsmupdate",
-  "size": 29140,
-  "sha256": "fde99b6ef86a72f9e8c0989ce2f7bd6e57bbac19137be90127fef4f113f6d003",
+  "version": "1.3.99",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.99.nsmupdate",
+  "size": 36425,
+  "sha256": "5834fe9ef3cdbe7b903dd28125e98217d4590ff7133007c7d9a1017d1a43ba01",
   "changes": [
-    "Fit bill-deletion detail rows and paper-backed labels to their available width.",
-    "Wrap the account-transfer destination label on the paper background in every language.",
-    "Keep the popup close control clear of scrolling messages and choice lists.",
-    "Wrap long popup choices to display their complete labels while preserving standard footer actions and existing behavior."
+    "Move Setup Review after Categories in the Household settings tabs.",
+    "Remove the empty household-type block and give Starting Budgets the available page width.",
+    "Use existing category artwork for imported names in Categories, including its editor and reassignment previews; preserve custom icons and all records."
   ]
 }
