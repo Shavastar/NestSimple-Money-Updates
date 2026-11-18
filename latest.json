@@ -1,11 +1,11 @@
 {
-  "version": "1.4.2",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.4.2.nsmupdate",
-  "size": 27666,
-  "sha256": "12e27618b971ace4f81840e748595ddea77d8c246a99c559efc170dbf27014ee",
+  "version": "1.4.3",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.4.3.nsmupdate",
+  "size": 34004,
+  "sha256": "6b277fd2064cdfb66c54abf8ee70c20e6298f57cf02d126eca5217b6fa5ea890",
   "changes": [
-    "Show actual household budget categories and amounts in Settings; use the eight starter suggestions only before financial setup.",
-    "Use the approved category artwork in Settings budgets, Budget Planner and its Auto Populate review.",
-    "Add table borders, shorten its column header and remove the starter explanation for established households."
+    "Keep Budget Planner summary cards above the planner and use colored Type artwork with the existing expense comparison.",
+    "Expand and collapse main budget categories without losing edits, sorting or totals.",
+    "Restore fixed 40 px popup choices and remove redundant budget initialization and edit-guard work."
   ]
 }
