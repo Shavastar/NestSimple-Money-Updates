@@ -1,10 +1,10 @@
 {
-  "version": "1.3.95",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.95.nsmupdate",
-  "size": 31147,
-  "sha256": "da09d29bc85422ef55ef9d27a8b521d13472e42a8c3cd730a35f0d8c3c13a58e",
+  "version": "1.3.96",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.96.nsmupdate",
+  "size": 294461,
+  "sha256": "e1484f5b6d815db5426a0835d6213d08dbaa58fc9e40ac406f3b628a9c661098",
   "changes": [
-    "Edit Account uses the selected investment or displayed investment account; an empty selection shows the correct prompt.",
-    "Fit short paper messages to their content and keep Got It close to the text. Preserve scrolling, 40px actions and randomized delete artwork."
+    "Protect unsaved edits before switching pages, records or tabs, cancelling, signing out or closing. Keep Editing preserves entered values; Discard Changes leaves without saving.",
+    "Make bottom paper messages narrower and fit their actual content. Keep actions close to short messages, preserve 40px buttons and scrolling for long content."
   ]
 }
