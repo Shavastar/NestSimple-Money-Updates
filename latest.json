@@ -1,9 +1,10 @@
 {
-  "version": "1.3.94",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.94.nsmupdate",
-  "size": 15858723,
-  "sha256": "3f4bb42549d14b66b6afe61d605f5339e0cc6e32fb4b747abacf70e0cb84fa98",
+  "version": "1.3.95",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.95.nsmupdate",
+  "size": 31147,
+  "sha256": "da09d29bc85422ef55ef9d27a8b521d13472e42a8c3cd730a35f0d8c3c13a58e",
   "changes": [
-    "Use consistent-size letter-paper sheets for bottom messages and confirmations, with lighter, folded and worn variants and section or action icons. Keep randomized garbage-can creatures for deletion, and keep actions visible while long content scrolls."
+    "Edit Account uses the selected investment or displayed investment account; an empty selection shows the correct prompt.",
+    "Fit short paper messages to their content and keep Got It close to the text. Preserve scrolling, 40px actions and randomized delete artwork."
   ]
 }
