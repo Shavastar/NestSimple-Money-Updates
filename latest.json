@@ -1,11 +1,10 @@
 {
-  "version": "1.3.99",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.3.99.nsmupdate",
-  "size": 36425,
-  "sha256": "5834fe9ef3cdbe7b903dd28125e98217d4590ff7133007c7d9a1017d1a43ba01",
+  "version": "1.4.0",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.4.0.nsmupdate",
+  "size": 25366,
+  "sha256": "472eec4dbffe52a6a247892e98ef252089ca2fd3d4681b651a4feaae5df81fc2",
   "changes": [
-    "Move Setup Review after Categories in the Household settings tabs.",
-    "Remove the empty household-type block and give Starting Budgets the available page width.",
-    "Use existing category artwork for imported names in Categories, including its editor and reassignment previews; preserve custom icons and all records."
+    "Keep Household fields, Starting Budgets headers, totals, actions and date fixed; scroll only the editable budget rows.",
+    "Add sortable Budget Category and Amount headers, preserving amounts, comparisons and existing save behavior."
   ]
 }
