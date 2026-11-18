@@ -1,10 +1,10 @@
 {
-  "version": "1.4.0",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.4.0.nsmupdate",
-  "size": 25366,
-  "sha256": "472eec4dbffe52a6a247892e98ef252089ca2fd3d4681b651a4feaae5df81fc2",
+  "version": "1.4.1",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.4.1.nsmupdate",
+  "size": 25450,
+  "sha256": "d4fc69b75c65580608f0ae99b02f1ad399d4fb9d1ae98e71078dc3d1cfd29026",
   "changes": [
-    "Keep Household fields, Starting Budgets headers, totals, actions and date fixed; scroll only the editable budget rows.",
-    "Add sortable Budget Category and Amount headers, preserving amounts, comparisons and existing save behavior."
+    "Use the approved compact Household layout with side-by-side names and the budget date above the taller list.",
+    "Keep the average action and total on one line, Save and Cancel directly below, and remove the duplicate Open Budgets shortcut."
   ]
 }
