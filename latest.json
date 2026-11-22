@@ -1,11 +1,11 @@
 {
-  "version": "1.4.3",
-  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.4.3.nsmupdate",
-  "size": 34004,
-  "sha256": "6b277fd2064cdfb66c54abf8ee70c20e6298f57cf02d126eca5217b6fa5ea890",
+  "version": "1.4.4",
+  "url": "https://raw.githubusercontent.com/Shavastar/NestSimple-Money-Updates/main/packages/NestSimple-Money-v1.4.4.nsmupdate",
+  "size": 103966,
+  "sha256": "66ed6963dc6c6a0a8a20d9ba86a9e0bd2f4da6257361d18eb6f390c3340160b0",
   "changes": [
-    "Keep Budget Planner summary cards above the planner and use colored Type artwork with the existing expense comparison.",
-    "Expand and collapse main budget categories without losing edits, sorting or totals.",
-    "Restore fixed 40 px popup choices and remove redundant budget initialization and edit-guard work."
+    "Activate, renew, and release your license in Settings.",
+    "With no valid license, view, print, back up and export existing records.",
+    "Simplify the main menu and consolidate backup settings with recovery."
   ]
 }
